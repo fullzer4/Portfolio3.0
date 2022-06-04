@@ -11,7 +11,7 @@ class Home extends Component {
             <div id="pagina">
                 <div className="conteudo">
                     <div className="conteudo-Pr">
-                        <Titulo/>
+                        <Titulo conteudo="Bem vindo"/>
                         <HomeFoto/>
                     </div>
                     <div className="conteudo-Hover">
