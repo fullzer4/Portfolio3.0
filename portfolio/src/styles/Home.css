@@ -26,6 +26,7 @@ body{
     height: 60vmin;
 }
 
-@media screen {
-    
+.conteudo-Hover{
+    display: flex;
+    justify-content: center;
 }
