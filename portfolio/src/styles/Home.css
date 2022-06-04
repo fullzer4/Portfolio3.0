@@ -1,0 +1,31 @@
+body{
+    background: #D3D3D3;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-Pr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Home-Titulo h1{
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-weight: 400;
+    color: #817575;
+    font-size: calc(2vw + 7.5vh);
+}
+
+#Home-Foto img{
+    height: 60vmin;
+}
+
+@media screen {
+    
+}
