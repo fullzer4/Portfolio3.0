@@ -9,21 +9,21 @@ export class HomeHover extends Component {
     }
 
     hover() {
-        alert("puta")
         document.getElementsByClassName("hover")[0].classList.add("active")
+        document.getElementById("botao-hover").style.display = "none"
     }
     fechar() {
-        alert("puta")
         document.getElementsByClassName("hover")[0].classList.remove("active")
+        document.getElementById("botao-hover").style.display = "flex"
     }
     render() {
         return(
             <div id="box-hover">
                 <div className="hover">
-                    <button id="botao-hover-close" onClick={this.fechar}></button>
+                    <button id="botao-hover-close" onClick={this.fechar}><img src={Arrow} alt="botao"/></button>
                 </div>
                 <div id="box-botao-hover">
-                    <button id="botao-hover" onClick={this.hover}><img src={Arrow} alt="botao"></img></button>
+                    <button id="botao-hover" onClick={this.hover}><img src={Arrow} alt="botao"/></button>
                 </div>
             </div>
         )

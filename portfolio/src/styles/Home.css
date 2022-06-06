@@ -5,6 +5,9 @@ body{
 .conteudo{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 .conteudo-Pr{
@@ -14,12 +17,40 @@ body{
     justify-content: space-around;
 }
 
-#Home-Titulo h1{
+#Home-Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    padding-top: 5px;
+}
+
+.site-nome{
     font-family: 'Pacifico', cursive;
     font-style: normal;
     font-weight: 400;
     color: #817575;
-    font-size: calc(2vw + 7.5vh);
+    font-size: calc(0.5vw + 1.5vh);
+    text-decoration: underline;
+}
+
+.header-github img{ 
+    height: 8vmin;
+    cursor: pointer;
+}
+
+.conteudo-Pr{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#Home-Titulo h2{
+    font-family: 'Pacifico', cursive;
+    font-style: normal;
+    font-weight: 400;
+    color: #817575;
+    font-size: calc(2vw + 8vh);
 }
 
 #Home-Foto img{
@@ -43,21 +74,32 @@ body{
     background: transparent;
     border: none;
     cursor: pointer;
+    
 }
 
 .hover{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    background-color: red;
+    background-color: rgba(29, 28, 28, 0.89);
     top: 0;
+    left: 0;
     transform: translateY(-100vh);
+    transition: 1s;
 }
 
 .active{
     transform: translateY(0vh);
 }
 
+#botao-hover-close{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+#botao-hover-close img{
+    transform: rotate(180deg);
+}
 
 
 #box-hover{
