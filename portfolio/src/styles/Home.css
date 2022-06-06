@@ -20,18 +20,9 @@ body{
 #Home-Header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 98%;
     padding-top: 5px;
-}
-
-.site-nome{
-    font-family: 'Pacifico', cursive;
-    font-style: normal;
-    font-weight: 400;
-    color: #817575;
-    font-size: calc(0.5vw + 1.5vh);
-    text-decoration: underline;
 }
 
 .header-github img{ 
@@ -50,7 +41,7 @@ body{
     font-style: normal;
     font-weight: 400;
     color: #817575;
-    font-size: calc(2vw + 8vh);
+    font-size: calc(2vw + 10vh);
 }
 
 #Home-Foto img{
@@ -74,7 +65,10 @@ body{
     background: transparent;
     border: none;
     cursor: pointer;
-    
+}
+
+#botao-hover img{
+    height: 10vh;
 }
 
 .hover{
@@ -99,6 +93,8 @@ body{
 }
 #botao-hover-close img{
     transform: rotate(180deg);
+    height: 10vh;
+    
 }
 
 
