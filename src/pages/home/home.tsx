@@ -1,10 +1,11 @@
 import Bemvindo from "../../components/bemvindo"
+import ButtonMenu from "../../components/buttonMenu"
 
 export default function Home() {
     return(
       <div>
-          <h1>oi</h1>
-          <Bemvindo/>
+        <ButtonMenu/>
+        <Bemvindo/>
       </div>
     )
   }
