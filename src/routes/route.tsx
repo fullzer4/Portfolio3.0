@@ -12,6 +12,7 @@ export default function Rota() {
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/certificates" element={<Certificates/>}/>
         <Route path="/aboutme" element={<Aboutme/>}/>
+        
       </Routes>
     </BrowserRouter>
   )
