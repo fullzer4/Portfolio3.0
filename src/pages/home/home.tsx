@@ -3,9 +3,8 @@ import ButtonMenu from "../../components/buttonMenu"
 
 export default function Home() {
     return(
-      <div>
-        <ButtonMenu/>
+      <ButtonMenu>
         <Bemvindo/>
-      </div>
+      </ButtonMenu>
     )
   }

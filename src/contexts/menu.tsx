@@ -28,13 +28,12 @@ export const MenuContextProvider = ({ children }: MenuContextProps) => {
 
     function OpenMenu(){
         if(click === false){
-
-        }
-        if(click === true){
-
-        }
-        else{
-            console.log("error");
+            setClick(true)
+            alert("true")
+            const menu = document.getElementsByClassName("menu")
+        }if(click === true){
+            setClick(false)
+            alert("false")
         }
     }
 

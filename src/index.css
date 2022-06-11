@@ -1,0 +1,17 @@
+html, body, #root{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.pagina{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1980px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
