@@ -10,6 +10,8 @@
 .bemvindo-titulo{
     display: flex;
     flex-direction: column;
+    animation: fadeInDown;
+    animation-duration: 1s;
 }
 
 .bemvindo-titulo-texto{
@@ -22,6 +24,8 @@
 .bemvindo-boximg{
     display: flex;
     flex-direction: column;
+    animation: fadeInDown;
+    animation-duration: 1s;   
 }
 
 .bemvindo-boximg img{
