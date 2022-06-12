@@ -1,6 +1,6 @@
 import { useContext, ReactNode } from "react"
 import { Link } from "react-router-dom"
-import { MenuContext } from "../contexts/menu"
+import { MenuContext } from "../../contexts/menu"
 import "./Menu.css"
 
 type MenuProps = { //configurar as props

@@ -1,5 +1,5 @@
-import Bemvindo from "../../components/bemvindo"
-import ButtonMenu from "../../components/buttonMenu"
+import Bemvindo from "../../components/bemvindo/bemvindo"
+import ButtonMenu from "../../components/menu/buttonMenu"
 
 export default function Home() {
     return(

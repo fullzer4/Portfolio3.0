@@ -1,4 +1,4 @@
-import ButtonMenu from "../../components/buttonMenu"
+import ButtonMenu from "../../components/menu/buttonMenu"
 
 export default function Aboutme() {
     return(

@@ -24,11 +24,11 @@
 .menu{
     display: flex;
     flex-direction: column;
-    width: calc(15vw + 10vh);
+    width: 25rem;
     height: 100vh;
     background-color: #d9d9d9;
     transition: 1s;
-    transform: translatex(calc(-15vw + -10vh));
+    transform: translatex(-25rem);
     top: 0;
     left: 0;
     position: absolute;
@@ -48,7 +48,7 @@
 }
 
 .translate-box{
-    transform: translateX(16vw);
+    transform: translateX(20rem);
 }
 
 .translate-botao1{
