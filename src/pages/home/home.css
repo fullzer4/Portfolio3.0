@@ -1,8 +1,37 @@
 .box-botao{
-    width: 10vw;
-    height: 10vh;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 0;
     left: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    gap: calc(0.1rem + 0.2vmin);
+    cursor: pointer;
+}
+
+.traco-botao{
+    background-color: #817575;
+    width: calc(2rem + 2vmin);
+    height: calc(0.5rem + 0.5vmin);
+    border-radius: calc(0.5rem + 0.5vmin);
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    background-color: red;
+    transition: 1s;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.translate{
+    transform: translatex(-20vw);
 }

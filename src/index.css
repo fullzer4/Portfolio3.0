@@ -4,6 +4,7 @@ html, body, #root{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #d3d3d3;
 }
 
 .pagina{
@@ -12,8 +13,6 @@ html, body, #root{
     width: 100%;
     max-width: 1980px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     height: 100%;
 }

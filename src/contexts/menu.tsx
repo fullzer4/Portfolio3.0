@@ -25,15 +25,18 @@ export const MenuContext = createContext<MenuContextType>(initialValue)
 export const MenuContextProvider = ({ children }: MenuContextProps) => {
     const [isOpenModal, setIsOpenModal] = useState(initialValue.isOpenModal)
     const [click, setClick] = useState(initialValue.click)
+    const menu = document.getElementsByClassName("menu")
+    const conteudo = document.getElementsByClassName("conteudo")
 
     function OpenMenu(){
         if(click === false){
             setClick(true)
-            alert("true")
-            const menu = document.getElementsByClassName("menu")
+            menu[0].classList.add("translate")
+            conteudo[0].classList.add("translate")
         }if(click === true){
             setClick(false)
-            alert("false")
+            menu[0].classList.remove("translate")
+            conteudo[0].classList.remove("translate")
         }
     }
 

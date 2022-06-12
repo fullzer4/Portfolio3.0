@@ -12,12 +12,19 @@ export default function ButtonMenu({children}: MenuProps) {
 
   return(
     <div className="pagina">
+      <div className="menu">
+        <ul>
+          <li>foi</li>
+        </ul>
+      </div>
       <div className="box-botao" onClick={OpenMenu}>
         <div className="traco-botao"></div> 
         <div className="traco-botao"></div> 
         <div className="traco-botao"></div> 
       </div>
+      <div className="conteudo">
       {children}
+      </div>
     </div>
   )
 }
