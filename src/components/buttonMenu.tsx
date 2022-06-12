@@ -1,7 +1,7 @@
 import { useContext, ReactNode } from "react"
 import { Link } from "react-router-dom"
 import { MenuContext } from "../contexts/menu"
-import "../pages/home/home.css"
+import "./Menu.css"
 
 type MenuProps = { //configurar as props
   children: ReactNode;
@@ -24,10 +24,10 @@ export default function ButtonMenu({children}: MenuProps) {
           <Link to="/abouteme">About me</Link>
         </div>
         <div className="box-botao" onClick={OpenMenu}>
-          <div className="traco-botao"></div> 
-          <div className="traco-botao"></div> 
-          <div className="traco-botao"></div> 
-        </div>
+            <div className="traco-botao"></div> 
+            <div className="traco-botao"></div> 
+            <div className="traco-botao"></div> 
+          </div>
       </div>
     </div>
   )

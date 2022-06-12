@@ -1,0 +1,62 @@
+.box-botao{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: calc(0.1rem + 0.2vmin);
+    cursor: pointer;
+    align-items: flex-end;
+    transition: 1s;
+    z-index: 1;
+}
+
+.traco-botao{
+    background-color: #817575;
+    width: calc(1.85rem + 1.85vmin);
+    height: calc(0.45rem + 0.45vmin);
+    border-radius: calc(0.5rem + 0.5vmin);
+    transition: 1s;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: calc(15vw + 10vh);
+    height: 100vh;
+    background-color: #d9d9d9;
+    transition: 1s;
+    transform: translatex(calc(-15vw + -10vh));
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    width: 100vw;
+    align-items: center;
+    z-index: 0;
+}
+
+.translate{
+    transform: translatex(0vw);
+}
+
+.translate-box{
+    transform: translateX(16vw);
+}
+
+.translate-botao1{
+    width: calc(1.75rem + 1.75vmin);
+}
+.translate-botao2{
+    width: calc(1.55rem + 1vmin);
+}
+.translate-botao3{
+    width: calc(0.85rem + 0.85vmin);
+}

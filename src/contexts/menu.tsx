@@ -26,7 +26,6 @@ export const MenuContextProvider = ({ children }: MenuContextProps) => {
     const [isOpenModal, setIsOpenModal] = useState(initialValue.isOpenModal)
     const [click, setClick] = useState(initialValue.click)
     const menu = document.getElementsByClassName("menu")
-    const conteudo = document.getElementsByClassName("conteudo")
     const tracoBotao = document.getElementsByClassName("traco-botao")
     const boxBotao = document.getElementsByClassName("box-botao")
 
@@ -34,7 +33,6 @@ export const MenuContextProvider = ({ children }: MenuContextProps) => {
         if(click === false){
             setClick(true)
             menu[0].classList.add("translate")
-            conteudo[0].classList.add("translate-conteudo")
             boxBotao[0].classList.add("translate-box")
             tracoBotao[0].classList.add("translate-botao1")
             tracoBotao[1].classList.add("translate-botao2")
@@ -42,7 +40,6 @@ export const MenuContextProvider = ({ children }: MenuContextProps) => {
         }if(click === true){
             setClick(false)
             menu[0].classList.remove("translate")
-            conteudo[0].classList.remove("translate-conteudo")
             boxBotao[0].classList.remove("translate-box")
             tracoBotao[0].classList.remove("translate-botao1")
             tracoBotao[1].classList.remove("translate-botao2")

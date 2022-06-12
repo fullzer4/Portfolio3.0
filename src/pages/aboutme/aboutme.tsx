@@ -1,7 +1,9 @@
+import ButtonMenu from "../../components/buttonMenu"
+
 export default function Aboutme() {
     return(
-      <div>
-          <h1>about</h1>
-      </div>
+      <ButtonMenu>
+        <h1>About me</h1>
+      </ButtonMenu>
     )
   }

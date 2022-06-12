@@ -1,7 +1,9 @@
+import ButtonMenu from "../../components/buttonMenu"
+
 export default function Projects() {
     return(
-      <div>
-          <h1>proj</h1>
-      </div>
+      <ButtonMenu>
+        <h1>projects</h1>
+      </ButtonMenu>
     )
   }

@@ -1,7 +1,14 @@
+import Me from "../imgs/me.svg"
+
 export default function Bemvindo() {
     return(
-      <div>
-          <h2>cert</h2>
+      <div className="bemvindo">
+        <div className="bemvindo-titulo">
+          <h1 className="bemvindo-titulo-texto">cert</h1>
+        </div>
+        <div>
+          <img src={Me} alt="me"/>
+        </div>
       </div>
     )
   }
