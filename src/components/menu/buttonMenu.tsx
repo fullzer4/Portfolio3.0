@@ -18,10 +18,10 @@ export default function ButtonMenu({children}: MenuProps) {
         {children}
         </div>
         <div className="menu">
-          <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/certificates">Certificates</Link>
-          <Link to="/abouteme">About me</Link>
+          <Link to="/" className="links">Home</Link>
+          <Link to="/projects" className="links">Projects</Link>
+          <Link to="/certificates" className="links">Certificates</Link>
+          <Link to="/aboutme" className="links">About me</Link>
         </div>
         <div className="box-botao" onClick={OpenMenu}>
             <div className="traco-botao"></div> 

@@ -15,7 +15,7 @@
 
 .traco-botao{
     background-color: #817575;
-    width: calc(1.85rem + 1.85vmin);
+    width: calc(1.95rem + 1.95vmin);
     height: calc(0.45rem + 0.45vmin);
     border-radius: calc(0.5rem + 0.5vmin);
     transition: 1s;
@@ -24,6 +24,8 @@
 .menu{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     width: 25rem;
     height: 100vh;
     background-color: #d9d9d9;
@@ -32,6 +34,13 @@
     top: 0;
     left: 0;
     position: absolute;
+}
+
+.links{
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(2rem + 2vmin);
+    font-weight: 500;
+    color: #817575;
 }
 
 .conteudo{
