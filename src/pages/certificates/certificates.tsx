@@ -1,7 +1,9 @@
+import ButtonMenu from "../../components/buttonMenu";
+
 export default function Certificates() {
     return(
-      <div>
-          <h1>cert</h1>
-      </div>
+      <ButtonMenu>
+        <h1>certificates</h1>
+      </ButtonMenu>
     )
   }

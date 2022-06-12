@@ -27,16 +27,23 @@ export const MenuContextProvider = ({ children }: MenuContextProps) => {
     const [click, setClick] = useState(initialValue.click)
     const menu = document.getElementsByClassName("menu")
     const conteudo = document.getElementsByClassName("conteudo")
+    const tracoBotao = document.getElementsByClassName("traco-botao")
 
     function OpenMenu(){
         if(click === false){
             setClick(true)
             menu[0].classList.add("translate")
             conteudo[0].classList.add("translate")
+            tracoBotao[0].classList.add("translate-botao1")
+            tracoBotao[1].classList.add("translate-botao2")
+            tracoBotao[2].classList.add("translate-botao3")
         }if(click === true){
             setClick(false)
             menu[0].classList.remove("translate")
             conteudo[0].classList.remove("translate")
+            tracoBotao[0].classList.remove("translate-botao1")
+            tracoBotao[1].classList.remove("translate-botao2")
+            tracoBotao[2].classList.remove("translate-botao3")
         }
     }
 

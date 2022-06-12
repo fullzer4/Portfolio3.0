@@ -1,4 +1,5 @@
 import { useContext, ReactNode } from "react"
+import { Link } from "react-router-dom"
 import { MenuContext } from "../contexts/menu"
 import "../pages/home/home.css"
 
@@ -13,9 +14,10 @@ export default function ButtonMenu({children}: MenuProps) {
   return(
     <div className="pagina">
       <div className="menu">
-        <ul>
-          <li>foi</li>
-        </ul>
+        <Link to="/">Home</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/certificates">Certificates</Link>
+        <Link to="/abouteme">About me</Link>
       </div>
       <div className="box-botao" onClick={OpenMenu}>
         <div className="traco-botao"></div> 

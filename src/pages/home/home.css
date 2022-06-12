@@ -8,30 +8,46 @@
     margin-left: 5px;
     gap: calc(0.1rem + 0.2vmin);
     cursor: pointer;
+    align-items: flex-end;
 }
 
 .traco-botao{
     background-color: #817575;
-    width: calc(2rem + 2vmin);
-    height: calc(0.5rem + 0.5vmin);
+    width: calc(1.85rem + 1.85vmin);
+    height: calc(0.45rem + 0.45vmin);
     border-radius: calc(0.5rem + 0.5vmin);
+    transition: 1s;
 }
 
 .menu{
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: calc(15vw + 10vh);
     height: 100vh;
-    background-color: red;
+    background-color: #d9d9d9;
     transition: 1s;
+    transform: translatex(calc(-15vw + -10vh));
 }
 
 .conteudo{
     display: flex;
     flex-direction: column;
     transition: 1s;
+    transform: translatex(calc(-15vw + -10vh));
 }
 
 .translate{
-    transform: translatex(-20vw);
+    transform: translatex(0vw);
+}
+
+.translate-botao1{
+    transform: translateX(16vw);
+}
+.translate-botao2{
+    transform: translateX(16vw);
+    width: calc(1.55rem + 1vmin);
+}
+.translate-botao3{
+    transform: translateX(16vw);
+    width: calc(0.75rem + 0.75vmin);
 }
