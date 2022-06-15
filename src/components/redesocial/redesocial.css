@@ -1,5 +1,5 @@
 .box-icons{
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,7 +8,7 @@
 }
 
 .icons{
-    height: 11vmin;
+    height: 10vmin;
     animation: float 6s ease-in-out infinite;
 }
 
