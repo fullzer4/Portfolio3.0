@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: calc(30px + 4vh);
+    margin-top: calc(10px + 2vh);
     width: 100%;
 }
 
