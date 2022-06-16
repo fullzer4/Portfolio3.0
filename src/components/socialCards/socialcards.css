@@ -1,0 +1,19 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card-discord{
+    display: flex;
+    flex-direction: column;
+    background-color: #CCC6C6;
+    padding: 5px;
+}
+
+.card-youtube{
+    display: flex;
+    flex-direction: column;
+    background-color: #CCC6C6;
+    padding: 5px;
+}
