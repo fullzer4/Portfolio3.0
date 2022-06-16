@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useEffect, useState } from "react";
+import { createContext, ReactNode, useState } from "react";
 import axios from "axios"
 
 type ApiDiscordContextProps = { //configurar as props
