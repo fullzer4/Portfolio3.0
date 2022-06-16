@@ -2,18 +2,64 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: calc(1.5rem + 15vmin);
 }
 
 .card-discord{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #CCC6C6;
-    padding: 5px;
+    padding: 15px;
+    border-radius: 45px;
+    gap: calc(0.5rem + 1vmin);
+    width: calc(10rem + 10vw);
 }
 
 .card-youtube{
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #CCC6C6;
-    padding: 5px;
+    padding: 15px;
+    border-radius: 45px;
+    gap: calc(0.5rem + 1vmin);
+    width: calc(10rem + 10vw);
+}
+
+.card-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(1.75rem + 1vmin);
+    font-weight: 400;
+    color: #534f4f;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.card-descri{
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(1.25rem + 1vmin);
+    font-weight: 400;
+    color: #534f4f;
+}
+
+.card-botao{
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #534f4f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(1.25rem + 1vmin);
+    font-weight: 400;
+    color: #CCC6C6;
+    text-decoration: none;
+    border-radius: 45px;
+}
+
+.card-imagens{
+    height: 30vmin;
 }
