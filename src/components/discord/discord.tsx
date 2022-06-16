@@ -2,14 +2,17 @@ import { useContext } from "react"
 import {ApiDiscordContext} from "../../contexts/apiDiscord"
 
 export default function Discord(){
-
-    const {fdiscord, servername} = useContext(ApiDiscordContext)
+    const {fdiscord, servername, invite, onlineusers} = useContext(ApiDiscordContext)
 
     fdiscord()
 
     return(
         <div>
-            <h1>{servername}</h1>
+            <div className="card-discord">
+                <h1>{servername}</h1>
+                <h2>usuarios online: {onlineusers}</h2>
+                <h3>entrar: <a href={invite}>link</a></h3>
+            </div>
         </div>
     )
 }
