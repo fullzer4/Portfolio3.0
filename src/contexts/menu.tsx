@@ -12,7 +12,7 @@ type MenuContextType ={ //tipo
     OpenMenu: () => void;
 }
 
-const initialValue ={  //definir o que ele ira receber
+const menuinitialValue ={  //definir o que ele ira receber
     isOpenModal: false,
     setIsOpenModal: () => {},
     click: false,
@@ -20,11 +20,11 @@ const initialValue ={  //definir o que ele ira receber
     OpenMenu: () => {},
 }
 
-export const MenuContext = createContext<MenuContextType>(initialValue)
+export const MenuContext = createContext<MenuContextType>(menuinitialValue)
 
 export const MenuContextProvider = ({ children }: MenuContextProps) => {
-    const [isOpenModal, setIsOpenModal] = useState(initialValue.isOpenModal)
-    const [click, setClick] = useState(initialValue.click)
+    const [isOpenModal, setIsOpenModal] = useState(menuinitialValue.isOpenModal)
+    const [click, setClick] = useState(menuinitialValue.click)
     const menu = document.getElementsByClassName("menu")
     const tracoBotao = document.getElementsByClassName("traco-botao")
     const boxBotao = document.getElementsByClassName("box-botao")
