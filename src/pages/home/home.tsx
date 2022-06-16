@@ -2,7 +2,8 @@ import Bemvindo from "../../components/bemvindo/bemvindo"
 import ButtonMenu from "../../components/menu/buttonMenu"
 import RedeSocial from "../../components/redesocial/redesocial"
 import Slider from "../../components/slider/slider"
-import Discord from "../../components/discord/discord"
+import Divisor from "../../components/divisor/divisor"
+import SocialCards from "../../components/socialCards/socialCards"
 
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
         <Bemvindo/>
         <Slider/>
         <RedeSocial/>
-        <Discord/>
+        <Divisor/>
+        <SocialCards/>
       </ButtonMenu>
     )
   }
