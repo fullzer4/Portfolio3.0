@@ -23,6 +23,8 @@
 .img{
     height: 50vmin;
     border-radius: calc(1.5rem + 1vmin);
+    animation: fadeIn;
+    animation-duration: 1s;
 }
 
 .slide-Titulo{
@@ -30,6 +32,8 @@
     font-size: calc(2.5rem + 2vmin);
     font-weight: 400;
     color: var(--tituloslider);
+    animation: fadeInUp;
+    animation-duration: 1s;
 }
 
 .slide-Divisor{
@@ -39,14 +43,20 @@
     border-radius: 80px;
     margin-bottom: calc(1rem + 1vmin);
     margin-top: calc(0.25rem + 0.25vmin);
+    animation: fadeInUp;
+    animation-duration: 2s;
 }
+
 
 .slide-Descricao{
     font-family: 'Montserrat', sans-serif;
     font-size: calc(1.5rem + 1.5vmin);
     font-weight: 400;
     color: var(--descrislider);
+    animation: fadeInUp;
+    animation-duration: 1s;
 }
+
 
 .slide-Botao{
     font-family: 'Montserrat', sans-serif;
@@ -58,7 +68,10 @@
     background-color: var(--botaoslider);
     margin-top: 15px;
     transition: 1s;
+    animation: fadeInUp;
+    animation-duration: 1s;
 }
+
 
 .slide-Botao:hover{
     transform: scale(1.05);

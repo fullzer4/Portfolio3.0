@@ -12,6 +12,23 @@
     --textobotaoslider: #c9c2c2;
 } 
 
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--paletaterciaria);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--paletaprincipal);
+    border: .20em solid var(--paletaterciaria) ;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--botaoslider);
+}
 
 html, body, #root{
     width: 100%;
