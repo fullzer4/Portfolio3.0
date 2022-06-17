@@ -21,7 +21,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--paletaprincipal);
+    background-color: var(--paletaterciaria);
     border: .20em solid var(--paletaterciaria) ;
     border-radius: 100vw;
 }
