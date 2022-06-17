@@ -12,7 +12,7 @@ export default function SocialCards(){
     return(
         <div className="cards">
             <div className="card-discord">
-                <h1 className="card-titulo">{servername}</h1>
+                <h1 className="card-titulo">Dc: {servername}</h1>
                 <img src={imgdiscord} alt="imagem server discord" className="card-imagens"/>
                 <h2 className="card-descri">users online: {onlineusers}</h2>
                 <a href={invite} className="card-botao">Entrar</a>

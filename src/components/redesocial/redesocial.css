@@ -10,6 +10,7 @@
 .icons{
     height: 10vmin;
     animation: float 6s ease-in-out infinite;
+    cursor: pointer;
 }
 
 @keyframes float {

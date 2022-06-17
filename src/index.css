@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
 
+:root{
+    --paletaprincipal: #d3d3d3;
+    --paletasecundaria: #696565;
+    --paletaterciaria: #CCC6C6;
+    --divisor: #aaaaaa;
+    --tituloslider: #7c7878;
+    --descrislider: #928d8d;
+    --divisorslider: #928f8f;
+    --botaoslider: #666565;
+    --textobotaoslider: #c9c2c2;
+} 
+
+
 html, body, #root{
     width: 100%;
     height: 100%;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #d3d3d3;
+    background-color: var(--paletaprincipal);
 }
 
 *{
@@ -22,4 +35,8 @@ html, body, #root{
     display: flex;
     flex-direction: row;
     overflow: hidden;
+}
+
+button{
+    border: none;
 }

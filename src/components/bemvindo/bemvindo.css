@@ -18,7 +18,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: calc(4rem + 4vmin);
     font-weight: 300;
-    color: #817575;
+    color: var(--paletasecundaria);
 }
 
 .bemvindo-boximg{
