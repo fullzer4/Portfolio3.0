@@ -6,14 +6,15 @@ import Divisor from "../../components/divisor/divisor"
 import SocialCards from "../../components/socialCards/socialCards"
 
 
+
 export default function Home() {
-    return(
-      <ButtonMenu>
-        <Bemvindo/>
-        <Slider/>
-        <RedeSocial/>
-        <Divisor/>
-        <SocialCards/>
-      </ButtonMenu>
-    )
-  }
+  return(
+    <ButtonMenu>
+      <Bemvindo/>
+      <Slider/>
+      <RedeSocial/>
+      <Divisor/>
+      <SocialCards/>
+    </ButtonMenu>
+  )
+}
