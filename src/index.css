@@ -11,25 +11,25 @@
     --botaoslider: #666565;
     --textobotaoslider: #c9c2c2;
 } 
-@media screen and (max-width: 1920px){
-    ::-webkit-scrollbar {
-        width: 1rem;
-    }
-    
-    ::-webkit-scrollbar-track {
-        background-color: var(--paletaterciaria);
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background-color: var(--paletaterciaria);
-        border: .20em solid var(--paletaterciaria) ;
-        border-radius: 100vw;
-    }
-    
-    ::-webkit-scrollbar-thumb:hover {
-        background-color: var(--botaoslider);
-    }    
+
+::-webkit-scrollbar {
+    width: 1rem;
 }
+    
+::-webkit-scrollbar-track {
+    background-color: var(--paletaterciaria);
+}
+    
+::-webkit-scrollbar-thumb {
+    background-color: var(--paletasecundaria);
+    border: .20em solid var(--paletaterciaria) ;
+    border-radius: 100vw;
+}
+    
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--botaoslider);
+}    
+
 
 html, body, #root{
     width: 100%;
