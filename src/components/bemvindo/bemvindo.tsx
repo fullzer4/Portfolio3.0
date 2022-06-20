@@ -1,4 +1,5 @@
 import eu from "../../imgs/eu.svg"
+import "./bemvindo.css"
 
 export default function Bemvindo() {
     return(

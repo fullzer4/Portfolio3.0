@@ -1,0 +1,11 @@
+.bemvindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.bemvindo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

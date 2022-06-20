@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: row;
+    gap: calc(1rem + 1vw);
+}
+
+.header-links-texto{
+    font-family: "Ailerons";
+    font-size: calc(1vw + 1rem);
+    color: var(--LetrasPrinc);
+    text-decoration: underline;
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo-texto{
+    font-family: "Pacifico";
+    font-size: calc(1vw + 1rem);
+    color: var(--LetrasPrinc); 
+}
