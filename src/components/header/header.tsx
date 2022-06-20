@@ -4,7 +4,7 @@ import AOS from "aos"
 
 export default function Header() {
     AOS.init({
-        delay: 100,
+        delay: 0,
         duration: 500
     })
     return(
