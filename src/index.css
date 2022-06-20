@@ -19,7 +19,6 @@ html, body, #root{
     flex-direction: column;
     height: 100%;
     gap: calc(5vh + 2rem);
-    overflow: hidden;
 }
 
 *{
@@ -35,4 +34,41 @@ html, body, #root{
 :root{
     --fundo: #242323;
     --LetrasPrinc: #FFFFFF;
+}
+
+@media screen and (max-width: 500px){
+    .itens{
+        width: 100%;
+    }
+    .header-logo-texto{
+        display: none;
+    }
+    #pagina{
+        gap: 1rem;
+    }
+    .bemvindo{
+        gap: 2rem;
+    }
+    .bemvindo-principal{
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .bemvindo-texto{
+        text-align: center;
+    }
+    .bemvindo-texto h1{
+        font-size: calc(2vw + 1rem);
+    }
+    .bemvindo-secundario{
+        gap: 1rem;
+    }
+    .bemvindo-divisao{
+        width: 70%;
+    }
+    .bemvindo-mensagem{
+        width: 85%;
+    }
+    .redes img{
+        height: 2rem;
+    }
 }

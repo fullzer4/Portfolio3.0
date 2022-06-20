@@ -4,6 +4,7 @@
     align-items: center;
     width: 100%;
     gap: calc(5vh + 2rem);
+    overflow: hidden;
 }
 .bemvindo-principal{
     display: flex;

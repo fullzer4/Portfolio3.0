@@ -4,6 +4,7 @@
     width: 90%;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .itens {
@@ -28,7 +29,7 @@
     text-decoration: none;
     font-family: "Montserrat";
     transition: .1s;
-    font-size: calc(1.5vw + 0.1rem);
+    font-size: calc(1vw + 0.5rem);
     color: var(--LetrasPrinc);
 }
 
@@ -59,4 +60,5 @@
     font-family: "Pacifico";
     font-size: calc(1vw + 1rem);
     color: var(--LetrasPrinc); 
+    overflow: hidden;
 }
