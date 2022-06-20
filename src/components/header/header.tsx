@@ -1,21 +1,23 @@
 import { Link } from "react-router-dom";
 import "./header.css"
+import AOS from "aos"
 
 export default function Header() {
+    AOS.init({
+        delay: 100,
+        duration: 500
+    })
     return(
-        <div className="header">
-            <ul className="itens">
+        <div className="header" data-aos="fade-down">
+            <ul className="itens" >
                 <li className="itens-caixa">
-                    <a href="Index.html" className="itens-caixa-texto">Projetos</a>
+                    <Link to="/projetos" className="itens-caixa-texto">Projetos</Link>
                 </li>
                 <li className="itens-caixa">
-                    <a href="" className="itens-caixa-texto">Serviços</a>
+                    <Link to="/conhecimentos" className="itens-caixa-texto">Conhecimentos</Link>
                 </li>
                 <li className="itens-caixa">
-                    <a href="" className="itens-caixa-texto">Sobre</a>
-                </li>
-                <li className="itens-caixa">
-                    <a href="" className="itens-caixa-texto">Contato</a>
+                    <Link to="/certificados" className="itens-caixa-texto">Certificados</Link>
                 </li>
             </ul>
             <div className="header-logo">

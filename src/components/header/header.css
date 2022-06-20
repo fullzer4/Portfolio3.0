@@ -1,7 +1,6 @@
 .header{
     display: flex;
     flex-direction: row;
-    height: 5rem;
     width: 90%;
     align-items: center;
     justify-content: space-between;
@@ -11,6 +10,10 @@
     list-style-type: none;
     display: flex;
     align-items: center;
+    flex-direction: row;
+    width: 65%;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .itens-caixa {
@@ -24,8 +27,8 @@
     overflow: hidden;
     text-decoration: none;
     font-family: "Montserrat";
-    transition: .3s;
-    font-size: 1.5rem;
+    transition: .1s;
+    font-size: calc(1.5vw + 0.1rem);
     color: var(--LetrasPrinc);
 }
 
