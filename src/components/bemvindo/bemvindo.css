@@ -3,13 +3,19 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+<<<<<<< HEAD
     gap: calc(2vw + 2rem);
+=======
+    gap: calc(5vh + 2rem);
+    overflow: hidden;
+>>>>>>> aecbe02d6983b3186399c253c2bd9463e01202e2
 }
 .bemvindo-principal{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     gap: calc(1.5vw + 1rem);
 }
 
@@ -18,29 +24,52 @@
     flex-direction: row;
     align-items: center;
     width: 50%;
+=======
+    width: 100%;
+    gap: calc(15vw + 2rem);
+}
+.bemvindo-texto{
+    display: flex;
+    flex-direction: column;
+>>>>>>> aecbe02d6983b3186399c253c2bd9463e01202e2
 }
 
 .bemvindo-texto h1{
     font-family: "Montserrat";
+<<<<<<< HEAD
     font-size: calc(2vw + 2rem);
     font-weight: 300;
     color: var(--LetrasPrinc); 
+=======
+    font-weight: 300;
+    color: var(--LetrasPrinc);
+    font-size: calc(2vw + 0.75rem);
+>>>>>>> aecbe02d6983b3186399c253c2bd9463e01202e2
 }
 
 .bemvindo-foto{
     display: flex;
+<<<<<<< HEAD
     flex-direction: row;
     align-items: center;
 }
 
 .bemvindo-foto img{
     height: 25rem;
+=======
+    flex-direction: column;
+}
+
+.bemvindo-foto img{
+    height: calc(10vw + 10rem);
+>>>>>>> aecbe02d6983b3186399c253c2bd9463e01202e2
 }
 
 .bemvindo-secundario{
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     justify-content: center;
     gap: calc(1vw + 1rem);
 }
@@ -51,20 +80,61 @@
     background-color: var(--LetrasPrinc);
     display: flex;
     border-radius: 360px;
+=======
+    text-align: center;
+    width: 100%;
+    gap: calc(1vh + 1rem);
+}
+
+.bemvindo-divisao{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 1px;
+    background-color: var(--LetrasPrinc);
+>>>>>>> aecbe02d6983b3186399c253c2bd9463e01202e2
 }
 
 .bemvindo-mensagem{
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 60%;
+=======
+    width: 50%;
+>>>>>>> aecbe02d6983b3186399c253c2bd9463e01202e2
 }
 
 .bemvindo-mensagem h2{
     font-family: "Montserrat";
+<<<<<<< HEAD
     font-size: calc(1vw + 1rem);
     font-weight: 300;
     color: var(--LetrasPrinc); 
+=======
+    font-weight: 300;
+    color: var(--LetrasPrinc);
+    font-size: calc(1vw + 0.8rem);
+}
+
+.bemvindo-redessociais{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: calc(8vw + 2rem);
+}
+
+.redes img{
+    height: calc(3vh + 2rem);
+    transition: 1s;
+}
+
+.redes img:hover{
+    transform: scale(1.3);
+>>>>>>> aecbe02d6983b3186399c253c2bd9463e01202e2
 }

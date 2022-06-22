@@ -1,10 +1,10 @@
 import Header from "../components/header/header";
 
-export default function Certificados() {
+export default function Sobremim() {
     return(
       <div id="pagina">
         <Header/>
-        <h1>certificados</h1>
+        <h1>sobre mim</h1>
       </div>
     )
   }
