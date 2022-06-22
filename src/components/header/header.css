@@ -2,12 +2,14 @@
     width: 95%;
     display: flex;
     flex-direction: row;
+    margin-top: 2px;
 }
 
 .header-links{
     width: 100%;
     display: flex;
     flex-direction: row;
+    gap: calc(1rem + 4vw);
 }
 
 .header-links-box{
@@ -16,6 +18,8 @@
     overflow: hidden;
     text-decoration: none;
     transition: .3s;
+    flex-direction: row;
+    align-items: center;
 }
 
 .header-links-box:after{
@@ -24,7 +28,7 @@
     bottom: 0;
     right: 100%;
     width: 100%;
-    height: 2px;
+    height: 1px;
     border-radius: 360px;
     background-color: var(--paleta3);
     transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -43,24 +47,30 @@
     font-style: normal;
     font-weight: 300;
     color: var(--paleta3);
+    font-size: calc(1.73rem + 0.10vw);
 }
 
 .logo{
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .logo-texto{
     font-family: 'Pacifico';
     font-style: normal;
     color: var(--paleta3);
+    font-size: calc(1.73rem + 0.10vw);
+    padding-top: 5px;
 }
 
 .botao{
-    display: flex;
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: brown;
+    height: 40px;
+    width: 40px;
+    background-color: red;
 }

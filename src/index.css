@@ -33,3 +33,9 @@ html, body, #root{
     --paleta2: #6C7088;
     --paleta3: #ACACAC;
 }
+
+@media screen and (max-width: 1025px){
+    .botao{
+        display: flex;
+    }
+}

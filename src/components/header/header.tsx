@@ -1,11 +1,14 @@
+import { useContext } from "react"
 import { Link } from "react-router-dom"
+import { MenuContext } from "../../contexts/menu"
 import "./header.css"
 
 export default function Header() {
+  const { verClick } = useContext(MenuContext)
     return(
       <div className="header">
         <div className="botao">
-
+          <button onClick={verClick}/>
         </div>
         <div className="header-links">
           <div className="header-links-box">
