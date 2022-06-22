@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Pacifico&display=swap');
+
+html, body, #root{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--paleta1);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+#pagina{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1980px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+:root{
+    --paleta1: #40424F;
+    --paleta2: #6C7088;
+    --paleta3: #ACACAC;
+}
