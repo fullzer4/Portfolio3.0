@@ -13,8 +13,9 @@ export default function Bemvindo() {
                 </div>
             </div>
             <div className="bemvindo-secundario">
+                <div className="bemvindo-secundario-sep"></div>
                 <div className="bemvindo-mensagem">
-                    <h2>Tenho 16 anos e estudo programação desde os meus 10 anos de idade, se precisar de ajudar entra em contato comigo nas redes a baixo.</h2>
+                    <h2>Tenho 16 anos e estudo programação desde os meus 10 anos de idade, se precisar de ajudar entre em contato comigo nas minhas redes a baixo.</h2>
                 </div>
             </div>
         </div>

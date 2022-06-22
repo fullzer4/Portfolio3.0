@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
 @font-face {
     font-family: "Ailerons";
     src: url(./fonts/Ailerons-Typeface.otf) format("opentype");
@@ -12,7 +12,7 @@ html, body, #root{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #E0DBDB;
+    background-color: #37312C;
 }
 
 #pagina{
@@ -24,6 +24,7 @@ html, body, #root{
     align-items: center;
     flex-direction: column;
     height: 100%;
+    gap: calc(2vw + 2rem);
 }
 
 *{
@@ -37,5 +38,5 @@ html, body, #root{
 
 
 :root{
-    --LetrasPrinc: #7A7A7A;
+    --LetrasPrinc: #706f6f;
 }
