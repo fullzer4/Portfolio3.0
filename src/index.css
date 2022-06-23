@@ -37,5 +37,25 @@ html, body, #root{
 @media screen and (max-width: 1025px){
     .botao{
         display: flex;
+        z-index: 1;
     }
+    .header{
+        justify-content: end;
+    }
+    .header-links{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.568);
+    }
+    .header-links-box{
+        position: relative;
+    }
+    
 }
