@@ -35,8 +35,10 @@ html, body, #root{
 }
 
 @media screen and (max-width: 1025px){
-    .botao{
+    .box-botao{
         display: flex;
+        flex-direction: column;
+        gap: 5px;
         z-index: 1;
     }
     .header{
