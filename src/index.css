@@ -32,6 +32,7 @@ html, body, #root{
     --paleta1: #40424F;
     --paleta2: #6C7088;
     --paleta3: #ACACAC;
+    --paletaescurecer: #00000091;
 }
 
 @media screen and (max-width: 1025px){
@@ -54,7 +55,7 @@ html, body, #root{
         position: absolute;
         top: 0;
         left: 0;
-        background-color: rgba(0, 0, 0, 0.568);
+        background-color: var(--paletaescurecer);
         transition: 1s;
         transform: translateX(-100vw);
         gap: calc(10vh + 2rem);

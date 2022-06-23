@@ -20,9 +20,9 @@ const MenuinitialValue ={  //definir o que ele ira receber
     setIsOpenModal: () => {},
     menuClick: false,
     verClick: () => {},
-    classB1: ("botao1"),
-    classB2: ("botao2"),
-    classB3: ("botao3"),
+    classB1: ("botao1 ativo1"),
+    classB2: ("botao2 ativo2"),
+    classB3: ("botao3 ativo3"),
     classM: ("header-links"),
 }
 
