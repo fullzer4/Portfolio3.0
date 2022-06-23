@@ -4,24 +4,24 @@ import { MenuContext } from "../../contexts/menu"
 import "./header.css"
 
 export default function Header() {
-  const { verClick, classN } = useContext(MenuContext)
+  const { verClick, classB, classM } = useContext(MenuContext)
 
   return(
     <div className="header">
-      <div className={classN} onClick={verClick}>
+      <div className={classB} onClick={verClick}>
       </div>
-      <div className="header-links">
+      <div className={classM}>
         <div className="header-links-box">
-          <Link to="/projetos" className="header-links-box-texto">Projetos</Link>
+          <Link to="/projetos" className="header-links-box-texto" onClick={verClick}>Projetos</Link>
         </div>
         <div className="header-links-box">
-          <Link to="/sobremim" className="header-links-box-texto">Sobre mim</Link>
+          <Link to="/sobremim" className="header-links-box-texto" onClick={verClick}>Sobre mim</Link>
         </div>
         <div className="header-links-box">
-          <Link to="/certificados" className="header-links-box-texto">Certificados</Link>
+          <Link to="/certificados" className="header-links-box-texto" onClick={verClick}>Certificados</Link>
         </div>
         <div className="header-links-box">
-          <Link to="/contatos" className="header-links-box-texto">Contatos</Link>
+          <Link to="/contatos" className="header-links-box-texto" onClick={verClick}>Contatos</Link>
         </div>
       </div>
       <div className="Logo">

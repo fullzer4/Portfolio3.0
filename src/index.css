@@ -53,6 +53,13 @@ html, body, #root{
         top: 0;
         left: 0;
         background-color: rgba(0, 0, 0, 0.568);
+        transition: 1s;
+        transform: translateX(-100vw);
+        gap: calc(10vh + 2rem);
+    }
+    .apareceu{
+        transform: translateX(0);
+        transition: 1s;
     }
     .header-links-box{
         position: relative;

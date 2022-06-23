@@ -9,7 +9,8 @@ type MenuContextType ={ //tipo
     setIsOpenModal: (newState: boolean) => void;
     menuClick: boolean;
     verClick: () => void;
-    classN: string;
+    classB: string;
+    classM: string;
 }
 
 const MenuinitialValue ={  //definir o que ele ira receber
@@ -17,7 +18,8 @@ const MenuinitialValue ={  //definir o que ele ira receber
     setIsOpenModal: () => {},
     menuClick: false,
     verClick: () => {},
-    classN: ("botao"),
+    classB: ("botao"),
+    classM: ("header-links"),
 }
 
 export const MenuContext = createContext<MenuContextType>(MenuinitialValue)
@@ -25,16 +27,19 @@ export const MenuContext = createContext<MenuContextType>(MenuinitialValue)
 export const MenuProvider = ({ children }: MenuContextProps) => {
     const [isOpenModal, setIsOpenModal] = useState(MenuinitialValue.isOpenModal)
     const [menuClick, setMenuClick] = useState(MenuinitialValue.menuClick)
-    const [classN, setClassN] = useState(MenuinitialValue.classN)
+    const [classB, setClassB] = useState(MenuinitialValue.classB)
+    const [classM, setClassM] = useState(MenuinitialValue.classM)
 
     function verClick(){
         if(menuClick === false){
             setMenuClick(true)
-            setClassN("botao ativo")
+            setClassB("botao ativo")
+            setClassM("header-links")
             
         }if(menuClick === true){
             setMenuClick(false)
-            setClassN("botao")
+            setClassB("botao")
+            setClassM("header-links apareceu")
         }else{
             console.log("erro menu back");
         }
@@ -46,7 +51,8 @@ export const MenuProvider = ({ children }: MenuContextProps) => {
             setIsOpenModal,
             menuClick,
             verClick,
-            classN
+            classB,
+            classM
             }}> 
             {children}
         </MenuContext.Provider>
