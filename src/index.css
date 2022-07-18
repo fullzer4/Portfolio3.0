@@ -6,7 +6,7 @@ html, body, #root{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: var(--paleta1);
+    background-color: var(--fundo);
 }
 
 *{
@@ -29,43 +29,9 @@ html, body, #root{
 }
 
 :root{
-    --paleta1: #40424F;
-    --paleta2: #6C7088;
-    --paleta3: #ACACAC;
-    --paletaescurecer: #00000091;
+    --paleta1: #FDFDFD;
 }
 
 @media screen and (max-width: 1025px){
-    .box-botao{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        z-index: 1;
-    }
-    .header{
-        justify-content: end;
-    }
-    .header-links{
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background-color: var(--paletaescurecer);
-        transition: 1s;
-        transform: translateX(-100vw);
-        gap: calc(10vh + 2rem);
-    }
-    .apareceu{
-        transform: translateX(0);
-        transition: 1s;
-    }
-    .header-links-box{
-        position: relative;
-    }
     
 }

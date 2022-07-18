@@ -1,11 +1,9 @@
-import Bemvindo from "../components/bemvindo/bemvindo";
-import Header from "../components/header/header";
+import Inicial from "../components/Incial";
 
 export default function Home() {
     return(
       <div id="pagina">
-        <Header/>
-        <Bemvindo/>
+        <Inicial/>
       </div>
     )
   }
