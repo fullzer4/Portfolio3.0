@@ -1,4 +1,4 @@
-import Inicial from "../components/Incial";
+import Inicial from "../components/Incial/Incial";
 
 export default function Home() {
     return(

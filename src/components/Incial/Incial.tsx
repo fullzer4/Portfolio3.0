@@ -1,5 +1,5 @@
 import "./Incial.css"
-import IncialScreen from "../imgs/eutela.svg"
+import IncialScreen from "../../imgs/eutela.svg"
 
 export default function Inicial() {
     return(
