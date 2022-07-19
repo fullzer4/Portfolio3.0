@@ -26,6 +26,7 @@ html, body, #root{
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: auto;
 }
 
 :root{
