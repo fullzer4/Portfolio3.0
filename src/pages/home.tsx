@@ -1,5 +1,6 @@
 import Inicial from "../components/Incial/Incial";
 import Sobre from "../components/sobre/Sobre";
+import "../index.css"
 
 export default function Home() {
     return(

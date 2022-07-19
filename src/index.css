@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Pacifico&display=swap');
 
 html, body, #root{
+    display: flex;
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
@@ -9,13 +10,7 @@ html, body, #root{
 }
 
 ::-webkit-scrollbar{
-    background-color: rgba(0, 0, 0, 0);
-    width: calc(100% + 10px);
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: rgba(0, 0, 0, 0.534);
-    border-radius: 20px;
+    display: none;
 }
 
 *{
@@ -24,6 +19,4 @@ html, body, #root{
     outline: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    font-family: 'Comfortaa';
-    color: white;
 }
