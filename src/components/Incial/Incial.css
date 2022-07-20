@@ -13,5 +13,30 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.466);
     width: 100vw;
-    height: 100vh;
+    height: 100vh;  
+}
+
+.inicial-titulo{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    color: #E5E5E5;
+}
+
+.inicial-traco{
+    background-color: #E5E5E5;
+    width: 50%;
+    height: 1px;
+    border: none;
+}
+
+.inicial-descricao{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    width: 60%;
+    color: #E5E5E5;
+    text-align: center;
 }
