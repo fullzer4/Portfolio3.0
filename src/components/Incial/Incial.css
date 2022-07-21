@@ -66,12 +66,13 @@
     align-items: center;
     transform: translateY(28vh);
     animation: seta 5s linear infinite;
+    cursor: pointer;
 }
 
 @keyframes seta{
     0% {transform: translateY(28vh);}
-    25% {transform: translateY(29vh);}
+    25% {transform: translateY(28.5vh);}
     50% {transform: translateY(28vh);}
-    75% {transform: translateY(29vh);}
+    75% {transform: translateY(28.5vh);}
     100% {transform: translateY(28vh);}
 }
