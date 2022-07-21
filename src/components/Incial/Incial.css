@@ -65,7 +65,7 @@
     flex-direction: row;
     align-items: center;
     transform: translateY(28vh);
-    animation: seta 4s linear infinite;
+    animation: seta 5s linear infinite;
 }
 
 @keyframes seta{
