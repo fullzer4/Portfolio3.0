@@ -12,7 +12,7 @@ export default function App() {
           <Sobremim/>
         </div>
         <div className="tela 2">
-
+          
         </div>
         <div className="tela 3">
 
