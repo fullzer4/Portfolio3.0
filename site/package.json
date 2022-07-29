@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "sass": "^1.54.0",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
