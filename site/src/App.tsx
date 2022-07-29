@@ -1,6 +1,6 @@
 export default function App() {
   return(
-    <div>
+    <div id="conteudo">
       
     </div>
   )
