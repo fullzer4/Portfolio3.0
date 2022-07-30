@@ -8,8 +8,7 @@ export default function Entrada() {
         </div>
         <div className="texto-entrada">
           <h2>Portfolio</h2>
-          <hr/>
-          <h3>Gabriel Pelizzaro Pereira <p/> Full-Stack Developer</h3>
+          <p>Gabriel Pelizzaro Pereira<br/>Full-Stack Developer</p>
         </div>
         <div className="icons-entrada">
           <div className="icons-github"></div>
