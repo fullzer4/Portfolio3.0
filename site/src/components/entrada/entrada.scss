@@ -21,15 +21,17 @@
 .texto-entrada{
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 100%;
     justify-content: center;
+    gap: 2px;
 }
 
-.logo-entrada :where(h1){
+.logo-entrada h1{
     font-family: 'Pacifico';
     font-style: normal;
     font-weight: 400;
     color: #E5E5E5;
+    font-size: 2rem;
 }
 
 .texto-entrada h2{
@@ -38,6 +40,7 @@
     font-weight: 400;
     color: #E5E5E5;
     text-align: center;
+    font-size: 5rem;
 }
 
 .texto-entrada p{
@@ -46,4 +49,9 @@
     font-weight: 300;
     color: #E5E5E5;
     text-align: center;
+    font-size: 2rem;
+}
+
+.icons-entrada{
+    width: 100%;
 }

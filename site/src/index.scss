@@ -4,6 +4,7 @@ html, body, #root, #conteudo, #tela-inicial{
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  background-color: #201f1f;
 }
 
 *{
@@ -17,4 +18,14 @@ html, body, #root, #conteudo, #tela-inicial{
 button{
   background: none;
   border: none;
+}
+
+#conteudo{
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 1980px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
