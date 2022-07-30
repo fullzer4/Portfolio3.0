@@ -5,5 +5,8 @@
     background: url("../../assets/fundotelainicial.png") no-repeat 50% 50%;
     background-size: cover;
     top: 0;
-    display: table;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
