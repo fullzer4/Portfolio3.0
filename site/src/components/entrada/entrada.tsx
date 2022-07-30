@@ -4,7 +4,7 @@ export default function Entrada() {
     return(
       <div id="entrada">
          <div className="texto-entrada">
-          <h1>Portfolio</h1>
+          <h1>Fullzer4</h1>
         </div>
         <div className="texto-entrada">
           <h2>Portfolio</h2>
