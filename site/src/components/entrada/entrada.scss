@@ -17,6 +17,13 @@
     justify-content: center;
 }
 
+.logo-entrada{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 98%;
+}
+
 .texto-entrada :where(h2, h3){
     text-align: center;
 }
