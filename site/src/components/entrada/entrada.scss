@@ -10,3 +10,13 @@
     align-items: center;
     justify-content: center;
 }
+.texto-entrada{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+}
+
+.texto-entrada :where(h2, h3){
+    text-align: center;
+}

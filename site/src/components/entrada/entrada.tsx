@@ -3,10 +3,13 @@ import './entrada.scss'
 export default function Entrada() {
     return(
       <div id="entrada">
-        <div className="texto-entrada">
+         <div className="texto-entrada">
           <h1>Portfolio</h1>
+        </div>
+        <div className="texto-entrada">
+          <h2>Portfolio</h2>
           <hr/>
-          <h2>Gabriel Pelizzaro Pereira <p/> Full-Stack Developer</h2>
+          <h3>Gabriel Pelizzaro Pereira <p/> Full-Stack Developer</h3>
         </div>
         <div className="icons-entrada">
           <div className="icons-github"></div>
