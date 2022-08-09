@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15vw;
+    gap: 10vw;
 
     .homecontent-image{
         display: flex;
@@ -23,11 +23,16 @@
     }
 
     .homecontent-text{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        gap: 15px;
+
         h1{
-            
+            font-size: 4rem;
         }
         p{
-
+            font-size: 1.5rem;
         }
     }
 }
