@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "sass": "^1.54.3"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",

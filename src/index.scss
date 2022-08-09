@@ -6,17 +6,6 @@ html, body, #root{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background: linear-gradient(90deg, #A38ED2 0%, #F9C1EB 100%);
-}
-
-::-webkit-scrollbar{
-    background-color: rgba(0, 0, 0, 0);
-    width: calc(100% + 10px);
-}
-
-::-webkit-scrollbar-thumb{
-    background-color: rgba(0, 0, 0, 0.534);
-    border-radius: 20px;
 }
 
 *{
@@ -39,40 +28,7 @@ html, body, #root{
     flex-direction: column;
 }
 
-#content{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    position: fixed;
-    overflow: hidden;
-}
-
-#content-objects{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden scroll;
-    width: 100%;
-    padding: 5px;
-}
-
 button{
     background: none;
     border: none;
-}
-
-svg{
-    width: 100%;
-    height: 100%;
-}
-
-.container-center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: calc(100% - 60px);
-    margin: 30px auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 1500px;
 }
