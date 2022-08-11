@@ -1,11 +1,10 @@
-import Animationhome from "../../components/animationhome/animationhome";
-import Homecontent from "../../components/homecontent/homecontent";
+import Firstview from "../../components/firstview/firstview";
+
 
 export default function home(){
     return(
-        <div>
-            <Animationhome/>
-            <Homecontent/>
+        <div id="container">
+            <Firstview/>
         </div>
     )
 }
