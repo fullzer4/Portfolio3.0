@@ -1,9 +1,9 @@
 import { createContext, useState, useEffect } from "react";
 import api from "../../apiTwitch";
 
-export const TwichContext = createContext<any>(()=>{})
+export const TwitchContext = createContext<any>(()=>{})
 
-export const MenuProvider = ({ children }: any) => {
+export const TwitchProvider = ({ children }: any) => {
     const [datauser, setDatauser] = useState("")
 
     useEffect(()=>{
@@ -15,10 +15,10 @@ export const MenuProvider = ({ children }: any) => {
     })
 
     return(
-        <MenuContext.Provider value={{
+        <TwitchContext.Provider value={{
             datauser
             }}> 
             {children}
-        </MenuContext.Provider>
+        </TwitchContext.Provider>
     )
 }
