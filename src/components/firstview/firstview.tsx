@@ -1,11 +1,12 @@
 import "./firstview.scss"
-import Twitch from "../../assets/Twitch.svg"
+import Twitchsvg from "../../assets/Twitch.svg"
+import Twitch from "../twitch/twitch"
 
 export default function Firstview(){
     return(
         <div id="fundo">
             <div className="box-Twitch">
-                <img src={Twitch}></img><h1>Live<p>on</p></h1>
+                <Twitch/>
             </div>
             <div className="Titulo-intro">
                 <h2>Fullzer4</h2>
