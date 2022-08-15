@@ -1,15 +1,15 @@
 import { useEffect } from "react";
 import api from "../../apiTwitch";
 
-export default function Twitch(){
+function Twitch(){
 
     useEffect(()=>{
-        const fetchDatauser = async () => {
-            const datauser = await api.get("https://api.twitch.tv/helix/search/channels?query=yfullzer4")
+        const fetchData = async () => {
+            const datauser = await api.get("https://api.twitch.tv/helix/search/categories")
             console.log(datauser);
             
         } 
-        fetchDatauser()
+        fetchData()
     })
 
     return(
@@ -17,3 +17,5 @@ export default function Twitch(){
 
     )
 }
+
+export default Twitch
