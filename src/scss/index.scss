@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+*:focus{
+    outline: 0;
+  }
+  
+html, body, #root{
+    height: 100%;
+    background-color: #111C18;
+  }
+
+.App{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1980px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
