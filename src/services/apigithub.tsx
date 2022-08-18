@@ -5,7 +5,9 @@ import { createContext, useState } from "react";
 export const GithubContext = createContext<any>(()=>{})
 
 export const GithubProvider = ({ children }: any) => {
+
     const [user, setUser] = useState("")
+    
     function pegardados(){
         axios.get('https://api.github.com/users/fullzer4').then(resp => {
     
