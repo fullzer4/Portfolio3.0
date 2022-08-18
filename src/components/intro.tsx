@@ -1,11 +1,20 @@
+import { useContext } from "react"
 import "../scss/intro.scss"
-import live from "../services/apitwitch"
+import { GithubContext } from "../services/apigithub"
 
 export default function Intro() {
+
+    const {pegardados} = useContext(GithubContext)
+
     var livetexto = ""
+    var live = false
+
+    pegardados()
 
     if(live === false){
         var livetexto = "off"
+    }else{
+        var livetexto = "on"
     }
 
     return (
