@@ -32,10 +32,10 @@ export default function Intro() {
                 <h1>Fullzer4</h1>
             </div>
             <div className="Icons">
-                <div className="icon-insta icon"></div>
-                <div className="icon-twitch icon"></div>
-                <div className="icon-github icon"></div>
-                <div className="icon-linkedin icon"></div>
+                <div className="icons-insta icon"></div>
+                <div className="icons-twitch icon"></div>
+                <div className="icons-github icon"></div>
+                <div className="icons-linkedin icon"></div>
             </div>
             <div className="Arrow">
                 <div className="icon-arrow"></div>
