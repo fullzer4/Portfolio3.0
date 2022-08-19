@@ -70,6 +70,7 @@
         }
         .icon:hover{
             transform: scale(1.1);
+            transition: 1s;
         }
         .icons-twitch{
             background-image: url(../imgs/Twitch.svg);
@@ -89,12 +90,13 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 10px;
+        animation: setahehe 3s ease-in-out infinite;
         .icon-arrow{
             background-image: url(../imgs/seta.svg);
             background-size: cover;
             background-repeat: no-repeat;
-            height: 3rem;
-            width: 5.5rem; 
+            height: 2.5rem;
+            width: 4.5rem; 
             cursor: pointer;
         }
     }
@@ -102,5 +104,17 @@
         display: flex;
         align-items: center;
         cursor: pointer;
+    }
+}
+
+@keyframes setahehe {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+    100%{
+        transform: translateY(0px);
     }
 }
