@@ -21,10 +21,11 @@ html, body, #root{
     position: relative;
     margin: auto;
     width: 100%;
+    min-height: 100vh;
     max-width: 1980px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
+    overflow: hidden;
 }
