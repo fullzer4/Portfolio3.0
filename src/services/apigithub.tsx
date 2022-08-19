@@ -13,8 +13,6 @@ export const GithubProvider = ({ children }: any) => {
     const [avatar, setAvatar] = useState("")
 
 
-
-
     function pegardados(){
         axios.get('https://api.github.com/users/fullzer4').then(resp => {
     
@@ -24,7 +22,6 @@ export const GithubProvider = ({ children }: any) => {
         setUrl(resp.data.html_url)
         setRepos(resp.data.public_repos)
         setAvatar(resp.data.avatar_url)
-        console.log(user)
         });
     }
 

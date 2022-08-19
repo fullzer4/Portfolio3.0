@@ -7,20 +7,26 @@ export default function Intro() {
     const {pegardados} = useContext(GithubContext)
 
     var livetexto = ""
+    var estilolive = ""
     var live = false
 
     pegardados()
 
     if(live === false){
-        var livetexto = "off"
+        livetexto = "off"
+        estilolive = "live-off"
+
     }else{
-        var livetexto = "on"
+        livetexto = "on"
+        estilolive = "live-on"
     }
 
     return (
         <div className="Intro">
             <div className="Twitch">
-                <div className="icon-twitch"></div><p>Live</p><p>{livetexto}</p>
+                <a className="Twitch-box" href="https://www.twitch.tv/yfullzer4">
+                    <div className="icon-twitch"></div><p>Live</p><p className={estilolive}>{livetexto}</p>
+                </a>
             </div>
             <div className="Titulo">
                 <h1>Fullzer4</h1>
