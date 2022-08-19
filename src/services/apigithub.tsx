@@ -6,28 +6,33 @@ export const GithubContext = createContext<any>(()=>{})
 
 export const GithubProvider = ({ children }: any) => {
 
-    const [user, setUser] = useState("")
-    const [followers, setFollowers] = useState("")
-    const [url, setUrl] = useState("")
-    const [repos, setRepos] = useState("")
-    const [avatar, setAvatar] = useState("")
+    const [usergit, setUsergit] = useState("")
+    const [followersgit, setFollowersgit] = useState("")
+    const [urlgit, setUrlgit] = useState("")
+    const [reposgit, setReposgit] = useState("")
+    const [avatargit, setAvatargit] = useState("")
 
 
-    function pegardados(){
+    function pegardadosgit(){
         axios.get('https://api.github.com/users/fullzer4').then(resp => {
     
         console.log(resp.data);
-        setUser(resp.data.login)
-        setFollowers(resp.data.followers)
-        setUrl(resp.data.html_url)
-        setRepos(resp.data.public_repos)
-        setAvatar(resp.data.avatar_url)
+        setUsergit(resp.data.login)
+        setFollowersgit(resp.data.followers)
+        setUrlgit(resp.data.html_url)
+        setReposgit(resp.data.public_repos)
+        setAvatargit(resp.data.avatar_url)
         });
     }
 
     return(
         <GithubContext.Provider value={{
-            pegardados
+            pegardadosgit,
+            usergit,
+            followersgit,
+            urlgit,
+            reposgit,
+            avatargit
             }}> 
             {children}
         </GithubContext.Provider>

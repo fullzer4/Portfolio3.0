@@ -4,13 +4,12 @@ import { GithubContext } from "../services/apigithub"
 
 export default function Intro() {
 
-    const {pegardados} = useContext(GithubContext)
+    const {pegardadosgit, urlgit} = useContext(GithubContext)
+    pegardadosgit()
 
     var livetexto = ""
     var estilolive = ""
     var live = false
-
-    pegardados()
 
     if(live === false){
         livetexto = "off"
@@ -32,10 +31,10 @@ export default function Intro() {
                 <h1>Fullzer4</h1>
             </div>
             <div className="Icons">
-                <div className="icons-insta icon"></div>
-                <div className="icons-twitch icon"></div>
-                <div className="icons-github icon"></div>
-                <div className="icons-linkedin icon"></div>
+                <a href=""  className="icons-insta icon"></a>
+                <a href="" className="icons-twitch icon"></a>
+                <a href={urlgit} className="icons-github icon"></a>
+                <a href="" className="icons-linkedin icon"></a>
             </div>
             <div className="Arrow">
                 <div className="icon-arrow"></div>
