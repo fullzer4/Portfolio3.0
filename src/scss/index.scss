@@ -33,3 +33,10 @@ html, body, #root{
 ::-webkit-scrollbar{
   display: none;
 }
+
+.Page{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

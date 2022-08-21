@@ -1,11 +1,17 @@
 .Navbar{
     display: flex;
     flex-direction: row;
-    width: 100%; 
-    margin-top: fixed;
+    width: 100vw; 
+    height: 6rem;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
     .Navbar-nav{
-        width: 80%;
-        height: 10rem;
-        background-color: red;
+        display: flex;
+        flex-direction: row;
+        width: 80vw; 
+        height: 4rem;
+        align-items: center;
+        justify-content: center;
     }
 }
