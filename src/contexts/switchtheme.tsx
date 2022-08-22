@@ -10,12 +10,13 @@ export const SwitchThemeProvider = ({ children }: any) => {
             setTheme("light")
         }else{
             setTheme("dark")
+            alert("foi")
         }
     }
     
     return(
         <SwitchThemeContext.Provider value={{
-            
+            mudarcor
             }}> 
             {children}
         </SwitchThemeContext.Provider>
