@@ -2,11 +2,10 @@ import { useContext } from "react"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import "../scss/intro.scss"
 import { GithubContext } from "../services/apigithub"
-
 export default function Intro() {
 
     const {pegardadosgit, urlgit} = useContext(GithubContext)
-    const {langswitcher} = useContext(SwitchLanguageContext)
+    const {langswitcher, lang, imglang} = useContext(SwitchLanguageContext)
     pegardadosgit()
 
     var livetexto = ""
@@ -25,7 +24,10 @@ export default function Intro() {
     return (
         <div className="Intro">
             <div className="Twitch">
-                <div onClick={langswitcher}>dsd</div>
+                <div onClick={langswitcher}>
+                    <div className={imglang}/>
+                    <p>{lang}</p>
+                </div>
                 <a className="Twitch-box" href="https://www.twitch.tv/yfullzer4">
                     <div className="icon-twitch"></div><p>Live</p><p className={estilolive}>{livetexto}</p>
                 </a>

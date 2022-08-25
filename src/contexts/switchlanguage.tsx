@@ -4,23 +4,26 @@ export const SwitchLanguageContext = createContext<any>(()=>{})
 
 export const SwitchLanguageProvider = ({ children }: any) => {
     var [lang, setLang] = useState("PT-BR")
+    var [imglang, setImglang] = useState("brazil-icon")
 
     function langswitcher(){
         if(lang === "PT-BR"){
             setLang("ENG")
-            alert(lang)
+            setImglang("states-icon")
         }else if(lang === "ENG"){
             setLang("PT-BR")
-            alert(lang)
+            setImglang("brazil-icon")
         }else{
             setLang("PT-BR")
-            alert(lang)
+            setImglang("brazil-icon")
         }
     }
 
     return(
         <SwitchLanguageContext.Provider value={{
-            langswitcher
+            langswitcher,
+            lang,
+            imglang
             }}> 
             {children}
         </SwitchLanguageContext.Provider>
