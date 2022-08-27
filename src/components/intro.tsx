@@ -1,12 +1,15 @@
 import { useContext } from "react"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import "../scss/intro.scss"
+import { DiscordContext } from "../services/apidiscord"
 import { GithubContext } from "../services/apigithub"
 export default function Intro() {
 
     const {pegardadosgit, urlgit} = useContext(GithubContext)
+    const {pegardadosdiscord} = useContext(DiscordContext)
     const {langswitcher, lang, imglang} = useContext(SwitchLanguageContext)
     pegardadosgit()
+    pegardadosdiscord()
 
     var livetexto = ""
     var estilolive = ""

@@ -4,23 +4,23 @@ import App from './App'
 import { SwitchLanguageProvider } from './contexts/switchlanguage'
 import { SwitchThemeProvider } from './contexts/switchtheme'
 import { GithubProvider } from './services/apigithub'
-import { InstagramProvider } from './services/apiinstagram'
-import { LinkedinProvider } from './services/apilinkedin'
+import { DiscordProvider } from './services/apidiscord'
+import { YoutubeProvider } from './services/apiyotube'
 import { TwitchProvider } from './services/apitwitch'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <GithubProvider>
       <TwitchProvider>
-        <InstagramProvider>
-          <LinkedinProvider>
+        <DiscordProvider>
+          <YoutubeProvider>
             <SwitchThemeProvider>
               <SwitchLanguageProvider>
                 <App />
               </SwitchLanguageProvider>
             </SwitchThemeProvider>
-          </LinkedinProvider>
-        </InstagramProvider>
+          </YoutubeProvider>
+        </DiscordProvider>
       </TwitchProvider>
     </GithubProvider>
   </React.StrictMode>
