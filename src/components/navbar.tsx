@@ -9,9 +9,9 @@ export default function Navbar() {
 
     return (
         <div className="Navbar">
-            <div onClick={langswitcher}>
+            <div onClick={langswitcher} className="changelang-nav">
                     <div className={imglang}/>
-                    <p>{lang}</p>
+                    <p className="changelang-text">{lang}</p>
                 </div>
             <div className="Navbar-nav">
                 <h1>foi</h1>

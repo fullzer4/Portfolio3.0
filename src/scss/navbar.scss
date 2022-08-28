@@ -14,4 +14,41 @@
         align-items: center;
         justify-content: center;
     }
+    .changelang-text{
+        width: 4rem;
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+    .changelang-nav{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 7rem; 
+        cursor: pointer;
+        background: rgba(53, 51, 51, 0.69);
+        border-radius: 45px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 15px;
+        padding-left: 10px;
+    }
+    .brazil-icon{
+        background-image: url(../imgs/brazil.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size:contain;
+        height: 2rem;
+        width: 2rem;
+        margin-right: 7px;
+    }
+    .states-icon{
+        background-image: url(../imgs/states.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size:contain;
+        height: 2rem;
+        width: 2rem;
+        margin-right: 5px;
+    }
 }

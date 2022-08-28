@@ -29,7 +29,7 @@ export default function Intro() {
             <div className="Twitch">
                 <div onClick={langswitcher} className="changelang">
                     <div className={imglang}/>
-                    <p>{lang}</p>
+                    <p className="changelang-text">{lang}</p>
                 </div>
                 <a className="Twitch-box" href="https://www.twitch.tv/yfullzer4">
                     <div className="icon-twitch"></div><p>Live</p><p className={estilolive}>{livetexto}</p>
