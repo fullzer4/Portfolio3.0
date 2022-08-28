@@ -27,7 +27,7 @@ export default function Intro() {
     return (
         <div className="Intro">
             <div className="Twitch">
-                <div onClick={langswitcher}>
+                <div onClick={langswitcher} className="changelang">
                     <div className={imglang}/>
                     <p>{lang}</p>
                 </div>
