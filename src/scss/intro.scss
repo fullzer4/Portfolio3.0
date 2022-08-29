@@ -22,6 +22,10 @@
             width: 4rem;
             display: flex;
             justify-content: center;
+            user-select: none;
+        }
+        .changelang-text::selection{
+            background-color: rgba(0, 0, 0, 0);
         }
         .changelang{
             display: flex;
@@ -67,6 +71,10 @@
             font-family: 'Comfortaa';
             font-style: normal;
             font-weight: 400;
+            user-select: none;
+        }
+        p::selection{
+            background-color: rgba(0, 0, 0, 0);
         }
         .live-on{
             background-color: rgba(108, 204, 74, 0.47);
@@ -92,6 +100,10 @@
             font-weight: 400;
             font-size: 7rem;
             color: #D9D9D9; 
+            user-select: none;
+        }
+        h1::selection{
+            background-color: rgba(0, 0, 0, 0);
         }
     }
     .Icons{
