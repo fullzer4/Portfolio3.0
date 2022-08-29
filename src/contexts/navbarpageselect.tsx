@@ -42,7 +42,13 @@ export const NavbarSelectProvider = ({ children }: any) => {
             navbarProjetos,
             navbarLivros,
             navbarCertificados,
-            navbarAcademico
+            navbarAcademico,
+            pageHome,
+            pageSobre,
+            pageProjetos,
+            pageLivros,
+            pageCertificados,
+            pageAcademico
             }}> 
             {children}
         </NavbarSelectContext.Provider>
