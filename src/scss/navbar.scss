@@ -12,9 +12,13 @@
         display: flex;
         flex-direction: row;
         width: 100vw; 
-        height: 4rem;
+        height: 3.5rem;
         align-items: center;
         justify-content: center;
+        background: rgba(53, 51, 51, 0.69);
+        border-radius: 45px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
     .changelang-text{
         width: 4rem;
@@ -60,7 +64,7 @@
     .Theme-button{
         display: flex;
         align-items: center;
-        width: 7rem; 
+        min-width: 6rem; 
         cursor: pointer;
         background: rgba(53, 51, 51, 0.69);
         border-radius: 45px;
@@ -81,5 +85,53 @@
         .temaAtivo{
             transform: translateX(2.8rem);
         }
+    }
+    .icon-nav-home{
+        background-image: url(../imgs/Home.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .icon-nav-sobre{
+        background-image: url(../imgs/About.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        width: 2.5rem;
+        height: 3.75rem;
+    }
+    .icon-nav-projetos{
+        background-image: url(../imgs/project.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .icon-nav-livros{
+        background-image: url(../imgs/books.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .icon-nav-certificados{
+        background-image: url(../imgs/certificate.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .icon-nav-academico{
+        background-image: url(../imgs/school.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
