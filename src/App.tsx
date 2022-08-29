@@ -9,6 +9,7 @@ export default function App() {
         <Intro/>
         <div className="Page">
           <Navbar/>
+          <div></div>
         </div>
       </div>
   )

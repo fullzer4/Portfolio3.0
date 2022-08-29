@@ -9,6 +9,12 @@ export const NavbarSelectProvider = ({ children }: any) => {
     const [navbarLivros, setNavbarLivros] = useState("icon-nav-livros")
     const [navbarCertificados, setNavbarCertificados] = useState("icon-nav-certificados")
     const [navbarAcademico, setNavbarAcademico] = useState("icon-nav-academico")
+    const [pageHome, setPageHome] = useState("pagina-desativada")
+    const [pageSobre, setPageSobre] = useState("pagina-desativada")
+    const [pageProjetos, setPageProjetos] = useState("pagina-desativada")
+    const [pageLivros, setPageLivros] = useState("pagina-desativada")
+    const [pageCertificados, setPageCertificados] = useState("pagina-desativada")
+    const [pageAcademico, setPageAcademico] = useState("pagina-desativada")
 
     function resetselects(){
         setNavbarHome("icon-nav-home")
