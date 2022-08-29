@@ -4,7 +4,7 @@ import { SwitchThemeContext } from "../contexts/switchtheme"
 import "../scss/navbar.scss"
 
 export default function Navbar() {
-    const {mudarcor} = useContext(SwitchThemeContext)
+    const {mudarcor, themeativo} = useContext(SwitchThemeContext)
     const {langswitcher, lang, imglang} = useContext(SwitchLanguageContext)
 
     return (
@@ -16,8 +16,8 @@ export default function Navbar() {
             <div className="Navbar-nav">
                 <h1>foi</h1>
             </div>
-            <div className="Theme-button">
-                <button className="Theme-button-button" onClick={()=> mudarcor()}/>
+            <div className="Theme-button" onClick={()=> mudarcor()}>
+                <button className={themeativo}/>
             </div>
         </div>
     )
