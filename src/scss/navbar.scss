@@ -76,9 +76,10 @@
             transition: 0.5s;
             user-select: none;
             cursor: pointer;
+            border: none;
         }
         .temaAtivo{
-            transform: translateX(3.25rem);
+            transform: translateX(2.8rem);
         }
     }
 }
