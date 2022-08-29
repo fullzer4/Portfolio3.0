@@ -1,4 +1,4 @@
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import { SwitchThemeContext } from "../contexts/switchtheme"
 import "../scss/navbar.scss"
@@ -6,6 +6,7 @@ import "../scss/navbar.scss"
 export default function Navbar() {
     const {mudarcor, themeativo} = useContext(SwitchThemeContext)
     const {langswitcher, lang, imglang} = useContext(SwitchLanguageContext)
+    const [navbaricon, setNavbaricon] = useState("icon-nav")
 
     return (
         <div className="Navbar">
@@ -14,7 +15,11 @@ export default function Navbar() {
                     <p className="changelang-text">{lang}</p>
                 </div>
             <div className="Navbar-nav">
-                <h1>foi</h1>
+                <div className="icon-nav"/>
+                <div className="icon-nav"/>
+                <div className="icon-nav"/>
+                <div className="icon-nav"/>
+                <div className="icon-nav"/>
             </div>
             <div className="Theme-button" onClick={()=> mudarcor()}>
                 <button className={themeativo}/>
