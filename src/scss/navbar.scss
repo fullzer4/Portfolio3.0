@@ -14,11 +14,13 @@
         width: 100vw; 
         height: 3.5rem;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         background: rgba(53, 51, 51, 0.69);
         border-radius: 45px;
         margin-left: 45px;
         margin-right: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .changelang-text{
         width: 4rem;
@@ -91,53 +93,70 @@
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%;
-        width: 2.5rem;
-        height: 2.5rem;
-        fill: aqua;
+        width: 2rem;
+        height: 2rem;
+        fill: #DDDDDD;
+        fill-opacity: 0.7;
+        transition: 1s;
     }
     .icon-nav-sobre{
         background-image: url(../imgs/Home.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%;
-        width: 2.5rem;
-        height: 3.75rem;
-        fill: aqua;
+        width: 2rem;
+        height: 2rem;
+        fill: #DDDDDD;
+        fill-opacity: 0.7;
     }
     .icon-nav-projetos{
         background-image: url(../imgs/Home.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%;
-        width: 2.5rem;
-        height: 2.5rem;
-        fill: aqua;
+        width: 2rem;
+        height: 2rem;
+        fill: #DDDDDD;
+        fill-opacity: 0.7;
+        transition: 1s;
     }
     .icon-nav-livros{
         background-image: url(../imgs/Home.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%;
-        width: 2.5rem;
-        height: 2.5rem;
-        fill: aqua;
+        width: 2rem;
+        height: 2rem;
+        fill: #DDDDDD;
+        fill-opacity: 0.7;
+        transition: 1s;
     }
     .icon-nav-certificados{
         background-image: url(../imgs/Home.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%;
-        width: 2.5rem;
-        height: 2.5rem;
-        stroke: aqua;
+        width: 2rem;
+        height: 2rem;
+        stroke: #DDDDDD;
+        stroke-opacity: 0.7;
+        transition: 1s;
     }
     .icon-nav-academico{
         background-image: url(../imgs/Home.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%;
-        width: 2.5rem;
-        height: 2.5rem;
-        stroke: aqua;
+        width: 2rem;
+        height: 2rem;
+        stroke: #DDDDDD;
+        stroke-opacity: 0.7;
+        stroke-width: 2;
+        transition: 1s;
+    }
+    .icon-ativo{
+        fill: #ffffff;
+        fill-opacity: 1;
+        transform: scale(1.1);
     }
 }
