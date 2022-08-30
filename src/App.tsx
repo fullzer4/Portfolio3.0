@@ -9,6 +9,7 @@ import Navbar from "./components/navbar"
 import Projects from "./components/projects"
 import { NavbarSelectContext } from "./contexts/navbarpageselect"
 import "./scss/index.scss"
+import "./scss/pages.scss"
 
 export default function App() {
 
