@@ -9,7 +9,7 @@ export default function Home() {
     const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube} = useContext(SwitchLanguageContext)
 
     if(lang === "PT-BR"){
-        
+
     }
 
     return (
@@ -42,7 +42,9 @@ export default function Home() {
                     <a href="" className="buttom-card">{cardbutton}</a>
                 </div>
             </div>
-
+            <div className="send-email">
+                
+            </div>
         </div>
     )
   }
