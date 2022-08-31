@@ -55,10 +55,77 @@
         .card{
             min-width: 16rem;
             max-width: 16rem;
-            height: 20rem;
+            min-height: 19rem;
             background: rgba(65, 65, 65, 0.3);
             box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.06);
             border-radius: 25px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+            transition: 1s;
+            .title-card{
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.5rem;
+                text-align: center;
+                color: #CBCACA;
+            }
+            .image-card{
+                background-repeat: no-repeat;
+                background-size: contain;
+                height: 8rem;
+                width: 8rem;
+                margin-top: 20px;
+            }
+            .discord{
+                background-image: url(../imgs/imagediscord.svg);
+            }
+            .github{
+                background-image: url(../imgs/SobreEu.svg);
+            }
+            .youtube{
+                background-image: url(../imgs/imageyoutube.svg);
+            }
+            .subtitle-card{
+                margin-top: 15px;
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 1rem;
+                color: #CBCACA;
+                height: 7.75rem;
+                display: flex;
+                align-items: center;
+            }
+            .buttom-card{
+                margin-bottom: 10px;
+                display: flex;
+                width: 13rem;
+                height: 2rem;
+                background: rgba(65, 65, 65, 0.3);
+                border-radius: 25px;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                cursor: pointer;
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1rem;
+                color: #CBCACA;
+            }
         }
     }
+}
+
+.card:hover{
+    transform: scale(1.1);
 }

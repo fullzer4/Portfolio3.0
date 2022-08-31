@@ -3,7 +3,7 @@ import { createContext, useState } from "react";
 export const NavbarSelectContext = createContext<any>(()=>{})
 
 export const NavbarSelectProvider = ({ children }: any) => {
-    const [navbarHome, setNavbarHome] = useState("icon-nav-home")
+    const [navbarHome, setNavbarHome] = useState("icon-nav-home icon-ativo")
     const [navbarSobre, setNavbarSobre] = useState("icon-nav-sobre")
     const [navbarProjetos, setNavbarProjetos] = useState("icon-nav-projetos")
     const [navbarLivros, setNavbarLivros] = useState("icon-nav-livros")
