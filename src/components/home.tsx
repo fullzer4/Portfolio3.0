@@ -17,8 +17,26 @@ export default function Home() {
                 <div className="Resumo-imagem"/>
             </div>
             <div className="Resumo-Redes">
-                
+                <div className="card">
+                    <p className="title-card">Discord</p>
+                    <div className="image-card"/>
+                    <p className="subtitle-card"></p>
+                    <a href="">Entrar</a>
+                </div>
+                <div className="card">
+                    <p className="title-card">Discord</p>
+                    <div className="image-card"/>
+                    <p className="subtitle-card"></p>
+                    <a href="">Entrar</a>
+                </div>
+                <div className="card">
+                    <p className="title-card">Discord</p>
+                    <div className="image-card"/>
+                    <p className="subtitle-card"></p>
+                    <a href="">Entrar</a>
+                </div>
             </div>
+
         </div>
     )
   }
