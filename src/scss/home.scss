@@ -6,7 +6,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 10rem;
+        gap: 14rem;
         .Resumo-texto{
             display: flex;
             flex-direction: column;
@@ -49,8 +49,16 @@
     .Resumo-Redes{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: 45px;
         .card{
-
+            min-width: 16rem;
+            max-width: 16rem;
+            height: 20rem;
+            background: rgba(65, 65, 65, 0.3);
+            box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.06);
+            border-radius: 25px;
         }
     }
 }

@@ -20,19 +20,19 @@ export default function Home() {
                 <div className="card">
                     <p className="title-card">Discord</p>
                     <div className="image-card"/>
-                    <p className="subtitle-card"></p>
+                    <p className="subtitle-card">Criei essa comunidade para pessoas estudarem e jogarem juntas, com atualmente 16 pessoas online.</p>
                     <a href="">Entrar</a>
                 </div>
                 <div className="card">
-                    <p className="title-card">Discord</p>
+                    <p className="title-card">Github</p>
                     <div className="image-card"/>
-                    <p className="subtitle-card"></p>
+                    <p className="subtitle-card">Onde eu posto meus codigos e dou um resumo dos meu projetos, atualmente tenho 36 projetos e praticas postadas.</p>
                     <a href="">Entrar</a>
                 </div>
                 <div className="card">
-                    <p className="title-card">Discord</p>
+                    <p className="title-card">Youtube</p>
                     <div className="image-card"/>
-                    <p className="subtitle-card"></p>
+                    <p className="subtitle-card">Criei esse canal para ajudar pessoas em programação, hoje tenho postado mais de 4 tutoriais e videos</p>
                     <a href="">Entrar</a>
                 </div>
             </div>
