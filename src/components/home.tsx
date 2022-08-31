@@ -1,8 +1,20 @@
+import { useContext } from "react"
+import { NavbarSelectContext } from "../contexts/navbarpageselect"
+
 export default function Home() {
-    const a =0
+    
+    const {pageselector} = useContext(NavbarSelectContext)
+
     return (
         <div className="Home">
-            <h1>{a}</h1>
+            <div className="Resumo-Home">
+                <div className="Resumo-texto">
+                    <h2>Bem vindo</h2>
+                    <p>Sou o Gabriel tenho 16 anos e este é o meu portfólio espero que goste, qualquer coisa só entrar em contato comigo.</p>
+                    <button onClick={() => pageselector(2)}> Mais sobre mim </button>
+                </div>
+                <div className="Resumo-imagem"/>
+            </div>
         </div>
     )
   }

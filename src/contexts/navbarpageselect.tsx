@@ -36,8 +36,8 @@ export const NavbarSelectProvider = ({ children }: any) => {
         if(number === 2){ resetall(), setNavbarSobre("icon-nav-sobre icon-ativo"), setPageSobre("pagina-ativada")}
         if(number === 3){ resetall(), setNavbarProjetos("icon-nav-projetos icon-ativo"), setPageProjetos("pagina-ativada")}
         if(number === 4){ resetall(), setNavbarLivros("icon-nav-livros icon-ativo"), setPageLivros("pagina-ativada")}
-        if(number === 5){ resetall(), setNavbarCertificados("icon-nav-certificados icon-ativo"), setPageCertificados("pagina-ativada")}
-        if(number === 6){ resetall(), setNavbarAcademico("icon-nav-academico icon-ativo"), setPageAcademico("pagina-ativada")}
+        if(number === 5){ resetall(), setNavbarCertificados("icon-nav-certificados icon-ativo-stroke"), setPageCertificados("pagina-ativada")}
+        if(number === 6){ resetall(), setNavbarAcademico("icon-nav-academico icon-ativo-stroke"), setPageAcademico("pagina-ativada")}
     }
 
     return(
