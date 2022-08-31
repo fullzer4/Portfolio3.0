@@ -1,18 +1,20 @@
 import { useContext } from "react"
 import { NavbarSelectContext } from "../contexts/navbarpageselect"
+import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import "../scss/home.scss"
 
 export default function Home() {
     
     const {pageselector} = useContext(NavbarSelectContext)
+    const {titlehome, subtitlehome, buttonhome} = useContext(SwitchLanguageContext)
 
     return (
         <div className="Home">
             <div className="Resumo-Home">
                 <div className="Resumo-texto">
-                    <h2 className="Resumo-texto-titulo">Bem vindo</h2>
-                    <p>Sou o Gabriel tenho 16 anos sou FullStack-Developer e este é o meu portfólio espero que goste, qualquer coisa só entrar em contato comigo em minhas redes.</p>
-                    <button onClick={() => pageselector(2)}> Mais sobre mim </button>
+                    <h2 className="Resumo-texto-titulo">{titlehome}</h2>
+                    <p>{subtitlehome}</p>
+                    <button onClick={() => pageselector(2)}>{buttonhome}</button>
                 </div>
                 <div className="Resumo-imagem"/>
             </div>
