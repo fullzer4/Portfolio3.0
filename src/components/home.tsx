@@ -1,6 +1,7 @@
 import { useContext } from "react"
 import { NavbarSelectContext } from "../contexts/navbarpageselect"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
+import { SwitchThemeContext } from "../contexts/switchtheme"
 import "../scss/home.scss"
 import { DiscordContext } from "../services/apidiscord"
 import { GithubContext } from "../services/apigithub"
@@ -13,6 +14,7 @@ export default function Home() {
     const {urldiscord, onlinediscord} = useContext(DiscordContext)
     const {urlyoutube} = useContext(YoutubeContext)
     const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube} = useContext(SwitchLanguageContext)
+    const {themetitulohome, themedescricaohome, buttonsobrehome} = useContext(SwitchThemeContext)
     var textrestcardgit:any
     var textrestcarddiscord:any
 
@@ -33,9 +35,9 @@ export default function Home() {
         <div className="Home">
             <div className="Resumo-Home">
                 <div className="Resumo-texto">
-                    <h2 className="Resumo-texto-titulo">{titlehome}</h2>
-                    <p>{subtitlehome}</p>
-                    <button onClick={() => pageselector(2)}>{buttonhome}</button>
+                    <h2 className={themetitulohome}>{titlehome}</h2>
+                    <p className={themedescricaohome}>{subtitlehome}</p>
+                    <button onClick={() => pageselector(2)} className={buttonsobrehome}>{buttonhome}</button>
                 </div>
                 <div className="Resumo-imagem"/>
             </div>

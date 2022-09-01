@@ -20,6 +20,10 @@
         margin-right: 240px;
         padding-left: 30px;
         padding-right: 30px;
+        transition: 1s ease-in-out;
+    }
+    .navlight{
+        background: #2D2B2B;
     }
     .changelang-text{
         width: 4rem;
@@ -43,6 +47,10 @@
         padding-bottom: 5px;
         padding-right: 15px;
         padding-left: 10px;
+        transition: 1s ease-in-out;
+    }
+    .changelanglight{
+        background: #2D2B2B;
     }
     .brazil-icon{
         background-image: url(../imgs/brazil.svg);
@@ -73,6 +81,7 @@
         padding-bottom: 5px;
         padding-right: 15px;
         padding-left: 10px;
+        transition: 1s ease-in-out;
         .Theme-button-button{
             height: 2rem;
             width: 2rem;
@@ -86,6 +95,9 @@
         .temaAtivo{
             transform: translateX(2.8rem);
         }
+    }
+    .themebuttonlight{
+        background: #2D2B2B;
     }
     .icon-nav-home{
         background-image: url(../imgs/Home.svg);

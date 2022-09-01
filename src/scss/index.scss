@@ -14,7 +14,6 @@
   
 html, body, #root{
     height: 100%;
-    background-color: #1A1A1A;
   }
 
 .App{
@@ -28,6 +27,12 @@ html, body, #root{
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
+    background-color: #1A1A1A;
+    transition: 1s;
+}
+
+.Applight{
+  background-color: #D9D9D9;
 }
 
 ::-webkit-scrollbar{
