@@ -1,4 +1,4 @@
-import { useContext, useState } from "react"
+import { useContext } from "react"
 import { NavbarSelectContext } from "../contexts/navbarpageselect"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import "../scss/home.scss"

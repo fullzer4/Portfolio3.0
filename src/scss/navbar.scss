@@ -1,7 +1,7 @@
 .Navbar{
     display: flex;
     flex-direction: row;
-    width: 100vw; 
+    max-width: 1500px;
     height: 6rem;
     align-items: center;
     justify-content: center;
@@ -162,5 +162,38 @@
         stroke: #ffffff;
         stroke-opacity: 1;
         transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .Navbar{
+        max-width: 100vw;
+    }
+}
+
+@media screen and (max-width: 1315px){
+    .Navbar{
+        .Navbar-nav{
+            margin-left: 120px;
+            margin-right: 120px;
+        }
+    }
+}
+
+@media screen and (max-width: 1015px){
+    .Navbar{
+        .Navbar-nav{
+            margin-left: 90px;
+            margin-right: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: 925px){
+    .Navbar{
+        .Navbar-nav{
+            margin-left: 60px;
+            margin-right: 60px;
+        }
     }
 }

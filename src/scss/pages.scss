@@ -1,9 +1,14 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;  
+}
 .pagina-ativada{
     display: flex;
     flex-direction: column;
-    min-width: 100%;
-    padding-left: 60px;
-    padding-right: 60px;
+    max-width: 1500px;
+    padding-left: 140px;
+    padding-right: 140px;
     margin-top: 25px;
 }
 .pagina-desativada{
