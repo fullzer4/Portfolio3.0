@@ -20,7 +20,7 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setLang("ENG")
             setImglang("states-icon")
             setTitlehome("Welcome")
-            setSubtitlehome("Hi, I'm Gabriel i'm 16 years old, I'm FullStack-Developer and that's my portfolio I hope you like it, other ways just contact me on my networks.")
+            setSubtitlehome("Hi, my name is Gabriel, I'm 16 years old, working as FullStack-Developer and that's my portfolio I hope you like it, other ways just contact me on my networks.")
             setbuttonhome("More about me")
             setCardtexthomediscord("I created this community for people to study and play together, with")
             setCardtexthomegithub("Where I post my codes and give a summary of my projects, I currently have")

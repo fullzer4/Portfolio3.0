@@ -10,17 +10,23 @@ export default function Home() {
     
     const {pageselector} = useContext(NavbarSelectContext)
     const {urlgit, reposgit} = useContext(GithubContext)
-    const {urldiscord} = useContext(DiscordContext)
+    const {urldiscord, onlinediscord} = useContext(DiscordContext)
     const {urlyoutube} = useContext(YoutubeContext)
     const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube} = useContext(SwitchLanguageContext)
     var textrestcardgit:any
+    var textrestcarddiscord:any
 
-    textrestcardgit = `${reposgit} projetos e praticas postadas`
+    textrestcardgit = `${reposgit} projetos e praticas postadas.`
+    textrestcarddiscord = `${onlinediscord} pessoas online.`
     
     if(lang === "PT-BR"){
-        textrestcardgit = `${reposgit} projetos e praticas postadas`
+        textrestcardgit = `${reposgit} projetos e praticas postadas.`
+        textrestcarddiscord = `${onlinediscord} pessoas online.`
+    
     }else{
-        textrestcardgit = `${reposgit} projects and practices posted`
+        textrestcardgit = `${reposgit} projects and practices posted.`
+        textrestcarddiscord = `${onlinediscord} people online.`
+    
     }
 
     return (
@@ -37,7 +43,7 @@ export default function Home() {
                 <div className="card">
                     <p className="title-card">Discord</p>
                     <div className="image-card discord"/>
-                    <p className="subtitle-card">{cardtexthomediscord}</p>
+                    <p className="subtitle-card">{cardtexthomediscord} {textrestcarddiscord}</p>
                     <a href={urldiscord} className="buttom-card">{cardbutton}</a>
                 </div>
                 <div className="card">
@@ -54,7 +60,9 @@ export default function Home() {
                 </div>
             </div>
             <div className="send-email">
-                  
+                  <form action="POST">
+
+                  </form>
             </div>
         </div>
     )
