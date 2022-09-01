@@ -79,6 +79,7 @@
             padding-right: 20px;
             text-align: center;
             transition: 1s;
+
             .title-card{
                 display: flex;
                 justify-content: center;
@@ -135,6 +136,10 @@
                 font-size: 1rem;
                 color: #CBCACA;
             }
+        }
+        .cardlight{
+            background: #2D2B2B;
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
         }
     }
 }

@@ -14,7 +14,7 @@ export default function Home() {
     const {urldiscord, onlinediscord} = useContext(DiscordContext)
     const {urlyoutube} = useContext(YoutubeContext)
     const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube} = useContext(SwitchLanguageContext)
-    const {themetitulohome, themedescricaohome, buttonsobrehome} = useContext(SwitchThemeContext)
+    const {themetitulohome, themedescricaohome, buttonsobrehome, cardhometheme} = useContext(SwitchThemeContext)
     var textrestcardgit:any
     var textrestcarddiscord:any
 
@@ -42,19 +42,19 @@ export default function Home() {
                 <div className="Resumo-imagem"/>
             </div>
             <div className="Resumo-Redes">
-                <div className="card">
+                <div className={cardhometheme}>
                     <p className="title-card">Discord</p>
                     <div className="image-card discord"/>
                     <p className="subtitle-card">{cardtexthomediscord} {textrestcarddiscord}</p>
                     <a href={urldiscord} className="buttom-card">{cardbutton}</a>
                 </div>
-                <div className="card">
+                <div className={cardhometheme}>
                     <p className="title-card">Github</p>
                     <div className="image-card github"/>
                     <p className="subtitle-card">{cardtexthomegithub} {textrestcardgit}</p>
                     <a href={urlgit} className="buttom-card">{cardbutton}</a>
                 </div>
-                <div className="card">
+                <div className={cardhometheme}>
                     <p className="title-card">Youtube</p>
                     <div className="image-card youtube"/>
                     <p className="subtitle-card">{cardtexthomeyoutube}</p>

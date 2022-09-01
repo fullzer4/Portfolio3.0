@@ -12,6 +12,10 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [themetitulohome, setThemetitulohome] = useState("Resumo-texto-titulo")
     var [themedescricaohome, setThemedescricaohome] = useState("")
     var [buttonsobrehome, setButtonsobrehome] = useState("")
+    var [cardhometheme, setCardhometheme] = useState("card")
+
+
+
 
     function mudarcor(){
         if(theme === "dark"){
@@ -24,7 +28,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
             setThemetitulohome("Resumo-texto-titulo titulolight")
             setThemedescricaohome("descricaohomelight")    
             setButtonsobrehome("buttonsobrehomelight")
-        
+            setCardhometheme("card cardlight")
         }else{
             setTheme("dark")
             setThemeativo("Theme-button-button")
@@ -35,8 +39,8 @@ export const SwitchThemeProvider = ({ children }: any) => {
             setThemetitulohome("Resumo-texto-titulo")
             setThemedescricaohome("")
             setButtonsobrehome("")
-        
-        }
+            setCardhometheme("card")
+        }   
     }
     
     return(
@@ -50,7 +54,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
             themetitulohome,
             themedescricaohome,
             buttonsobrehome,
-
+            cardhometheme,
             
             }}> 
             {children}
