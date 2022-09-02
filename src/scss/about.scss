@@ -1,0 +1,62 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    .About-me{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 14rem;
+        .About-me-image{
+            background-image: url(../imgs/aboutme.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            min-width: 20rem;
+            min-height: 20rem;
+        }
+        .About-me-texto{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            text-align: right;
+            justify-content: right;
+            align-items: flex-end;
+            .About-me-texto-titulo{
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 2.5rem;
+                color: #CBCACA;
+                transition: 1s ease-in-out;
+            }
+            p{
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.25rem;
+                color: #CBCACA;
+                transition: 1s ease-in-out;
+            }
+            .descricao-about-me-light{
+                color: #2D2B2B;
+            }
+            button{
+                width: 12rem;
+                height: 2rem;
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1.25rem;
+                color: #2D2B2B;
+                background: #D9D9D9;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s ease-in-out;
+            }
+            .buttonsobrehomelight{
+                color: #D9D9D9;
+                background-color: #2D2B2B;
+            }
+        }
+    }
+}
