@@ -142,6 +142,20 @@
             box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
         }
     }
+    .send-email{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+        p{
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 3rem;
+            color: #CBCACA;
+        }
+    }
 }
 
 .card:hover{

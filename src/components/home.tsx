@@ -62,9 +62,10 @@ export default function Home() {
                 </div>
             </div>
             <div className="send-email">
-                  <form action="POST">
-
-                  </form>
+                <p>Me mande um email</p>
+                <form action="POST">
+                    
+                </form>
             </div>
         </div>
     )
