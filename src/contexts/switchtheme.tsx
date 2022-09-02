@@ -30,6 +30,9 @@ export const SwitchThemeProvider = ({ children }: any) => {
             setThemedescricaohome("descricaohomelight")    
             setButtonsobrehome("buttonsobrehomelight")
             setCardhometheme("card cardlight")
+            setButtonprojetosobre("button-light")
+            setThemetituloabout("About-me-texto-titulo titulo-light")
+            setThemedescricaoabout("lightdescri")
         }else{
             setTheme("dark")
             setThemeativo("Theme-button-button")
@@ -41,6 +44,9 @@ export const SwitchThemeProvider = ({ children }: any) => {
             setThemedescricaohome("")
             setButtonsobrehome("")
             setCardhometheme("card")
+            setButtonprojetosobre("")
+            setThemetituloabout("About-me-texto-titulo")
+            setThemedescricaoabout("")
         }   
     }
     
