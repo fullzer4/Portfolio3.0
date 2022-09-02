@@ -13,8 +13,9 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [themedescricaohome, setThemedescricaohome] = useState("")
     var [buttonsobrehome, setButtonsobrehome] = useState("")
     var [cardhometheme, setCardhometheme] = useState("card")
-
-
+    var [themetituloabout, setThemetituloabout] = useState("About-me-texto-titulo")
+    var [themedescricaoabout, setThemedescricaoabout] = useState("")
+    var [buttonprojetosobre, setButtonprojetosobre] = useState("")
 
 
     function mudarcor(){
@@ -55,7 +56,9 @@ export const SwitchThemeProvider = ({ children }: any) => {
             themedescricaohome,
             buttonsobrehome,
             cardhometheme,
-            
+            themedescricaoabout,
+            themetituloabout,
+            buttonprojetosobre                      
             }}> 
             {children}
         </SwitchThemeContext.Provider>
