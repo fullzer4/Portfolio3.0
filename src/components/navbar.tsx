@@ -13,7 +13,7 @@ import "../scss/navbar.scss"
 export default function Navbar() {
     const {mudarcor, themeativo,themenav, themelangnav, themebuttonnav} = useContext(SwitchThemeContext)
     const {langswitcher, lang, imglang} = useContext(SwitchLanguageContext)
-    const {pageselector, navbarSobre, navbarProjetos, navbarLivros, navbarCertificados, navbarAcademico} = useContext(NavbarSelectContext)
+    const {pageselector} = useContext(NavbarSelectContext)
 
     return (
         <div className="Navbar">
