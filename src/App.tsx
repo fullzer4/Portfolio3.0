@@ -7,6 +7,7 @@ import Home from "./components/home"
 import Intro from "./components/intro"
 import Navbar from "./components/navbar"
 import Projects from "./components/projects"
+import Rodape from "./components/rodape"
 import { NavbarSelectContext } from "./contexts/navbarpageselect"
 import { SwitchThemeContext } from "./contexts/switchtheme"
 import "./scss/index.scss"
@@ -40,6 +41,7 @@ export default function App() {
           <div className={pageAcademico}>
             <Academico/>
           </div>
+          <Rodape/>
         </div>
       </div>
   )
