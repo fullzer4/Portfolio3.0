@@ -4,6 +4,7 @@ import "../scss/intro.scss"
 import { DiscordContext } from "../services/apidiscord"
 import { GithubContext } from "../services/apigithub"
 import { YoutubeContext } from "../services/apiyotube"
+
 export default function Intro() {
 
     const {pegardadosgit, urlgit} = useContext(GithubContext)

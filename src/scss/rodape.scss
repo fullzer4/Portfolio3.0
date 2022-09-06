@@ -6,13 +6,13 @@
     align-items: center;
     justify-content: center;
     .Buttonfooter{
-        background: rgba(65, 65, 65, 0.3);
-        border-radius: 25px;
+        background: #D9D9D9;
+        border-radius: 15px;
         cursor: pointer;
-        height: 4rem;
+        height: 3.25rem;
         width: 16rem;
         text-align: center; 
-        color: #CBCACA;
+        color: #2D2B2B;
         font-family: 'Comfortaa';
         font-style: normal;
         font-weight: 400;
@@ -20,5 +20,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: 1s ease-in-out;
+    }
+    .buttonlight{
+        background: #2D2B2B;
+        color: #D9D9D9;
     }
 }
