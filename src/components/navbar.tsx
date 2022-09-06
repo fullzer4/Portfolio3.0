@@ -16,11 +16,11 @@ export default function Navbar() {
     const {pageselector} = useContext(NavbarSelectContext)
 
     return (
-        <div className="Navbar">
+        <div className="Navbar" id="navpush">
             <div onClick={langswitcher} className={themelangnav}>
-                    <div className={imglang}/>
-                    <p className="changelang-text">{lang}</p>
-                </div>
+                <div className={imglang}/>
+                <p className="changelang-text">{lang}</p>
+            </div>
             <div className={themenav}>
                 <div onClick={() => pageselector(1)}><HomeIcon/></div>
                 <div onClick={() => pageselector(2)}><AboutIcon/></div>

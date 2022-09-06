@@ -48,7 +48,7 @@ export default function Intro() {
                 <a href="" className="icons-linkedin icon"></a>
             </div>
             <div className="Arrow">
-                <div className="icon-arrow"></div>
+                <a href="#navpush" className="icon-arrow"></a>
             </div>
         </div>
     )

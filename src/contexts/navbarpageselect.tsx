@@ -40,10 +40,6 @@ export const NavbarSelectProvider = ({ children }: any) => {
         if(number === 6){ resetall(), setNavbarAcademico("icon-nav-academico icon-ativo-stroke"), setPageAcademico("pagina-ativada")}
     }
 
-    function goup (){
-
-    }
-
     return(
         <NavbarSelectContext.Provider value={{
             pageselector,
@@ -59,7 +55,6 @@ export const NavbarSelectProvider = ({ children }: any) => {
             pageLivros,
             pageCertificados,
             pageAcademico,
-            goup,
             }}> 
             {children}
         </NavbarSelectContext.Provider>

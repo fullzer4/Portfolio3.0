@@ -21,7 +21,7 @@ export default function App() {
   return (
       <div className={themefundo}>
         <Intro/>
-        <div className="Page">
+        <div id="Page">
           <Navbar/>
           <div className={pageHome}>
             <Home/>

@@ -8,11 +8,10 @@ export default function Rodape() {
 
     const {buttonfooter} = useContext(SwitchLanguageContext)
     const {buttonupfooter} = useContext(SwitchThemeContext)
-    const {goup} = useContext(NavbarSelectContext)
 
     return (
         <div className="Rodape">
-            <button onClick={goup} className={buttonupfooter}>{buttonfooter}</button>
+            <a href="#navpush"><button className={buttonupfooter}>{buttonfooter}</button></a>
         </div>
     )
   }
