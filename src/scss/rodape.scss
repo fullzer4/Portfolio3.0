@@ -1,5 +1,24 @@
 .Rodape{
-    border-top: 2px solid #252525;
     width: 100%;
     padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .Buttonfooter{
+        background: rgba(65, 65, 65, 0.3);
+        border-radius: 25px;
+        cursor: pointer;
+        height: 4rem;
+        width: 16rem;
+        text-align: center; 
+        color: #CBCACA;
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }

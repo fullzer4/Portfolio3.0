@@ -16,7 +16,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [themetituloabout, setThemetituloabout] = useState("About-me-texto-titulo")
     var [themedescricaoabout, setThemedescricaoabout] = useState("")
     var [buttonprojetosobre, setButtonprojetosobre] = useState("")
-
+    var [buttonupfooter, setButtonupfooter] = useState("Buttonfooter")
 
     function mudarcor(){
         if(theme === "dark"){
@@ -33,6 +33,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
             setButtonprojetosobre("button-light")
             setThemetituloabout("About-me-texto-titulo titulo-light")
             setThemedescricaoabout("lightdescri")
+            setButtonupfooter("Buttonfooter buttonlight")
         }else{
             setTheme("dark")
             setThemeativo("Theme-button-button")
@@ -47,6 +48,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
             setButtonprojetosobre("")
             setThemetituloabout("About-me-texto-titulo")
             setThemedescricaoabout("")
+            setButtonupfooter("Buttonfooter")
         }   
     }
     
@@ -64,7 +66,8 @@ export const SwitchThemeProvider = ({ children }: any) => {
             cardhometheme,
             themedescricaoabout,
             themetituloabout,
-            buttonprojetosobre                      
+            buttonprojetosobre,
+            buttonupfooter                      
             }}> 
             {children}
         </SwitchThemeContext.Provider>
