@@ -81,6 +81,9 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <div  className="Video-sobremim">
+                <p>Video Trajetória</p>
+            </div>
         </div>
     )
   }

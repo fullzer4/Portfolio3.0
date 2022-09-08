@@ -190,19 +190,66 @@
                 }
             }
         }
-        .Tencinal-Softskills{
+    }
+    .Tencinal-Softskills{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px; 
+        .Tencinal-Softskills-title{
             display: flex;
-            flex-direction: column; 
-            .Tencinal-Softskills-title{
-                .titulo{
-
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .titulo{
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 2.5rem;
+                color: #CBCACA;
+                transition: 1s ease-in-out;
+            }
+        }
+        .Tencinal-Softskills-itens{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            .itens{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                height: 20rem;
+                margin-top: 40px;
+                p{
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 1.5rem;
+                    color: #CBCACA;
+                    transition: 1s ease-in-out;
+                    min-width: 33%;
+                    text-align: center;
+                }
+                p:hover{
+                    transform: scale(1.1);
                 }
             }
-            .Tencinal-Softskills-itens{
-                .itens{
-                    
-                }
-            }
+        }
+    }
+    .Video-sobremim{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 60px;
+        p{
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.5rem;
+            color: #CBCACA;
+            transition: 1s ease-in-out;
+            text-align: center;
         }
     }
 }
