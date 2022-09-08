@@ -63,6 +63,24 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            <div  className="Tencinal-Softskills">
+                <div  className="Tencinal-Softskills-title">
+                    <p className="titulo">SoftSkills</p>
+                </div>
+                <div  className="Tencinal-Softskills-itens">
+                    <div className="itens">
+                        <p>Comunicativo</p>
+                        <p>Organizado</p>
+                        <p>Criatvo</p>
+                        <p>Flexivel</p>
+                        <p>Empatico</p>
+                        <p>Resilencia</p>
+                        <p>Resolver problemas</p>
+                        <p>Coordenar</p>
+                        <p>Colaborativo</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
   }
