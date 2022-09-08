@@ -10,7 +10,7 @@ export default function SchoolIcon(){
             </g>
             <defs>
             <clipPath id="clip0_718_409">
-            <rect width="40" height="40" fill="white"/>
+                <rect width="40" height="40" fill="white"/>
             </clipPath>
             </defs>
         </svg>

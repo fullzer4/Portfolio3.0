@@ -63,3 +63,22 @@
         }
     }
 }
+.Tecmoca-Habilities{
+    display: flex;
+    flex-direction: column;
+    .Tencinal-Habilities-title{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .titulo{
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: #CBCACA;
+        transition: 1s ease-in-out;
+    }
+}

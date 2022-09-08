@@ -22,7 +22,7 @@ export default function About() {
             </div>
             <div  className="Tencinal-Habilities">
                 <div  className="Tencinal-Habilities-title">
-                    <p>Habilidades Tecnicas</p>
+                    <p className="titulo">Habilidades Tecnicas</p>
                 </div>
                 <div  className="Tencinal-Habilities-itens">
                     <div className="coluna-esq">
