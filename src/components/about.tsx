@@ -28,37 +28,37 @@ export default function About() {
                     <div className="coluna-esq">
                         <div className="iten">
                             <p>HTML</p>
-                            <div className="iten-porcentagem"><div className="porcentagem"></div></div>
+                            <div className="iten-porcentagem"><div className="porcentagem-Html"></div></div>
                         </div>
                         <div className="iten">
                             <p>CSS</p>
-                            <div className="iten-porcentagem"><div className="porcentagem"></div></div>
+                            <div className="iten-porcentagem"><div className="porcentagem-Css"></div></div>
                         </div>
                         <div className="iten">
                             <p>SCSS</p>
-                            <div className="iten-porcentagem"><div className="porcentagem"></div></div>
+                            <div className="iten-porcentagem"><div className="porcentagem-Scss"></div></div>
                         </div>
                         <div className="iten">
                             <p>Javascript</p>
-                            <div className="iten-porcentagem"><div className="porcentagem"></div></div>
+                            <div className="iten-porcentagem"><div className="porcentagem-Javascript"></div></div>
                         </div>
                     </div>
                     <div className="coluna-dir">
                         <div className="iten">
                             <p>Typescript</p>
-                            <div className="iten-porcentagem"><div className="porcentagem"></div></div>
+                            <div className="iten-porcentagem"><div className="porcentagem-Typescript"></div></div>
                         </div>
                         <div className="iten">
                             <p>React</p>
-                            <div className="iten-porcentagem"><div className="porcentagem"></div></div>
+                            <div className="iten-porcentagem"><div className="porcentagem-React"></div></div>
                         </div>
                         <div className="iten">
                             <p>Python</p>
-                            <div className="iten-porcentagem"><div className="porcentagem"></div></div>
+                            <div className="iten-porcentagem"><div className="porcentagem-Python"></div></div>
                         </div>
                         <div className="iten">
                             <p>Nodejs</p>
-                            <div className="iten-porcentagem"><div className="porcentagem"></div></div>
+                            <div className="iten-porcentagem"><div className="porcentagem-Nodejs"></div></div>
                         </div>
                     </div>
                 </div>
