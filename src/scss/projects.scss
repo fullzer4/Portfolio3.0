@@ -1,0 +1,85 @@
+.Projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .Project-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        .Project-apresentation{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 2rem;
+            margin-bottom: 45px;
+            .Project-text{
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                .titulo{
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 2.5rem;
+                    color: #CBCACA;
+                    transition: 1s ease-in-out;
+                }
+                .texto{
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 1.25rem;
+                    color: #CBCACA;
+                    transition: 1s ease-in-out;
+                }
+                .descri{
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 1.25rem;
+                    color: #CBCACA;
+                    transition: 1s ease-in-out;
+                }
+            }
+            .Project-img{
+                display: flex;
+                flex-direction: column;
+                width: 150%;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 22rem;
+            }
+            .SA{
+                background-image: url(../imgs/SAtermo.svg);
+                border-radius: 15px;
+            }
+            .TD{
+                background-image: url(../imgs/Todolist.svg);
+                border-radius: 15px;
+                width: 325%;
+            }
+        }
+        .Project-website{
+            width: 100%;
+            height: 40rem;
+            margin-bottom: 45px;
+            iframe{
+                width: 100%;
+                height: 100%;
+                border: none;
+                border-radius: 15px;
+            }
+        }
+    }
+    hr{
+        width: 75%;
+        height: 2px;
+        background-color: #CBCACA;
+        border-radius: 25px;
+        margin-bottom: 45px;
+    }
+}
