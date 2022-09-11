@@ -168,3 +168,59 @@
         transform: translateY(0px);
     }
 }
+
+@media screen and (max-width: 750px){
+    .Intro{
+        .Icons{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 535px){
+    .Intro{
+        .Titulo{
+            h1{
+                font-size: 5.5rem;
+            }
+        }
+        .Icons{
+            width: 100%;
+            .icon{
+                height: 3.25rem;
+                width: 3.25rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 305px){
+    .Intro{
+        .Twitch{
+            .changelang{
+                width: 6rem;
+                .changelang-text{
+                    font-size: 14px;
+                }
+            }
+        }
+        .Titulo{
+            h1{
+                font-size: 3.5rem;
+            }
+        }
+        .Icons{
+            width: 100%;
+            .icon{
+                height: 2.5rem;
+                width: 2.5rem;
+            }
+        }
+        .Arrow{
+            .icon-arrow{
+                height: 1.75rem;
+                width: 3.5rem;
+            }
+        }
+    }
+}
