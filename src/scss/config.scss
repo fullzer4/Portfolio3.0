@@ -4,6 +4,8 @@
     left: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
     background: rgba(11, 10, 10, 0.486);
@@ -12,4 +14,54 @@
 }
 .escondidoC{
     display: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background: #191919;
+    border-radius: 15px;
+    width: 45rem;
+    height: 35rem;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .close-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        button{
+            background: rgba(0, 0, 0, 0.15);
+            border-radius: 15px;
+            width: 6rem;
+            height: 2rem;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #CBCACA;
+            cursor: pointer;
+        }
+    }
+    .options-div{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .options-lingua{
+            background: red;
+            width: 2rem;
+            height: 2rem;
+        }
+        .options-tema{
+            background: red;
+            width: 2rem;
+            height: 2rem;
+        }
+    }
 }

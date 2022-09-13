@@ -9,7 +9,21 @@ export default function Config() {
     return (
         <div className={menuconfig}>
             <div className="menu">
-                <button onClick={()=>openconfig(2)}>fechar</button>
+                <div className="close-div"><button onClick={()=>openconfig(2)}>Fechar</button></div>
+                <div className="options-div">
+                    <div className="options-lingua">
+
+                    </div>
+                    <div className="options-tema">
+
+                    </div>
+                </div>
+                <div className="preview-div">
+
+                </div>
+                <div className="tec-div">
+
+                </div>
             </div>
         </div>
     )
