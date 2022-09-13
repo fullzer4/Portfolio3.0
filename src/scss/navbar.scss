@@ -22,6 +22,19 @@
         padding-right: 30px;
         transition: 1s ease-in-out;
     }
+    .config{
+        width: 2rem;
+        height: 2.25rem;
+        border-left: 2px solid #DDDDDD;
+        display: flex;
+        align-items: center;
+        .config-img{
+            margin-left: 35px;
+            height: 2rem;
+            width: 2rem;
+            cursor: pointer;
+        }
+    }
     .navlight{
         background: #2D2B2B;
     }

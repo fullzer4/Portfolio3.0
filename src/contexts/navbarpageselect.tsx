@@ -15,6 +15,7 @@ export const NavbarSelectProvider = ({ children }: any) => {
     const [pageLivros, setPageLivros] = useState("pagina-desativada")
     const [pageCertificados, setPageCertificados] = useState("pagina-desativada")
     const [pageAcademico, setPageAcademico] = useState("pagina-desativada")
+    const [menuconfig, setMenuconfig] = useState("escondidoC")
 
     function resetall(){
         setNavbarHome("icon-nav-home")
@@ -40,8 +41,18 @@ export const NavbarSelectProvider = ({ children }: any) => {
         if(number === 6){ resetall(), setNavbarAcademico("icon-nav-academico icon-ativo-stroke"), setPageAcademico("pagina-ativada")}
     }
 
+    function openconfig(number:number){
+        if(number === 1){
+            setMenuconfig("openC")
+        }if(number === 2){
+            setMenuconfig("escondidoC")
+        }
+    }
+
     return(
         <NavbarSelectContext.Provider value={{
+            openconfig,
+            menuconfig,
             pageselector,
             navbarHome,
             navbarSobre,

@@ -9,18 +9,15 @@ import HomeIcon from "../imgs/HomeIcon"
 import ProjectIcon from "../imgs/projectIcon"
 import SchoolIcon from "../imgs/schoolIcon"
 import "../scss/navbar.scss"
+import config from "../imgs/config.svg"
 
 export default function Navbar() {
     const {mudarcor, themeativo,themenav, themelangnav, themebuttonnav} = useContext(SwitchThemeContext)
     const {langswitcher, lang, imglang} = useContext(SwitchLanguageContext)
-    const {pageselector} = useContext(NavbarSelectContext)
+    const {pageselector, openconfig} = useContext(NavbarSelectContext)
 
     return (
         <div className="Navbar" id="navpush">
-            <div onClick={langswitcher} className={themelangnav}>
-                <div className={imglang}/>
-                <p className="changelang-text">{lang}</p>
-            </div>
             <div className={themenav}>
                 <div onClick={() => pageselector(1)}><HomeIcon/></div>
                 <div onClick={() => pageselector(2)}><AboutIcon/></div>
@@ -28,9 +25,7 @@ export default function Navbar() {
                 <div onClick={() => pageselector(4)}><BooksIcon/></div>
                 <div onClick={() => pageselector(5)}><CertificadosIcon/></div>
                 <div onClick={() => pageselector(6)}><SchoolIcon/></div>
-            </div>
-            <div className={themebuttonnav} onClick={()=> mudarcor()}>
-                <button className={themeativo}/>
+                <div className="config" onClick={() => openconfig(1)}><img src={config} className="config-img"></img></div>
             </div>
         </div>
     )

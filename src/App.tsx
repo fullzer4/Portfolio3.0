@@ -3,6 +3,7 @@ import About from "./components/about"
 import Academico from "./components/academico"
 import Books from "./components/books"
 import Certificados from "./components/certificados"
+import Config from "./components/config"
 import Home from "./components/home"
 import Intro from "./components/intro"
 import Navbar from "./components/navbar"
@@ -22,6 +23,7 @@ export default function App() {
       <div className={themefundo}>
         <Intro/>
         <div id="Page">
+          <Config/>
           <Navbar/>
           <div className={pageHome}>
             <Home/>
