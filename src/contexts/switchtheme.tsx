@@ -18,6 +18,14 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [buttonprojetosobre, setButtonprojetosobre] = useState("")
     var [buttonupfooter, setButtonupfooter] = useState("Buttonfooter")
 
+    const optionsTheme = [
+        { value: 'chocolate', label: 'Chocolate' },
+        { value: 'strawberry', label: 'Strawberry' },
+        { value: 'vanilla', label: 'Vanilla' }
+      ]
+
+
+
     function mudarcor(){
         if(theme === "dark"){
             setTheme("light")
@@ -67,7 +75,8 @@ export const SwitchThemeProvider = ({ children }: any) => {
             themedescricaoabout,
             themetituloabout,
             buttonprojetosobre,
-            buttonupfooter                      
+            buttonupfooter,
+            optionsTheme         
             }}> 
             {children}
         </SwitchThemeContext.Provider>

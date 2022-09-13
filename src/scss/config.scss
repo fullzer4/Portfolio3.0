@@ -55,13 +55,19 @@
         justify-content: space-around;
         .options-lingua{
             background: red;
-            width: 2rem;
+            width: 10rem;
             height: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .options-tema{
             background: red;
-            width: 2rem;
+            width: 10rem;
             height: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     }
 }
