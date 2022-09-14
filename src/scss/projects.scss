@@ -20,6 +20,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 25px;
+                width: 80vw;
                 .titulo{
                     font-family: 'Comfortaa';
                     font-style: normal;
@@ -48,7 +49,9 @@
             .Project-img{
                 display: flex;
                 flex-direction: column;
-                height: 22rem;
+                img{
+                    border-radius: 15px;
+                }
             }
         }
         .Project-website{
