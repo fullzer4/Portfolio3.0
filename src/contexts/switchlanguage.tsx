@@ -16,16 +16,16 @@ export const SwitchLanguageProvider = ({ children }: any) => {
     const [descricaoaboutme, setDescricaoaboutme] = useState("Esse de camiseta branca sou eu em 2020 e foi ai quando eu comecei a me apaixonar por programação, comecei a estudar programação em 2018 numa start-up chamada IDoCode e sinceramente no início eu não gostava de programação mas em 2019 quando eu comecei a fazer projetos junto com meus amigos acabei decidindo que esse ia ser o foco para a minha vida.")
     const [buttonaboutme, setButtonaboutme] = useState("Ver projetos")
     const [buttonfooter, setButtonfooter] = useState("🥳 Para cima 🥳")
-
     const optionsLanguage = [
-        { value: 'ptbr', label: 'Portugues brasileiro'},
+        { value: 'ptbr', label: 'Portugues'},
         { value: 'eng', label: 'English' },
         { value: 'esp', label: 'Español' },
-        { value: 'chn', label: 'Español' },
-        { value: 'esp', label: 'Español' },
-      ] 
-
-
+    ] 
+    const [langval, setLangval] = useState(optionsLanguage[0])
+    function test(){
+        console.log(langval)
+    }
+    
     function langswitcher(){
         if(lang === "PT-BR"){
             setLang("ENG")
@@ -88,6 +88,9 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             descricaoaboutme,
             buttonaboutme,
             buttonfooter,
+            optionsLanguage,
+            setLangval,
+            test,
             }}> 
             {children}
         </SwitchLanguageContext.Provider>

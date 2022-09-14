@@ -17,12 +17,15 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [themedescricaoabout, setThemedescricaoabout] = useState("")
     var [buttonprojetosobre, setButtonprojetosobre] = useState("")
     var [buttonupfooter, setButtonupfooter] = useState("Buttonfooter")
-
     const optionsTheme = [
         { value: 'dark', label: 'Dark'},
         { value: 'light', label: 'Light' },
         { value: 'pink', label: 'Pink' }
-      ]
+    ]
+    var [thmval, setThmval] = useState(optionsTheme[0])
+    function test2(){
+        console.log(thmval)
+    }
 
 
 
@@ -76,7 +79,10 @@ export const SwitchThemeProvider = ({ children }: any) => {
             themetituloabout,
             buttonprojetosobre,
             buttonupfooter,
-            optionsTheme         
+            optionsTheme,
+            thmval,
+            setThmval,
+            test2
             }}> 
             {children}
         </SwitchThemeContext.Provider>
