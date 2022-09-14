@@ -8,7 +8,7 @@ import { SwitchLanguageContext } from "../contexts/switchlanguage"
 export default function Config() {
   
     const {menuconfig, openconfig} = useContext(NavbarSelectContext)
-    const {optionsTheme, setThmval, thmval, test2, verificartema} = useContext(SwitchThemeContext)
+    const {optionsTheme, setThmval, thmval, verificartema} = useContext(SwitchThemeContext)
     const {optionsLanguage, setLangval, langval, verificarlingua} = useContext(SwitchLanguageContext)
 
     function mudarlingua(e:any){
@@ -38,7 +38,6 @@ export default function Config() {
                 <div className="preview-div">
                 </div>
                 <div className="tec-div">
-                <button onClick={()=>test2()}>teste</button>
                 </div>
             </div>
         </div>

@@ -23,9 +23,6 @@ export const SwitchThemeProvider = ({ children }: any) => {
         { value: 'pink', label: 'Pink' }
     ]
     var [thmval, setThmval] = useState(optionsTheme[0])
-    function test2(){
-        console.log(thmval)
-    }
     const dark =  optionsTheme[0]
     const Fdark:any =  dark.value
     const light =  optionsTheme[1]
@@ -97,7 +94,6 @@ export const SwitchThemeProvider = ({ children }: any) => {
             optionsTheme,
             thmval,
             setThmval,
-            test2,
             verificartema,
             }}> 
             {children}
