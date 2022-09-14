@@ -28,7 +28,6 @@ export default function Home() {
     }else{
         textrestcardgit = `${reposgit} projects and practices posted.`
         textrestcarddiscord = `${onlinediscord} people online.`
-    
     }
 
     return (

@@ -8,8 +8,18 @@ import { SwitchLanguageContext } from "../contexts/switchlanguage"
 export default function Config() {
   
     const {menuconfig, openconfig} = useContext(NavbarSelectContext)
-    const {optionsTheme, setThmval, thmval, test2} = useContext(SwitchThemeContext)
-    const {optionsLanguage, setLangval, test, langval} = useContext(SwitchLanguageContext)
+    const {optionsTheme, setThmval, thmval, test2, verificartema} = useContext(SwitchThemeContext)
+    const {optionsLanguage, setLangval, langval, verificarlingua} = useContext(SwitchLanguageContext)
+
+    function mudarlingua(e:any){
+        setLangval(e)
+        verificarlingua(e.value)
+    }
+
+    function mudartema(e:any){
+        setThmval(e)
+        verificartema(e.value)
+    }
 
     return (
         <div className={menuconfig}>
@@ -18,15 +28,14 @@ export default function Config() {
                 <div className="options-div">
                     <div className="options-lingua">
                         <p>Temas</p>
-                        <Select options={optionsTheme} defaultValue={optionsTheme[0]} value={thmval} onChange={(e)=>setThmval(e)}/>
+                        <Select options={optionsTheme} defaultValue={optionsTheme[0]} value={thmval} onChange={(e)=>mudartema(e)}/>
                     </div>
                     <div className="options-tema">
                         <p>Linguas</p>
-                        <Select options={optionsLanguage} defaultValue={optionsLanguage[0]} value={langval} onChange={(e)=>setLangval(e)}/>
+                        <Select options={optionsLanguage} defaultValue={optionsLanguage[0]} value={langval} onChange={(e)=>mudarlingua(e)}/>
                     </div>
                 </div>
                 <div className="preview-div">
-                    <button onClick={()=>test()}>teste</button>
                 </div>
                 <div className="tec-div">
                 <button onClick={()=>test2()}>teste</button>
