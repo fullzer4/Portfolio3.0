@@ -17,7 +17,13 @@ export const SwitchLanguageProvider = ({ children }: any) => {
     const [buttonaboutme, setButtonaboutme] = useState("Ver projetos")
     const [buttonfooter, setButtonfooter] = useState("🥳 Para cima 🥳")
 
-
+    const optionsLanguage = [
+        { value: 'ptbr', label: 'Portugues brasileiro'},
+        { value: 'eng', label: 'English' },
+        { value: 'esp', label: 'Español' },
+        { value: 'chn', label: 'Español' },
+        { value: 'esp', label: 'Español' },
+      ] 
 
 
     function langswitcher(){

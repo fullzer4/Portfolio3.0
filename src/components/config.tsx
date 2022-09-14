@@ -16,7 +16,7 @@ export default function Config() {
                 <div className="options-div">
                     <div className="options-lingua">
                         <p>Linguas</p>
-                        <Select options={optionsTheme}/>
+                        <Select defaultValue={optionsTheme[0]} options={optionsTheme}/>
                     </div>
                     <div className="options-tema">
                         <p>Temas</p>

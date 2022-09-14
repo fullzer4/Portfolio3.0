@@ -19,9 +19,9 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [buttonupfooter, setButtonupfooter] = useState("Buttonfooter")
 
     const optionsTheme = [
-        { value: 'chocolate', label: 'Chocolate' },
-        { value: 'strawberry', label: 'Strawberry' },
-        { value: 'vanilla', label: 'Vanilla' }
+        { value: 'dark', label: 'Dark'},
+        { value: 'light', label: 'Light' },
+        { value: 'pink', label: 'Pink' }
       ]
 
 
