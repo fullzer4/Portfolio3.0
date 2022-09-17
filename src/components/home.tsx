@@ -6,6 +6,9 @@ import "../scss/home.scss"
 import { DiscordContext } from "../services/apidiscord"
 import { GithubContext } from "../services/apigithub"
 import { YoutubeContext } from "../services/apiyotube"
+import email from "../imgs/email.svg"
+import whats from "../imgs/whatsapp.svg"
+import discord from "../imgs/discord.svg"
 
 export default function Home() {
     
@@ -60,11 +63,19 @@ export default function Home() {
                     <a href={urlyoutube} className="buttom-card">{cardbutton}</a>
                 </div>
             </div>
-            <div className="send-email">
-                <p>Me mande um email</p>
-                <form action="POST">
-                    
-                </form>
+            <div className="Contact">
+                <p>Entre em contato</p>
+                <div className="Contatos">
+                    <div className="card-Contact">
+                        <img src={email}/><a href="mailto:gabrielpelizzaro@gmail.com?subject=subject text">gabrielpelizzaro</a>
+                    </div>
+                    <div className="card-Contact">
+                        <img src={discord}/><p>yFullzer4#7647</p>
+                    </div>
+                    <div className="card-Contact">
+                        <img src={whats}/><p>48 98816 8894</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

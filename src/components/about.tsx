@@ -3,6 +3,7 @@ import { NavbarSelectContext } from "../contexts/navbarpageselect"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import { SwitchThemeContext } from "../contexts/switchtheme"
 import "../scss/about.scss"
+import video from "../imgs/video.mp4"
 
 export default function About() {
 
@@ -81,8 +82,11 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div  className="Video-sobremim">
+            <div className="Video-sobremim">
                 <p>Video Trajetória</p>
+                <div className="Video-sobremim-video">
+                    <iframe src="https://www.youtube.com/embed/sE-PTexvWLQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                </div>
             </div>
         </div>
     )

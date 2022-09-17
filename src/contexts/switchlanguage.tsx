@@ -11,7 +11,7 @@ export const SwitchLanguageProvider = ({ children }: any) => {
     const [cardtexthomeyoutube, setCardtexthomeyoutube] = useState("Criei esse canal para ajudar pessoas em programação, hoje tenho postado mais de")
     const [cardbutton, setCardbutton] = useState("Entrar")
     const [tituloaboutme, setTituloaboutme] = useState("Mais sobre mim")
-    const [descricaoaboutme, setDescricaoaboutme] = useState("Esse de camiseta branca sou eu em 2020 e foi ai quando eu comecei a me apaixonar por programação, comecei a estudar programação em 2018 numa start-up chamada IDoCode e sinceramente no início eu não gostava de programação mas em 2019 quando eu comecei a fazer projetos junto com meus amigos acabei decidindo que esse ia ser o foco para a minha vida.")
+    const [descricaoaboutme, setDescricaoaboutme] = useState("Esse de camiseta branca sou eu em 2020 e foi ai quando eu comecei a me apaixonar por programação, comecei a estudar programação em 2016 junto do meu pai e em 2018 entrei numa start-up chamada IDoCode e sinceramente no início eu não gostava de programação mas em 2019 quando eu comecei a fazer projetos junto com meus amigos acabei decidindo que esse ia ser o foco para a minha vida.")
     const [buttonaboutme, setButtonaboutme] = useState("Ver projetos")
     const [buttonfooter, setButtonfooter] = useState("🥳 Para cima 🥳")
     const optionsLanguage = [
@@ -37,7 +37,7 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setCardtexthomeyoutube("Criei esse canal para ajudar pessoas em programação, hoje tenho postado mais de")
             setCardbutton("Entrar")
             setTituloaboutme("Mais sobre mim")
-            setDescricaoaboutme("Esse de camiseta branca sou eu em 2020 e foi ai quando eu comecei a me apaixonar por programação, comecei a estudar programação em 2018 numa start-up chamada IDoCode e sinceramente no início eu não gostava de programação mas em 2019 quando eu comecei a fazer projetos junto com meus amigos acabei decidindo que esse ia ser o foco para a minha vida.")
+            setDescricaoaboutme("Esse de camiseta branca sou eu em 2020 e foi ai quando eu comecei a me apaixonar por programação, comecei a estudar programação em 2016 junto do meu pai e em 2018 entrei numa start-up chamada IDoCode e sinceramente no início eu não gostava de programação mas em 2019 quando eu comecei a fazer projetos junto com meus amigos acabei decidindo que esse ia ser o foco para a minha vida.")
             setButtonaboutme("Ver projetos")
             setButtonfooter("🥳 Para cima 🥳")
         }if(ver == Feng){
@@ -49,7 +49,7 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setCardtexthomeyoutube("I created this channel to help people with coding, today I have posted more than")
             setCardbutton("Join")
             setTituloaboutme("More about me")
-            setDescricaoaboutme("The one in the white t-shirt is me in 2020 and that's when I started to fall in love with programming, I started studying programming in 2018 at a start-up called IDoCode and honestly at first I didn't like programming but in 2019 when I started doing projects with my friends I ended up deciding that this was going to be the focus for my life.")
+            setDescricaoaboutme("The one in the white t-shirt is me in 2020 and that's when I started to fall in love with programming, I started studying programming in 2016 with my father and in 2018 I joined a start-up called IDoCode and honestly at first I didn't like programming but in 2019 when I started doing projects together with my friends I ended up deciding that this was going to be the focus for my life.")
             setButtonaboutme("View projects")
             setButtonfooter("🥳 Go up 🥳")
         }if(ver == Fesp){
@@ -61,7 +61,7 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setCardtexthomeyoutube("Criei esse canal para ajudar pessoas em programação, hoje tenho postado mais de")
             setCardbutton("Entrar")
             setTituloaboutme("Mais sobre mim")
-            setDescricaoaboutme("Esse de camiseta branca sou eu em 2020 e foi ai quando eu comecei a me apaixonar por programação, comecei a estudar programação em 2018 numa start-up chamada IDoCode e sinceramente no início eu não gostava de programação mas em 2019 quando eu comecei a fazer projetos junto com meus amigos acabei decidindo que esse ia ser o foco para a minha vida.")
+            setDescricaoaboutme("Esse de camiseta branca sou eu em 2020 e foi ai quando eu comecei a me apaixonar por programação, comecei a estudar programação em 2016 junto do meu pai e em 2018 entrei numa start-up chamada IDoCode e sinceramente no início eu não gostava de programação mas em 2019 quando eu comecei a fazer projetos junto com meus amigos acabei decidindo que esse ia ser o foco para a minha vida.")
             setButtonaboutme("Ver projetos")
             setButtonfooter("🥳 Para cima 🥳")
         }
