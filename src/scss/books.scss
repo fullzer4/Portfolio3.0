@@ -1,0 +1,52 @@
+.Books{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    .Books-titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 25px;
+        h2{
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.5rem;
+            color: #CBCACA;
+            transition: 1s ease-in-out;
+        }
+    }
+    .books-card{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        gap: 25px;
+        .book-text{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            .book-text-titulo{
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 2.25rem;
+                color: #CBCACA;
+                transition: 1s ease-in-out;
+            }
+            .book-text-descri{
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 1.75rem;
+                color: #CBCACA;
+                transition: 1s ease-in-out;
+            }
+        }
+    }
+    .reverse{
+        flex-direction: row-reverse;
+    }
+}

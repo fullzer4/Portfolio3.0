@@ -45,6 +45,23 @@
                     color: #CBCACA;
                     transition: 1s ease-in-out;
                 }
+                a{
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 1.25rem;
+                    color: #CBCACA;
+                    background: #252525;
+                    border-radius: 15px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    width: 15rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
             }
             .Project-img{
                 display: flex;
