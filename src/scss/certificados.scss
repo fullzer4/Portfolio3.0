@@ -1,0 +1,20 @@
+.Certificados{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    .Cert-titulo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        h2{
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.5rem;
+            color: #CBCACA;
+            transition: 1s ease-in-out;
+        }
+    }
+}
