@@ -1,4 +1,21 @@
 .Academico-page{
     display: flex;
     margin-bottom: 45px;
+    flex-direction: column;
+    align-items: center;
+    .Academico{
+        display: flex;
+        flex-direction: column;
+    }
+    .Escolar{
+        display: flex;
+        flex-direction: column;
+    }
+    .Artigos{
+        display: flex;
+        flex-direction: column;
+    }
+    .NonePage{
+        display: none;
+    }
 }
