@@ -8,6 +8,7 @@ import { DiscordProvider } from './services/apidiscord'
 import { YoutubeProvider } from './services/apiyotube'
 import { TwitchProvider } from './services/apitwitch'
 import { NavbarSelectProvider } from './contexts/navbarpageselect'
+import { SwitchAcademicProvider } from './contexts/switchacademic'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -17,9 +18,11 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
           <YoutubeProvider>
             <SwitchThemeProvider>
               <SwitchLanguageProvider>
-                <NavbarSelectProvider>
-                  <App />
-                </NavbarSelectProvider>
+                <SwitchAcademicProvider>
+                  <NavbarSelectProvider>
+                    <App />
+                  </NavbarSelectProvider>
+                </SwitchAcademicProvider>
               </SwitchLanguageProvider>
             </SwitchThemeProvider>
           </YoutubeProvider>
