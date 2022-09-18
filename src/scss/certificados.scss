@@ -17,4 +17,57 @@
             transition: 1s ease-in-out;
         }
     }
+    .Cert-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        .cert{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 45px;
+            margin-bottom: 25px;
+            gap: 25px;
+            .cert-text{
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                .title{
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 2.25rem;
+                    color: #CBCACA;
+                    transition: 1s ease-in-out;
+                }
+                .desc{
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 1.35rem;
+                    color: #CBCACA;
+                    transition: 1s ease-in-out;
+                }
+            }
+            .cert-img{
+                width: 100%;
+                display: flex;
+                img{
+                    border-radius: 15px;
+                    width: 40rem;
+                }
+            }
+            .badge{
+                width: 25rem;
+            }
+            .page{
+                width: auto;
+                height: 30rem;
+            }
+        }
+        .reverse{
+            flex-direction: row-reverse;
+        }
+    }
 }
