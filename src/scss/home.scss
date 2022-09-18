@@ -212,3 +212,27 @@
 .card:hover{
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 1050px){
+    .Home{
+        .Resumo-Home{
+            flex-direction: column-reverse;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .Resumo-Redes{
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }   
+        .Contact{
+            .Contatos{
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+            }
+        }
+    }
+}

@@ -267,29 +267,11 @@
     .Navbar{
         padding-right: 10px;
         padding-left: 10px;
-        .brazil-icon{
-            margin-right: 0px;
-        }
-        .states-icon{
-            margin-right: 0px;
-        }
-        .changelang-text{
-            display: none;
-            width: 0;
-        }
-        .changelang-nav{
-            padding-right: 0;
-            padding-left: 0;
-            width: 5rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
         .Navbar-nav{
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-right: 20px;
             padding-left: 10px;
-            padding-right: 10px;
         }
         .icon-nav-home{
             width: 1.75rem;
@@ -318,8 +300,65 @@
         .icon-ativo{
             transform: scale(1.2);
         }
-        .Theme-button{
-            display: none;
+        .config{
+            .config-img{
+                margin-left: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px){
+    .Navbar{
+        .config{
+            .config-img{
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 325px){
+    .Navbar{
+        padding-right: 5px;
+        padding-left: 5px;
+        .Navbar-nav{
+            margin-left: 5px;
+            margin-right: 5px;
+            padding-right: 20px;
+            padding-left: 10px;
+        }
+        .icon-nav-home{
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+        .icon-nav-academico{
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+        .icon-nav-certificados{
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+        .icon-nav-livros{
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+        .icon-nav-projetos{
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+        .icon-nav-sobre{
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+        .icon-ativo{
+            transform: scale(1.5);
+        }
+        .config{
+            .config-img{
+                margin-left: 10px;
+            }
         }
     }
 }
