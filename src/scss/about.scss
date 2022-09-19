@@ -317,14 +317,21 @@
                 }
             }
         }
-        .Tencinal-Softskills{
-            .Tencinal-Softskills-itens{
-                .itens{
-                    justify-content: center;
-                    p{
-                        
-                    }
-                }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .About{
+        .About-me{
+            .About-me-texto{
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+        }
+        .Tencinal-Habilities{
+            .Tencinal-Habilities-title{ 
+                text-align: center;
             }
         }
     }
