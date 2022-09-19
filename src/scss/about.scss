@@ -320,6 +320,22 @@
     }
 }
 
+@media screen and (max-width: 1000px){
+    .About{
+        .Tencinal-Softskills{
+            .Tencinal-Softskills-itens{
+                .itens{
+                    gap: 20px;
+                    justify-content: center;
+                    p{
+                        min-width: 40%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 900px){
     .About{
         .About-me{
@@ -332,6 +348,23 @@
         .Tencinal-Habilities{
             .Tencinal-Habilities-title{ 
                 text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 635px){
+    .About{
+        .Tencinal-Softskills{
+            .Tencinal-Softskills-itens{
+                .itens{
+                    gap: 20px;
+                    justify-content: center;
+                    margin-bottom: 25px;
+                    p{
+                        min-width: 45%;
+                    }
+                }
             }
         }
     }
