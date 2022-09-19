@@ -170,8 +170,6 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
-                background: #252525;
-                border-radius: 15px;
                 padding-left: 10px;
                 padding-right: 10px;
                 padding-top: 15px;
@@ -232,6 +230,72 @@
                 justify-content: center;
                 align-items: center;
                 gap: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .About{
+        .About-me{
+            gap: 2rem;
+        }
+    }
+}
+@media screen and (max-width: 1050px){
+    .About{
+        .About-me{
+            gap: 2rem;
+            flex-direction: column;
+            .About-me-texto{
+                text-align: left;
+                justify-content: left;
+                align-items: flex-start;
+                margin-bottom: 25px;
+            }
+            
+        }
+        .Tencinal-Habilities{
+            .Tencinal-Habilities-itens{
+                flex-direction: column;
+                .coluna-esq{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 100%;
+                    gap: 25px;
+                    .iten{
+                        width: 80%;
+                        .iten-porcentagem{
+                            width: 100%;
+                        }
+                    }
+                }
+                .coluna-dir{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 100%;
+                    gap: 25px;
+                    .iten{
+                        width: 80%;
+                        .iten-porcentagem{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .Tencinal-Softskills{
+            .Tencinal-Softskills-itens{
+                .itens{
+                    justify-content: center;
+                    p{
+                        
+                    }
+                }
             }
         }
     }
