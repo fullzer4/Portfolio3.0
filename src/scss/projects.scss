@@ -20,7 +20,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 25px;
-                width: 80vw;
+                width: 80%;
                 .titulo{
                     font-family: 'Comfortaa';
                     font-style: normal;
@@ -66,6 +66,7 @@
             .Project-img{
                 display: flex;
                 flex-direction: column;
+                width: 40%;
                 img{
                     border-radius: 15px;
                 }
@@ -89,5 +90,13 @@
         background-color: #CBCACA;
         border-radius: 25px;
         margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 1320px){
+    .Projects{
+        .Project-card{
+            
+        }
     }
 }
