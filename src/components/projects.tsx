@@ -9,7 +9,7 @@ export default function Projects() {
             <div className="Project-card">
                 <div className="Project-apresentation">
                     <div className="Project-text">
-                        <p className="titulo">Situação de aprendizagem Calculadora Termodinamica</p>
+                        <p className="titulo">Calculadora Termodinamica</p>
                         <p className="texto">Nesse projeto nos foi proposto realizar apenas uma calculadora com calculos de termodinamica mas decidimos realizar um site onde podemos ver a teoria por tras desses calculos e ver analises em tempo real dos calculos que são mais usados em nosso site. Tecnologias usadas: Typescript, React, Css, Html, Nodejs, Firebase e mais alguns frameworks.</p>
                         <p className="descri">Site feito abaixo:</p>
                         <a href="https://github.com/fullzer4/TEC-SA-Senai-CTAI"> Ver Repositorio </a>

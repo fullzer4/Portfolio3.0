@@ -93,10 +93,20 @@
     }
 }
 
-@media screen and (max-width: 1320px){
+@media screen and (max-width: 1050px){
     .Projects{
         .Project-card{
-            
+            .Project-apresentation{
+                flex-direction: column-reverse;
+                .Project-text{
+                    text-align: center;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .Project-img{
+                    width: 80%;
+                }
+            }
         }
     }
 }
