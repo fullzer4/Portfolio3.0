@@ -102,10 +102,18 @@
                     text-align: center;
                     justify-content: center;
                     align-items: center;
+                    width: 100vw;
+                    padding-right: 25px;
+                    padding-left: 25px;
                 }
                 .Project-img{
-                    width: 80%;
+                    width: 80vw;
                 }
+            }
+            .Project-website{
+                width: 100vw;
+                padding-right: 25px;
+                padding-left: 25px;
             }
         }
     }
