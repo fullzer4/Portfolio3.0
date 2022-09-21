@@ -50,3 +50,19 @@
         flex-direction: row-reverse;
     }
 }
+
+@media screen and (max-width: 1050px){
+   .Books{
+    .Books-titulo{
+        text-align: center;
+    }
+    .books-card{
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+   }
+}
+
+@media screen and (max-width: 1050px){
+
+}
