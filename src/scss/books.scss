@@ -24,6 +24,9 @@
         width: 100%;
         align-items: center;
         gap: 25px;
+        .card-book img{
+            min-width: 2rem;
+        }
         .book-text{
             display: flex;
             flex-direction: column;
@@ -63,6 +66,15 @@
    }
 }
 
-@media screen and (max-width: 1050px){
-
+@media screen and (max-width: 465px){
+    .Books{
+        .books-card{
+            flex-direction: column;
+            margin-bottom: 45px;
+            .card-book img{
+                min-width: 1rem;
+                max-width: 20rem;
+            }
+        }
+    }
 }
