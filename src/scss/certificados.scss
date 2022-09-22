@@ -121,3 +121,21 @@
             }
         }
     }
+
+    @media screen and (max-width: 645px){
+        .Certificados{
+            .Cert-box{
+                .cert{
+                    .cert-img img{
+                        width: 25rem;
+                    }
+                    .badge img{
+                        width: 20rem;
+                    }
+                    .page{
+                        width: 15rem;
+                    }
+                }
+            }
+        }
+    }
