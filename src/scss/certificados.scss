@@ -73,6 +73,51 @@
 }
 
 @media screen and (max-width: 1115px){
+    .Certificados{
+        .Cert-box{
+            .cert{
+                .cert-img img{
+                    width: 30rem;
+                }
+                .badge img{
+                    width: 20rem;
+                }
+                .page{
+                    width: 20rem;
+                }
+            }
+        }
+    }
+}
 
-    
- }
+@media screen and (max-width: 1050px){
+        .Certificados{
+            .Cert-box{
+                .cert{
+                    flex-direction: column-reverse;
+                    justify-content: center;
+                    align-items: center;
+                    .cert-img{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .cert-text{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                    }
+                    .cert-img img{
+                        width: 35rem;
+                    }
+                    .badge img{
+                        width: 20rem;
+                    }
+                    .page img{
+                        width: 20rem;
+                    }
+                }
+            }
+        }
+    }
