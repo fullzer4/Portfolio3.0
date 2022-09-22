@@ -16,7 +16,7 @@ export default function Home() {
     const {urlgit, reposgit} = useContext(GithubContext)
     const {urldiscord, onlinediscord} = useContext(DiscordContext)
     const {urlyoutube} = useContext(YoutubeContext)
-    const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube} = useContext(SwitchLanguageContext)
+    const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube, entcontact} = useContext(SwitchLanguageContext)
     const {themetitulohome, themedescricaohome, buttonsobrehome, cardhometheme} = useContext(SwitchThemeContext)
     var textrestcardgit:any
     var textrestcarddiscord:any
@@ -24,6 +24,7 @@ export default function Home() {
     textrestcardgit = `${reposgit} projetos e praticas postadas.`
     textrestcarddiscord = `${onlinediscord} pessoas online.`
     
+    //refazer
     if(lang === "PT-BR"){
         textrestcardgit = `${reposgit} projetos e praticas postadas.`
         textrestcarddiscord = `${onlinediscord} pessoas online.`
@@ -64,7 +65,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="Contact">
-                <p>Entre em contato</p>
+                <p>{entcontact}</p>
                 <div className="Contatos">
                     <div className="card-Contact">
                         <img src={email}/><a href="mailto:gabrielpelizzaro@gmail.com?subject=subject text">gabrielpelizzaro</a>

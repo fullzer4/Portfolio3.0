@@ -32,7 +32,7 @@ export default function Config() {
                     </div>
                     <div className="options-tema">
                         <p>Linguas</p>
-                        <Select options={optionsLanguage} defaultValue={optionsLanguage[0]} value={langval} onChange={(e)=>mudarlingua(e)}/>
+                        <Select options={optionsLanguage} defaultValue={optionsLanguage[1]} value={langval} onChange={(e)=>mudarlingua(e)}/>
                     </div>
                 </div>
                 <div className="preview-div">

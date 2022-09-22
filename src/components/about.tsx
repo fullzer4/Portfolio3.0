@@ -3,12 +3,11 @@ import { NavbarSelectContext } from "../contexts/navbarpageselect"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import { SwitchThemeContext } from "../contexts/switchtheme"
 import "../scss/about.scss"
-import video from "../imgs/video.mp4"
 
 export default function About() {
 
     const {pageselector} = useContext(NavbarSelectContext)
-    const {tituloaboutme, descricaoaboutme, buttonaboutme} = useContext(SwitchLanguageContext)
+    const {tituloaboutme, descricaoaboutme, buttonaboutme, techab} = useContext(SwitchLanguageContext)
     const {themedescricaoabout, themetituloabout, buttonprojetosobre} = useContext(SwitchThemeContext)
 
     return (
@@ -23,7 +22,7 @@ export default function About() {
             </div>
             <div  className="Tencinal-Habilities">
                 <div  className="Tencinal-Habilities-title">
-                    <p className="titulo">Habilidades Tecnicas</p>
+                    <p className="titulo">{techab}</p>
                 </div>
                 <div  className="Tencinal-Habilities-itens">
                     <div className="coluna-esq">
