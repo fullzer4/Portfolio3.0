@@ -126,6 +126,9 @@
         .Certificados{
             .Cert-box{
                 .cert{
+                    .cert-text{
+                        width: calc(100vw - 45px);
+                    }
                     .cert-img img{
                         width: 25rem;
                     }
