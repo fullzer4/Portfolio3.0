@@ -13,9 +13,10 @@ import { NavbarSelectContext } from "./contexts/navbarpageselect"
 import { SwitchThemeContext } from "./contexts/switchtheme"
 import "./scss/index.scss"
 import "./scss/pages.scss"
+import AOS from "aos"
 
 export default function App() {
-
+  
   const {pageHome, pageSobre, pageProjetos, pageLivros, pageCertificados, pageAcademico} = useContext(NavbarSelectContext)
   const {themefundo} = useContext(SwitchThemeContext)
 
