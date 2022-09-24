@@ -14,10 +14,10 @@ export default function Home() {
     AOS.init({
         offset: 120, // offset (in px) from the original trigger point
         delay: 0, // values from 0 to 3000, with step 50ms
-        duration: 400, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
         easing: 'ease', // default easing for AOS animations
     });
-    
+
     const {pageselector} = useContext(NavbarSelectContext)
     const {urlgit, reposgit} = useContext(GithubContext)
     const {urldiscord, onlinediscord} = useContext(DiscordContext)
@@ -44,13 +44,13 @@ export default function Home() {
         <div className="Home">
             <div className="Resumo-Home">
                 <div className="Resumo-texto">
-                    <h2 className={themetitulohome}>{titlehome}</h2>
-                    <p className={themedescricaohome}>{subtitlehome}</p>
-                    <button onClick={() => pageselector(2)} className={buttonsobrehome}>{buttonhome}</button>
+                    <h2 className={themetitulohome} data-aos="fade-up" data-aos-delay="50">{titlehome}</h2>
+                    <p className={themedescricaohome} data-aos="fade-up" data-aos-delay="100">{subtitlehome}</p>
+                    <button onClick={() => pageselector(2)} className={buttonsobrehome} data-aos="fade-up" data-aos-delay="150">{buttonhome}</button>
                 </div>
-                <div className="Resumo-imagem"/>
+                <div data-aos="fade-up" data-aos-delay="150" className="Resumo-imagem"/>
             </div>
-            <div className="Resumo-Redes">
+            <div className="Resumo-Redes" data-aos="fade-up">
                 <div className={cardhometheme}>
                     <p className="title-card">Discord</p>
                     <div className="image-card discord"/>
@@ -71,15 +71,15 @@ export default function Home() {
                 </div>
             </div>
             <div className="Contact">
-                <p>{entcontact}</p>
+                <p data-aos="fade-up">{entcontact}</p>
                 <div className="Contatos">
-                    <div className="card-Contact">
+                    <div className="card-Contact" data-aos-delay="50" data-aos="fade-up">
                         <img src={email}/><a href="mailto:gabrielpelizzaro@gmail.com?subject=subject text">gabrielpelizzaro</a>
                     </div>
-                    <div className="card-Contact">
+                    <div className="card-Contact" data-aos-delay="100" data-aos="fade-up">
                         <img src={discord}/><p>yFullzer4#7647</p>
                     </div>
-                    <div className="card-Contact">
+                    <div className="card-Contact" data-aos-delay="150" data-aos="fade-up">
                         <img src={whats}/><p>48 98816 8894</p>
                     </div>
                 </div>

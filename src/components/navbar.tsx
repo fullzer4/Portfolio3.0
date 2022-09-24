@@ -10,14 +10,22 @@ import ProjectIcon from "../imgs/projectIcon"
 import SchoolIcon from "../imgs/schoolIcon"
 import "../scss/navbar.scss"
 import config from "../imgs/config.svg"
-
+import Aos from "aos"
 export default function Navbar() {
     const {mudarcor, themeativo,themenav, themelangnav, themebuttonnav} = useContext(SwitchThemeContext)
     const {langswitcher, lang, imglang} = useContext(SwitchLanguageContext)
     const {pageselector, openconfig} = useContext(NavbarSelectContext)
 
+    Aos.init({
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 3000, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+      });
+
+
     return (
-        <div className="Navbar" id="navpush">
+        <div className="Navbar" id="navpush" data-aos="fade-up">
             <div className={themenav}>
                 <div onClick={() => pageselector(1)}><HomeIcon/></div>
                 <div onClick={() => pageselector(2)}><AboutIcon/></div>
