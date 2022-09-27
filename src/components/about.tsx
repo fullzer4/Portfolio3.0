@@ -3,25 +3,26 @@ import { NavbarSelectContext } from "../contexts/navbarpageselect"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import { SwitchThemeContext } from "../contexts/switchtheme"
 import "../scss/about.scss"
+import AOS from "aos"
+
 
 export default function About() {
 
     const {pageselector} = useContext(NavbarSelectContext)
     const {tituloaboutme, descricaoaboutme, buttonaboutme, techab} = useContext(SwitchLanguageContext)
     const {themedescricaoabout, themetituloabout, buttonprojetosobre} = useContext(SwitchThemeContext)
-
     return (
         <div className="About">
             <div className="About-me">
                 <div className="About-me-image"/>
                 <div className="About-me-texto">
-                    <h2 className={themetituloabout}>{tituloaboutme}</h2>
-                    <p className={themedescricaoabout}>{descricaoaboutme}</p>
-                    <button className={buttonprojetosobre} onClick={() => pageselector(3)}>{buttonaboutme}</button>
+                    <h2 className={themetituloabout} >{tituloaboutme}</h2>
+                    <p className={themedescricaoabout} >{descricaoaboutme}</p>
+                    <button className={buttonprojetosobre} onClick={() => pageselector(3)} >{buttonaboutme}</button>
                 </div>
             </div>
             <div  className="Tencinal-Habilities">
-                <div  className="Tencinal-Habilities-title">
+                <div  className="Tencinal-Habilities-title" >
                     <p className="titulo">{techab}</p>
                 </div>
                 <div  className="Tencinal-Habilities-itens">

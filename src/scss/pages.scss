@@ -12,7 +12,17 @@
     padding-left: 140px;
     padding-right: 140px;
     margin-top: 25px;
+    animation: aparecer 1s;
 }
 .pagina-desativada{
     display: none;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
