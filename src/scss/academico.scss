@@ -6,6 +6,7 @@
     .Academico{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .Escolar{
         display: flex;
@@ -17,5 +18,11 @@
     }
     .NonePage{
         display: none;
+    }
+    .Chose-academic{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
     }
 }
