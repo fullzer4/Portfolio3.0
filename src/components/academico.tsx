@@ -12,7 +12,7 @@ export default function Academico() {
                 <button className="Button" onClick={() => chosepage(1)}>Academico</button>
                 <button className="Button" onClick={() => chosepage(2)}>Escolar</button>
                 <button className="Button" onClick={() => chosepage(3)}>Artigos</button>
-            </div>
+            </div> 
             <div className={academicoPage}>
                 <h2>Academico</h2>
             </div>

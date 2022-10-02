@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     max-width: 1500px;  
+    width: 100%;
 }
 .pagina-ativada{
     display: flex;
@@ -13,6 +14,7 @@
     padding-right: 140px;
     margin-top: 25px;
     animation: aparecer 1s;
+    width: 100%;
 }
 .pagina-desativada{
     display: none;

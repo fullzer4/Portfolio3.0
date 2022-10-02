@@ -3,8 +3,6 @@ import { NavbarSelectContext } from "../contexts/navbarpageselect"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 import { SwitchThemeContext } from "../contexts/switchtheme"
 import "../scss/about.scss"
-import AOS from "aos"
-
 
 export default function About() {
 
