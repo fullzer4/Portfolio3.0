@@ -17,10 +17,20 @@ export default function Academico() {
                 <h2>Academico</h2>
             </div>
             <div className={escolarPage}>
-                <h2>Escolar</h2>
+                <h2>Atividades Escolares</h2>
+                <div className="EscolarBox">
+                    <p>Disciplinas Técnicas</p>
+                    <p>Matemática</p>
+                    <p>Ciências da natureza</p>
+                    <p>Humanas</p>
+                    <p>Linguagens</p>
+                    <p>Plano pessoal de estudos</p>
+                </div>
             </div>
             <div className={artigosPage}>
                 <h2>Sem artigos ainda :(</h2>
+
+
             </div>
         </div>
     )
