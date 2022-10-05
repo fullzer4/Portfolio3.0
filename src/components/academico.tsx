@@ -20,7 +20,7 @@ export default function Academico() {
                 <h2>Escolar</h2>
             </div>
             <div className={artigosPage}>
-                <h2>Artigos</h2>
+                <h2>Sem artigos ainda :(</h2>
             </div>
         </div>
     )
