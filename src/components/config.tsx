@@ -25,21 +25,14 @@ export default function Config() {
         <div className={menuconfig}>
             <div className="menu">
                 <div className="close-div"><button onClick={()=>openconfig(2)}>Fechar</button></div>
-                <div className="options-div">
-                    <div className="options-lingua">
-                        <p>Temas</p>
-                        <Select options={optionsTheme} defaultValue={optionsTheme[0]} value={thmval} onChange={(e)=>mudartema(e)}/>
-                    </div>
-                    <div className="options-tema">
-                        <p>Linguas</p>
-                        <Select options={optionsLanguage} defaultValue={optionsLanguage[1]} value={langval} onChange={(e)=>mudarlingua(e)}/>
-                    </div>
+                <div>
+                    <p>Temas:</p>
                 </div>
                 <div>
-                    <p>Tecnologias usadas</p>
+                    <p>Linguas:</p>
                 </div>
                 <div>
-                    
+                    <p>Linguagens usadas:</p>
                 </div>
             </div>
         </div>
