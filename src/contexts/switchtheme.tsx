@@ -4,8 +4,9 @@ export const SwitchThemeContext = createContext<any>(()=>{})
 
 export const SwitchThemeProvider = ({ children }: any) => {
     var [theme, setTheme] = useState("dark")
-    var [themeativo, setThemeativo] = useState("Theme-button-button")
     var [themefundo, setThemefundo] = useState("App")
+    var [thememenu, setThememenu] = useState("menu")
+    var [themeativo, setThemeativo] = useState("Theme-button-button")
     var [themenav, setThemenav] = useState("Navbar-nav")
     var [themelangnav, setThemelangnav] = useState("changelang-nav")
     var [themebuttonnav, setThemebuttonnav] = useState("Theme-button")
@@ -17,64 +18,55 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [themedescricaoabout, setThemedescricaoabout] = useState("")
     var [buttonprojetosobre, setButtonprojetosobre] = useState("")
     var [buttonupfooter, setButtonupfooter] = useState("Buttonfooter")
-    const optionsTheme = [
-        { value: 'dark', label: 'Dark'},
-        { value: 'light', label: 'Light' },
-        { value: 'pink', label: 'Pink' }
-    ]
-    var [thmval, setThmval] = useState(optionsTheme[0])
-    const dark =  optionsTheme[0]
-    const Fdark:any =  dark.value
-    const light =  optionsTheme[1]
-    const Flight:any =  light.value
-    const pink =  optionsTheme[2]
-    const Fpink:any =  pink.value
-
-    function verificartema(ver:any){
-        if(ver == Fdark){
-            setThemeativo("Theme-button-button")
-            setThemefundo("App")
-            setThemenav("Navbar-nav")
-            setThemelangnav("changelang-nav")
-            setThemebuttonnav("Theme-button")
-            setThemetitulohome("Resumo-texto-titulo")
-            setThemedescricaohome("")
-            setButtonsobrehome("")
-            setCardhometheme("card")
-            setButtonprojetosobre("")
-            setThemetituloabout("About-me-texto-titulo")
-            setThemedescricaoabout("")
-            setButtonupfooter("Buttonfooter")
-        }if(ver == Flight){
-            setThemeativo("Theme-button-button temaAtivo")
-            setThemefundo("App Applight")
-            setThemenav("Navbar-nav navlight")
-            setThemelangnav("changelang-nav changelanglight")
-            setThemebuttonnav("Theme-button themebuttonlight")
-            setThemetitulohome("Resumo-texto-titulo titulolight")
-            setThemedescricaohome("descricaohomelight")    
-            setButtonsobrehome("buttonsobrehomelight")
-            setCardhometheme("card cardlight")
-            setButtonprojetosobre("button-light")
-            setThemetituloabout("About-me-texto-titulo titulo-light")
-            setThemedescricaoabout("lightdescri")
-            setButtonupfooter("Buttonfooter buttonlight")
-        }if(ver == Fpink){
-            setThemeativo("Theme-button-button")
-            setThemefundo("App")
-            setThemenav("Navbar-nav")
-            setThemelangnav("changelang-nav")
-            setThemebuttonnav("Theme-button")
-            setThemetitulohome("Resumo-texto-titulo")
-            setThemedescricaohome("")
-            setButtonsobrehome("")
-            setCardhometheme("card")
-            setButtonprojetosobre("")
-            setThemetituloabout("About-me-texto-titulo")
-            setThemedescricaoabout("")
-            setButtonupfooter("Buttonfooter")
+    var [themeContact, setThemeContact] = useState("Contact")
+    var [iconsImages, setIconsImages] = useState("darkIcon")
+   
+    function mudartema(id:number){
+        if(id === 1){
+            setTheme("dark")
+            mudardark()
+        }else if(id === 2){
+            setTheme("light")
+            mudarlight()
+        }else if(id === 3){
+            setTheme("pink")
+            mudarpink()
+        }else{
+            setTheme("dark")
+            mudardark()
         }
     }
+
+    function mudarlight(){
+        setThemefundo("App light")
+        setThememenu("menu light")
+        setThemetitulohome("Resumo-texto-titulo titulolight")
+        setThemedescricaohome("descricaohomelight")
+        setCardhometheme("card cardlight")
+        setThemeContact("ContactLight")
+        setIconsImages("darkIconlight")
+    }
+
+    function mudardark(){
+        setThemefundo("App")
+        setThememenu("menu")
+        setThemetitulohome("Resumo-texto-titulo")
+        setThemedescricaohome("")
+        setCardhometheme("card")
+        setThemeContact("Contact")
+        setIconsImages("darkIcon")
+    }
+
+    function mudarpink(){
+        setThemefundo("App pink")
+        setThememenu("menu pink")
+        setThemetitulohome("Resumo-texto-titulo titulolight")
+        setThemedescricaohome("descricaohomelight")
+        setCardhometheme("card cardlight")
+        setThemeContact("ContactLight")
+        setIconsImages("darkIconlight")
+    }
+
 
     return(
         <SwitchThemeContext.Provider value={{
@@ -91,10 +83,10 @@ export const SwitchThemeProvider = ({ children }: any) => {
             themetituloabout,
             buttonprojetosobre,
             buttonupfooter,
-            optionsTheme,
-            thmval,
-            setThmval,
-            verificartema,
+            mudartema,
+            thememenu,
+            themeContact,
+            iconsImages
             }}> 
             {children}
         </SwitchThemeContext.Provider>

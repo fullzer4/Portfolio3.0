@@ -27,6 +27,7 @@
     padding-left: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
+    transition: 1s ease-in-out;
     .close-div{
         width: 100%;
         display: flex;
@@ -50,31 +51,11 @@
     }
     .options-div{
         width: 100%;
+        height: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
-        .options-lingua{
-            width: 10rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: 'Comfortaa';
-            font-style: normal;
-            font-weight: 400;
-            color: #CBCACA;
-            gap: 0.5rem;
-        }
-        .options-tema{
-            width: 10rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: 'Comfortaa';
-            font-style: normal;
-            font-weight: 400;
-            color: #CBCACA;
-            gap: 0.5rem;
-        }
+        align-items: center;
         
     }
 }

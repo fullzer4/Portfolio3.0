@@ -46,10 +46,6 @@
                 cursor: pointer;
                 transition: 1s ease-in-out;
             }
-            .buttonsobrehomelight{
-                color: #D9D9D9;
-                background: #2D2B2B;
-            }
         }
         .Resumo-imagem{
             background-image: url(../imgs/SobreEu.svg);
@@ -193,7 +189,7 @@
                     font-style: normal;
                     font-weight: 300;
                     font-size: 1.5rem;
-                    color: #CBCACA;  
+                    color: #CBCACA;
                     width: 100%;
                     display: flex;
                     align-items: center;
@@ -203,6 +199,70 @@
             .card-Contact:hover{
                 transform: scale(1.1);
             }
+        }
+    }
+}
+
+.ContactLight{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    p{
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3rem;
+        color: #2D2B2B;
+    }
+    .Contatos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 45px;
+        .card-Contact{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            height: 4rem;
+            width: 18rem;
+            transition: 1s ease-in-out;
+            a{
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 1.5rem;
+                color: #2D2B2B;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            p{
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 1.5rem;
+                color: #2D2B2B;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .card-Contact:hover{
+            transform: scale(1.1);
         }
     }
 }

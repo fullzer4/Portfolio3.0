@@ -8,31 +8,26 @@ import { SwitchLanguageContext } from "../contexts/switchlanguage"
 export default function Config() {
   
     const {menuconfig, openconfig} = useContext(NavbarSelectContext)
-    const {optionsTheme, setThmval, thmval, verificartema} = useContext(SwitchThemeContext)
+    const {mudartema, thememenu} = useContext(SwitchThemeContext)
     const {optionsLanguage, setLangval, langval, verificarlingua} = useContext(SwitchLanguageContext)
-
-    function mudarlingua(e:any){
-        setLangval(e)
-        verificarlingua(e.value)
-    }
-
-    function mudartema(e:any){
-        setThmval(e)
-        verificartema(e.value)
-    }
 
     return (
         <div className={menuconfig}>
-            <div className="menu">
+            <div className={thememenu}>
                 <div className="close-div"><button onClick={()=>openconfig(2)}>Fechar</button></div>
                 <div>
-                    <p>Temas:</p>
-                </div>
-                <div>
-                    <p>Linguas:</p>
-                </div>
-                <div>
-                    <p>Linguagens usadas:</p>
+                    <div>
+                        <p>Temas:</p>
+                        <button onClick={()=>mudartema(1)}>Dark</button>
+                        <button onClick={()=>mudartema(2)}>Light</button>
+                        <button onClick={()=>mudartema(3)}>Pink</button>
+                    </div>
+                    <div>
+                        <p>Linguas:</p>
+                    </div>
+                    <div>
+                        <p>Linguagens usadas:</p>
+                    </div>
                 </div>
             </div>
         </div>

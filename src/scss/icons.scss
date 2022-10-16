@@ -1,0 +1,29 @@
+.darkIcon{
+    width: 3.65rem;
+    height: 2.75rem;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .color{
+        fill: #CBCACA;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+.darkIconlight{
+    width: 3.65rem;
+    height: 2.75rem;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .color{
+        fill: #000000bd;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}

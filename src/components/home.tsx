@@ -10,6 +10,9 @@ import email from "../imgs/email.svg"
 import whats from "../imgs/whatsapp.svg"
 import discord from "../imgs/discord.svg"
 import AOS from "aos"
+import EmailIcon from "../imgs/email"
+import DiscordIcon from "../imgs/discord"
+import WhatsIcon from "../imgs/whatsapp"
 export default function Home() {
     AOS.init({
         offset: 0, // offset (in px) from the original trigger point
@@ -23,7 +26,7 @@ export default function Home() {
     const {urldiscord, onlinediscord} = useContext(DiscordContext)
     const {urlyoutube, videos} = useContext(YoutubeContext)
     const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube, entcontact} = useContext(SwitchLanguageContext)
-    const {themetitulohome, themedescricaohome, buttonsobrehome, cardhometheme} = useContext(SwitchThemeContext)
+    const {themetitulohome, themedescricaohome, buttonsobrehome, cardhometheme, themeContact} = useContext(SwitchThemeContext)
     var textrestcardgit:any
     var textrestcarddiscord:any
 
@@ -70,17 +73,17 @@ export default function Home() {
                     <a href={urlyoutube} className="buttom-card">{cardbutton}</a>
                 </div>
             </div>
-            <div className="Contact">
+            <div className={themeContact}>
                 <p data-aos="fade-up">{entcontact}</p>
                 <div className="Contatos">
                     <div className="card-Contact" data-aos-delay="50" data-aos="fade-up">
-                        <img src={email}/><a href="mailto:gabrielpelizzaro@gmail.com?subject=subject text">gabrielpelizzaro</a>
+                        <EmailIcon/><a href="mailto:gabrielpelizzaro@gmail.com?subject=subject text">gabrielpelizzaro</a>
                     </div>
                     <div className="card-Contact" data-aos-delay="100" data-aos="fade-up">
-                        <img src={discord}/><p>yFullzer4#7647</p>
+                        <DiscordIcon/><p>yFullzer4#7647</p>
                     </div>
                     <div className="card-Contact" data-aos-delay="150" data-aos="fade-up">
-                        <img src={whats}/><p>48 98816 8894</p>
+                        <WhatsIcon/><p>48 98816 8894</p>
                     </div>
                 </div>
             </div>
