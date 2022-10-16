@@ -32,7 +32,7 @@ export const SwitchLanguageProvider = ({ children }: any) => {
     const [descb, setDescb] = useState("Website below:")
     const [buttom, setButtom] = useState("See Repository")
     const [tdtitulo, setTdtitulo] = useState("To Do List")
-    const [tddesc, setTddesc] = useState("In this room activity it was proposed to create a to-do list, I decided to do it with a database instead of using localstorage because if I used localstorage I could not access it from my cell phone so I decided to create this site with a user creation to store the data inside a nosql database (firebase) thus enabling the user to access on other platforms. Technologies used: React, javascript, html, css and Firebase.")
+    const [tddesc, setTddesc] = useState("In this classroom activity it was proposed to create a to-do list, I decided to do it with a database instead of using localstorage because if I used localstorage I could not access it from my cell phone so I decided to create this site with a user creation to store the data inside a nosql database (firebase) thus enabling the user to access on other platforms. Technologies used: React, javascript, html, css and Firebase.")
 
     function trocarLingua(id:number){
         if(id === 1){
@@ -107,7 +107,7 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setDescb("Website below:")
             setButtom("See Repository")
             setTdtitulo("To Do List")
-            setTddesc("In this room activity it was proposed to create a to-do list, I decided to do it with a database instead of using localstorage because if I used localstorage I could not access it from my cell phone so I decided to create this site with a user creation to store the data inside a nosql database (firebase) thus enabling the user to access on other platforms. Technologies used: React, javascript, html, css and Firebase.")
+            setTddesc("In this classroom activity it was proposed to create a to-do list, I decided to do it with a database instead of using localstorage because if I used localstorage I could not access it from my cell phone so I decided to create this site with a user creation to store the data inside a nosql database (firebase) thus enabling the user to access on other platforms. Technologies used: React, javascript, html, css and Firebase.")
         }
     }
     
