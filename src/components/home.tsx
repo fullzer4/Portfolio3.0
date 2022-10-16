@@ -21,7 +21,7 @@ export default function Home() {
     const {pageselector} = useContext(NavbarSelectContext)
     const {urlgit, reposgit} = useContext(GithubContext)
     const {urldiscord, onlinediscord} = useContext(DiscordContext)
-    const {urlyoutube} = useContext(YoutubeContext)
+    const {urlyoutube, videos} = useContext(YoutubeContext)
     const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube, entcontact} = useContext(SwitchLanguageContext)
     const {themetitulohome, themedescricaohome, buttonsobrehome, cardhometheme} = useContext(SwitchThemeContext)
     var textrestcardgit:any
