@@ -17,7 +17,17 @@ export const SwitchLanguageProvider = ({ children }: any) => {
     const [buttonfooter, setButtonfooter] = useState("🥳 Go up 🥳")
     const [entcontact, setEntcontact] = useState("Contact")
     const [techab, setTechab] = useState("Technical abilities")
-    
+    const [Comunicativo, setComunicativo] = useState("Communicative")
+    const [Organizado, setOrganizado] = useState("Organized")
+    const [Criativo, setCriativo] = useState("Creative")
+    const [Flexivel, setFlexivel] = useState("Flexible")
+    const [Empatico, setEmpatico] = useState("Empathetic")
+    const [Resilencia, setResilencia] = useState("Resilience")
+    const [Resolverproblemas, setResolverproblemas] = useState("Solve problems")
+    const [Coordenar, setCoordenar] = useState("Coordinate")
+    const [Colaborativo, setColaborativo] = useState("Collaborative")
+    const [video, setVideo] = useState("Trajectory Video")
+
     function trocarLingua(id:number){
         if(id === 1){
             setLingua("ENG")
@@ -46,6 +56,16 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setEntcontact("Entre em contato")
             setButtonfooter("🥳 Para cima 🥳")
             setTechab("Habilidades tecnicas")
+            setComunicativo("Comunicativo")
+            setOrganizado("Organizado")
+            setCriativo("Criativo")
+            setFlexivel("Flexivel")
+            setEmpatico("Empatico")
+            setResilencia("Resilencia")
+            setResolverproblemas("Resolverproblemas")
+            setCoordenar("Coordenar")
+            setColaborativo("Colaborativo")
+            setVideo("Video Trajetória")
         }else if(ver === "ENG"){
             setTitlehome("Welcome")
             setSubtitlehome("Hi, my name is Gabriel, I'm 16 years old, working as FullStack-Developer and that's my portfolio I hope you like it, other ways just contact me on my networks.")
@@ -60,6 +80,16 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setEntcontact("Contact")
             setButtonfooter("🥳 Go up 🥳")
             setTechab("Technical abilities")
+            setComunicativo("Comunicativo")
+            setOrganizado("Organizado")
+            setCriativo("Criativo")
+            setFlexivel("Flexivel")
+            setEmpatico("Empatico")
+            setResilencia("Resilencia")
+            setResolverproblemas("Resolverproblemas")
+            setCoordenar("Coordenar")
+            setColaborativo("Colaborativo")
+            setVideo("Video Trajetória")
         }
     }
     
@@ -80,7 +110,17 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             entcontact,
             techab,
             trocarLingua,
-            lingua
+            lingua,
+            Comunicativo,
+            Organizado,
+            Criativo,
+            Flexivel,
+            Empatico,
+            Resilencia,
+            Resolverproblemas,
+            Coordenar,
+            Colaborativo,
+            video
             }}> 
             {children}
         </SwitchLanguageContext.Provider>

@@ -7,7 +7,7 @@ import "../scss/about.scss"
 export default function About() {
 
     const {pageselector} = useContext(NavbarSelectContext)
-    const {tituloaboutme, descricaoaboutme, buttonaboutme, techab} = useContext(SwitchLanguageContext)
+    const {tituloaboutme, descricaoaboutme, buttonaboutme, techab, Comunicativo, Organizado, Criativo, Empatico, Flexivel, Resilencia, Resolverproblemas, Coordenar,Colaborativo,video} = useContext(SwitchLanguageContext)
     const {themedescricaoabout, themetituloabout, buttonprojetosobre, techabilities, softskills} = useContext(SwitchThemeContext)
     return (
         <div className="About">
@@ -68,20 +68,20 @@ export default function About() {
                 </div>
                 <div  className="Tencinal-Softskills-itens">
                     <div className={softskills}>
-                        <p>Comunicativo</p>
-                        <p>Organizado</p>
-                        <p>Criatvo</p>
-                        <p>Flexivel</p>
-                        <p>Empatico</p>
-                        <p>Resilencia</p>
-                        <p>Resolver problemas</p>
-                        <p>Coordenar</p>
-                        <p>Colaborativo</p>
+                        <p>{Comunicativo}</p>
+                        <p>{Organizado}</p>
+                        <p>{Criativo}</p>
+                        <p>{Flexivel}</p>
+                        <p>{Empatico}</p>
+                        <p>{Resilencia}</p>
+                        <p>{Resolverproblemas}</p>
+                        <p>{Coordenar}</p>
+                        <p>{Colaborativo}</p>
                     </div>
                 </div>
             </div>
             <div className="Video-sobremim">
-                <p className={themetituloabout}>Video Trajetória</p>
+                <p className={themetituloabout}>{video}</p>
                 <div className="Video-sobremim-video">
                     <iframe src="https://www.youtube.com/embed/sE-PTexvWLQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
