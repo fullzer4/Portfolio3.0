@@ -27,6 +27,12 @@ export const SwitchLanguageProvider = ({ children }: any) => {
     const [Coordenar, setCoordenar] = useState("Coordinate")
     const [Colaborativo, setColaborativo] = useState("Collaborative")
     const [video, setVideo] = useState("Trajectory Video")
+    const [calctitulo, setCalctitulo] = useState("Thermodynamic Calculator")
+    const [calcdesc, setCalcdesc] = useState("In this project it was proposed to create only a calculator with thermodynamic calculations but we decided to create a website where we can see the theory behind these calculations and see real-time analysis of the calculations that are most used on our website. Technologies used: Typescript, React, CSS, Html, Nodejs, Firebase and a few more frameworks.")
+    const [descb, setDescb] = useState("Website below:")
+    const [buttom, setButtom] = useState("See Repository")
+    const [tdtitulo, setTdtitulo] = useState("To Do List")
+    const [tddesc, setTddesc] = useState("In this room activity it was proposed to create a to-do list, I decided to do it with a database instead of using localstorage because if I used localstorage I could not access it from my cell phone so I decided to create this site with a user creation to store the data inside a nosql database (firebase) thus enabling the user to access on other platforms. Technologies used: React, javascript, html, css and Firebase.")
 
     function trocarLingua(id:number){
         if(id === 1){
@@ -66,6 +72,12 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setCoordenar("Coordenar")
             setColaborativo("Colaborativo")
             setVideo("Video Trajetória")
+            setCalctitulo("Calculadora Termodinamica")
+            setCalcdesc("Nesse projeto nos foi proposto realizar apenas uma calculadora com calculos de termodinamica mas decidimos realizar um site onde podemos ver a teoria por tras desses calculos e ver analises em tempo real dos calculos que são mais usados em nosso site. Tecnologias usadas: Typescript, React, Css, Html, Nodejs, Firebase e mais alguns frameworks.")
+            setDescb("Site feito abaixo:")
+            setButtom("Ver Repositorio")
+            setTdtitulo("Lista de afazeres")
+            setTddesc("Nessa atividade de sala foi proposto criar uma lista de afazeres, decidi realizar com banco de dados ao invés de usar localstorage por conta de que se usasse localstorage eu não poderia acessar pelo meu celular então decidi criar esse site com uma criação de usuário para guardar os dados desse dentro de um banco nosql (firebase) assim possibilitando o usuário acessar em outras plataformas. Tecnologias usadas: React, javascript, html, css e Firebase.")
         }else if(ver === "ENG"){
             setTitlehome("Welcome")
             setSubtitlehome("Hi, my name is Gabriel, I'm 16 years old, working as FullStack-Developer and that's my portfolio I hope you like it, other ways just contact me on my networks.")
@@ -90,6 +102,12 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setCoordenar("Coordinate")
             setColaborativo("Collaborative")
             setVideo("Trajectory Video")
+            setCalctitulo("Calculadora Termodinamica")
+            setCalcdesc("Nesse projeto nos foi proposto realizar apenas uma calculadora com calculos de termodinamica mas decidimos realizar um site onde podemos ver a teoria por tras desses calculos e ver analises em tempo real dos calculos que são mais usados em nosso site. Tecnologias usadas: Typescript, React, Css, Html, Nodejs, Firebase e mais alguns frameworks.")
+            setDescb("Site feito abaixo:")
+            setButtom("Ver Repositorio")
+            setTdtitulo("Lista de afazeres")
+            setTddesc("Nessa atividade de sala foi proposto criar uma lista de afazeres, decidi realizar com banco de dados ao invés de usar localstorage por conta de que se usasse localstorage eu não poderia acessar pelo meu celular então decidi criar esse site com uma criação de usuário para guardar os dados desse dentro de um banco nosql (firebase) assim possibilitando o usuário acessar em outras plataformas. Tecnologias usadas: React, javascript, html, css e Firebase.")
         }
     }
     
@@ -120,7 +138,13 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             Resolverproblemas,
             Coordenar,
             Colaborativo,
-            video
+            video,
+            calctitulo,
+            calcdesc,
+            descb,
+            buttom,
+            tdtitulo,
+            tddesc
             }}> 
             {children}
         </SwitchLanguageContext.Provider>
