@@ -35,9 +35,11 @@ export default function Config() {
                         <Select options={optionsLanguage} defaultValue={optionsLanguage[1]} value={langval} onChange={(e)=>mudarlingua(e)}/>
                     </div>
                 </div>
-                <div className="preview-div">
+                <div>
+                    <p>Tecnologias usadas</p>
                 </div>
-                <div className="tec-div">
+                <div>
+                    
                 </div>
             </div>
         </div>

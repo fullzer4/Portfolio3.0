@@ -54,20 +54,37 @@
         flex-direction: row;
         justify-content: space-around;
         .options-lingua{
-            background: red;
             width: 10rem;
-            height: 2rem;
             display: flex;
             flex-direction: column;
             align-items: center;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 400;
+            color: #CBCACA;
+            gap: 0.5rem;
         }
         .options-tema{
-            background: red;
             width: 10rem;
-            height: 2rem;
             display: flex;
             flex-direction: column;
             align-items: center;
+            font-family: 'Comfortaa';
+            font-style: normal;
+            font-weight: 400;
+            color: #CBCACA;
+            gap: 0.5rem;
+        }
+        .css-1s2u09g-control{
+            color: #D9D9D9;
+            background: #2D2B2B;
+            border: none;
+            border-radius: 4px;
+            width: 8rem;
+            text-align: center;
+        }
+        .css-qc6sy-singleValue{
+            color: #D9D9D9;
         }
     }
 }
