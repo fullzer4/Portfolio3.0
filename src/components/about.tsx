@@ -8,7 +8,7 @@ export default function About() {
 
     const {pageselector} = useContext(NavbarSelectContext)
     const {tituloaboutme, descricaoaboutme, buttonaboutme, techab} = useContext(SwitchLanguageContext)
-    const {themedescricaoabout, themetituloabout, buttonprojetosobre} = useContext(SwitchThemeContext)
+    const {themedescricaoabout, themetituloabout, buttonprojetosobre, techabilities, softskills} = useContext(SwitchThemeContext)
     return (
         <div className="About">
             <div className="About-me">
@@ -21,41 +21,41 @@ export default function About() {
             </div>
             <div  className="Tencinal-Habilities">
                 <div  className="Tencinal-Habilities-title" >
-                    <p className="titulo">{techab}</p>
+                    <p className={themetituloabout}>{techab}</p>
                 </div>
                 <div  className="Tencinal-Habilities-itens">
                     <div className="coluna-esq">
-                        <div className="iten">
+                        <div className={techabilities}>
                             <p>HTML</p>
                             <div className="iten-porcentagem"><div className="porcentagem-Html"></div></div>
                         </div>
-                        <div className="iten">
+                        <div className={techabilities}>
                             <p>CSS</p>
                             <div className="iten-porcentagem"><div className="porcentagem-Css"></div></div>
                         </div>
-                        <div className="iten">
+                        <div className={techabilities}>
                             <p>SCSS</p>
                             <div className="iten-porcentagem"><div className="porcentagem-Scss"></div></div>
                         </div>
-                        <div className="iten">
+                        <div className={techabilities}>
                             <p>Javascript</p>
                             <div className="iten-porcentagem"><div className="porcentagem-Javascript"></div></div>
                         </div>
                     </div>
                     <div className="coluna-dir">
-                        <div className="iten">
+                        <div className={techabilities}>
                             <p>Typescript</p>
                             <div className="iten-porcentagem"><div className="porcentagem-Typescript"></div></div>
                         </div>
-                        <div className="iten">
+                        <div className={techabilities}>
                             <p>React</p>
                             <div className="iten-porcentagem"><div className="porcentagem-React"></div></div>
                         </div>
-                        <div className="iten">
+                        <div className={techabilities}>
                             <p>Python</p>
                             <div className="iten-porcentagem"><div className="porcentagem-Python"></div></div>
                         </div>
-                        <div className="iten">
+                        <div className={techabilities}>
                             <p>Nodejs</p>
                             <div className="iten-porcentagem"><div className="porcentagem-Nodejs"></div></div>
                         </div>
@@ -64,10 +64,10 @@ export default function About() {
             </div>
             <div  className="Tencinal-Softskills">
                 <div  className="Tencinal-Softskills-title">
-                    <p className="titulo">SoftSkills</p>
+                    <p className={themetituloabout}>SoftSkills</p>
                 </div>
                 <div  className="Tencinal-Softskills-itens">
-                    <div className="itens">
+                    <div className={softskills}>
                         <p>Comunicativo</p>
                         <p>Organizado</p>
                         <p>Criatvo</p>
@@ -81,7 +81,7 @@ export default function About() {
                 </div>
             </div>
             <div className="Video-sobremim">
-                <p>Video Trajetória</p>
+                <p className={themetituloabout}>Video Trajetória</p>
                 <div className="Video-sobremim-video">
                     <iframe src="https://www.youtube.com/embed/sE-PTexvWLQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>

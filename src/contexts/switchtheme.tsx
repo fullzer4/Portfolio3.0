@@ -20,6 +20,8 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [buttonupfooter, setButtonupfooter] = useState("Buttonfooter")
     var [themeContact, setThemeContact] = useState("Contact")
     var [iconsImages, setIconsImages] = useState("darkIcon")
+    var [techabilities, setTechabilities] = useState("iten")
+    var [softskills, setSoftskills] = useState("itens")
    
     function mudartema(id:number){
         if(id === 1){
@@ -38,6 +40,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
     }
 
     function mudarlight(){
+        setThemenav("Navbar-nav navlight")
         setThemefundo("App light")
         setThememenu("menu light")
         setThemetitulohome("Resumo-texto-titulo titulolight")
@@ -45,9 +48,14 @@ export const SwitchThemeProvider = ({ children }: any) => {
         setCardhometheme("card cardlight")
         setThemeContact("ContactLight")
         setIconsImages("darkIconlight")
+        setThemetituloabout("About-me-texto-titulo titulo-light")
+        setThemedescricaoabout("lightdescri")
+        setTechabilities("iten lightdescri")
+        setSoftskills("itens lightdescri")
     }
 
     function mudardark(){
+        setThemenav("Navbar-nav")
         setThemefundo("App")
         setThememenu("menu")
         setThemetitulohome("Resumo-texto-titulo")
@@ -55,9 +63,13 @@ export const SwitchThemeProvider = ({ children }: any) => {
         setCardhometheme("card")
         setThemeContact("Contact")
         setIconsImages("darkIcon")
+        setThemetituloabout("About-me-texto-titulo")
+        setThemedescricaoabout("")
+        setSoftskills("itens")
     }
 
     function mudarpink(){
+        setThemenav("Navbar-nav navlight")
         setThemefundo("App pink")
         setThememenu("menu pink")
         setThemetitulohome("Resumo-texto-titulo titulolight")
@@ -65,6 +77,9 @@ export const SwitchThemeProvider = ({ children }: any) => {
         setCardhometheme("card cardlight")
         setThemeContact("ContactLight")
         setIconsImages("darkIconlight")
+        setThemetituloabout("About-me-texto-titulo titulo-light")
+        setThemedescricaoabout("lightdescri")
+        setSoftskills("itens lightdescri")
     }
 
 
@@ -86,7 +101,9 @@ export const SwitchThemeProvider = ({ children }: any) => {
             mudartema,
             thememenu,
             themeContact,
-            iconsImages
+            iconsImages,
+            techabilities,
+            softskills
             }}> 
             {children}
         </SwitchThemeContext.Provider>

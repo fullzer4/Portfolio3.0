@@ -25,7 +25,7 @@ export default function Home() {
     const {urlgit, reposgit} = useContext(GithubContext)
     const {urldiscord, onlinediscord} = useContext(DiscordContext)
     const {urlyoutube, videos} = useContext(YoutubeContext)
-    const {lang ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube, entcontact} = useContext(SwitchLanguageContext)
+    const {lingua ,titlehome, subtitlehome, buttonhome, cardbutton, cardtexthomediscord, cardtexthomegithub, cardtexthomeyoutube, entcontact} = useContext(SwitchLanguageContext)
     const {themetitulohome, themedescricaohome, buttonsobrehome, cardhometheme, themeContact} = useContext(SwitchThemeContext)
     var textrestcardgit:any
     var textrestcarddiscord:any
@@ -34,7 +34,7 @@ export default function Home() {
     textrestcarddiscord = `${onlinediscord} pessoas online.`
     
     //refazer
-    if(lang === "PT-BR"){
+    if(lingua === "PTBR"){
         textrestcardgit = `${reposgit} projetos e praticas postadas.`
         textrestcarddiscord = `${onlinediscord} pessoas online.`
     

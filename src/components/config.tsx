@@ -1,7 +1,6 @@
 import { useContext } from "react"
 import { NavbarSelectContext } from "../contexts/navbarpageselect"
 import "../scss/config.scss"
-import Select from 'react-select'
 import { SwitchThemeContext } from "../contexts/switchtheme"
 import { SwitchLanguageContext } from "../contexts/switchlanguage"
 
@@ -9,7 +8,7 @@ export default function Config() {
   
     const {menuconfig, openconfig} = useContext(NavbarSelectContext)
     const {mudartema, thememenu} = useContext(SwitchThemeContext)
-    const {optionsLanguage, setLangval, langval, verificarlingua} = useContext(SwitchLanguageContext)
+    const {trocarLingua} = useContext(SwitchLanguageContext)
 
     return (
         <div className={menuconfig}>
@@ -24,9 +23,11 @@ export default function Config() {
                     </div>
                     <div>
                         <p>Linguas:</p>
+                        <button onClick={()=>trocarLingua(1)}>English</button>
+                        <button onClick={()=>trocarLingua(2)}>Portugues</button>
                     </div>
                     <div>
-                        <p>Linguagens usadas:</p>
+                        <p>Ver repositorio no Github:</p>
                     </div>
                 </div>
             </div>

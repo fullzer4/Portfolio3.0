@@ -3,6 +3,7 @@ import { createContext, useState } from "react";
 export const SwitchLanguageContext = createContext<any>(()=>{})
 
 export const SwitchLanguageProvider = ({ children }: any) => {
+    const [lingua, setLingua] = useState("ENG")
     const [titlehome, setTitlehome] = useState("Welcome")
     const [subtitlehome, setSubtitlehome] = useState("Hi, my name is Gabriel, I'm 16 years old, working as FullStack-Developer and that's my portfolio I hope you like it, other ways just contact me on my networks.")
     const [buttonhome, setbuttonhome] = useState("More about me")
@@ -16,21 +17,22 @@ export const SwitchLanguageProvider = ({ children }: any) => {
     const [buttonfooter, setButtonfooter] = useState("🥳 Go up 🥳")
     const [entcontact, setEntcontact] = useState("Contact")
     const [techab, setTechab] = useState("Technical abilities")
-    const optionsLanguage = [
-        { value: 'ptbr', label: 'Portugues'},
-        { value: 'eng', label: 'English' },
-        { value: 'esp', label: 'Español' },
-    ] 
-    const [langval, setLangval] = useState(optionsLanguage[1])
-    const ptbr =  optionsLanguage[0]
-    const Fptbr:any =  ptbr.value
-    const eng =  optionsLanguage[1]
-    const Feng:any =  eng.value
-    const esp =  optionsLanguage[2]
-    const Fesp:any =  esp.value
+    
+    function trocarLingua(id:number){
+        if(id === 1){
+            setLingua("ENG")
+            verificarlingua(lingua)
+        }else if(id === 2){
+            setLingua("PTBR")
+            verificarlingua(lingua)
+        }else{
+            setLingua("ENG")
+            verificarlingua(lingua)
+        }
+    }
 
     function verificarlingua(ver:any){
-        if(ver == Fptbr){
+        if(ver === "PTBR"){
             setTitlehome("Bem vindo")
             setSubtitlehome("Sou o Gabriel tenho 16 anos sou FullStack-Developer e este é o meu portfólio espero que goste, qualquer coisa só entrar em contato comigo em minhas redes.")
             setbuttonhome("Mais sobre mim")
@@ -44,7 +46,7 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setEntcontact("Entre em contato")
             setButtonfooter("🥳 Para cima 🥳")
             setTechab("Habilidades tecnicas")
-        }if(ver == Feng){
+        }else if(ver === "ENG"){
             setTitlehome("Welcome")
             setSubtitlehome("Hi, my name is Gabriel, I'm 16 years old, working as FullStack-Developer and that's my portfolio I hope you like it, other ways just contact me on my networks.")
             setbuttonhome("More about me")
@@ -58,20 +60,6 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             setEntcontact("Contact")
             setButtonfooter("🥳 Go up 🥳")
             setTechab("Technical abilities")
-        }if(ver == Fesp){
-            setTitlehome("Bem vindo")
-            setSubtitlehome("Sou o Gabriel tenho 16 anos sou FullStack-Developer e este é o meu portfólio espero que goste, qualquer coisa só entrar em contato comigo em minhas redes.")
-            setbuttonhome("Mais sobre mim")
-            setCardtexthomediscord("Criei essa comunidade para pessoas estudarem e jogarem juntas, com")
-            setCardtexthomegithub("Onde eu posto meus codigos e dou um resumo dos meu projetos, atualmente tenho")
-            setCardtexthomeyoutube("Criei esse canal para ajudar pessoas em programação, hoje tenho postado mais de")
-            setCardbutton("Entrar")
-            setTituloaboutme("Mais sobre mim")
-            setDescricaoaboutme("Esse de camiseta branca sou eu em 2020 e foi ai quando eu comecei a me apaixonar por programação, comecei a estudar programação em 2016 junto do meu pai e em 2018 entrei numa start-up chamada IDoCode e sinceramente no início eu não gostava de programação mas em 2019 quando eu comecei a fazer projetos junto com meus amigos acabei decidindo que esse ia ser o foco para a minha vida.")
-            setButtonaboutme("Ver projetos")
-            setEntcontact("Entre em contato")
-            setButtonfooter("🥳 Para cima 🥳")
-            setTechab("Habilidades tecnicas")
         }
     }
     
@@ -88,12 +76,11 @@ export const SwitchLanguageProvider = ({ children }: any) => {
             descricaoaboutme,
             buttonaboutme,
             buttonfooter,
-            optionsLanguage,
-            setLangval,
-            langval,
             verificarlingua,
             entcontact,
-            techab
+            techab,
+            trocarLingua,
+            lingua
             }}> 
             {children}
         </SwitchLanguageContext.Provider>
