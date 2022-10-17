@@ -46,7 +46,7 @@ export default function Academico() {
                     <p>Linguagens</p>
                     <ul>
                         <li><a href="">Projeto de vida</a></li>
-                        <li><a href="">Trabalho sobre Museus de Santa Catarina</a></li>
+                        <li><a href="https://www.canva.com/design/DAFHe7gRYe8/m7arMtwtUZrIyqMvZOj1HA/view?utm_content=DAFHe7gRYe8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trabalho sobre Museus de Santa Catarina</a></li>
                         <li><a href="">Trabalho sobre Músicas em inglês</a></li>
                         <li><a href="https://drive.google.com/file/d/10tMX24nvnBAiI89lrc7GK_lCbkr9LlhU/view?usp=sharing">Redação</a></li>
                     </ul>
