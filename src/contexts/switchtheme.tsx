@@ -23,6 +23,8 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [techabilities, setTechabilities] = useState("iten")
     var [softskills, setSoftskills] = useState("itens")
     var [projecttext, setProjecttext] = useState("Project-text")
+    var [booksTheme, setBooksTheme] = useState("Books")
+    var [certTheme, setCertTheme] = useState("Certificados")
 
     function mudartema(id:number){
         if(id === 1){
@@ -54,6 +56,8 @@ export const SwitchThemeProvider = ({ children }: any) => {
         setTechabilities("iten lightdescri")
         setSoftskills("itens lightdescri")
         setProjecttext("Project-text lightdescri")
+        setBooksTheme("Books BooksLight")
+        setCertTheme("Certificados CertificadosLight")
     }
 
     function mudardark(){
@@ -69,6 +73,8 @@ export const SwitchThemeProvider = ({ children }: any) => {
         setThemedescricaoabout("")
         setSoftskills("itens")
         setProjecttext("Project-text")
+        setBooksTheme("Books")
+        setCertTheme("Certificados")
     }
 
     function mudarpink(){
@@ -84,6 +90,8 @@ export const SwitchThemeProvider = ({ children }: any) => {
         setThemedescricaoabout("lightdescri")
         setSoftskills("itens lightdescri")
         setProjecttext("Project-text lightdescri")
+        setBooksTheme("Books BooksLight")
+        setCertTheme("Certificados CertificadosLight")
     }
 
 
@@ -108,7 +116,9 @@ export const SwitchThemeProvider = ({ children }: any) => {
             iconsImages,
             techabilities,
             softskills,
-            projecttext
+            projecttext,
+            booksTheme,
+            certTheme,
             }}> 
             {children}
         </SwitchThemeContext.Provider>

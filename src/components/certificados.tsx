@@ -10,11 +10,15 @@ import Ingles from "../imgs/teddybear.svg"
 import Robotica from "../imgs/roboticaidocode.svg"
 import Scratch from "../imgs/desendejogosidocode.svg"
 import CiscoLinux from "../imgs/certificadolinux.svg"
+import { useContext } from "react"
+import { SwitchThemeContext } from "../contexts/switchtheme"
 
 export default function Certificados() {
 
+    const {certTheme} = useContext(SwitchThemeContext)
+
     return (
-        <div className="Certificados">
+        <div className={certTheme}>
             <div className="Cert-titulo">
                 <h2>Certificados</h2>
             </div>

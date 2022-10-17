@@ -1,11 +1,14 @@
 import scrum from "../imgs/scrum.svg"
 import cleancode from "../imgs/cleancode.svg"
 import "../scss/books.scss"
+import { useContext } from "react"
+import { SwitchThemeContext } from "../contexts/switchtheme"
 
 export default function Books() {
 
+    const {booksTheme} = useContext(SwitchThemeContext)
     return (
-        <div className="Books">
+        <div className={booksTheme}>
             <div className="Books-titulo">
                 <h2>Livros que ja li e recomendo</h2>
             </div>
