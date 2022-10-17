@@ -90,3 +90,19 @@
         }
     }
 }
+
+a{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #CBCACA;
+    transition: 1s ease-in-out;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
