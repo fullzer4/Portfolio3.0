@@ -14,8 +14,8 @@ export default function Books() {
                     <img src={scrum}/>
                 </div>
                 <div className="book-text">
-                    <p className="book-text-titulo">Sinopse:</p>
-                    <p className="book-text-descri">Neste livro você conhecerá histórias de sucesso relacionadas a cultura ágil. Existe uma espécie de método, chamado de Framework Ágil, que reúne uma série de técnicas, conceitos e ferramentas pré-definidas para resolver problemas de modo rápido e eficaz. E, diante dessa metodologia, milhares de empresas de sucesso conseguem agilizar processos, melhorando a gestão e a organização da instituição.</p>
+                    <p className="book-text-titulo">O que me ajudou:</p>
+                    <p className="book-text-descri">Com o livro "Scrum: A arte de fazer o dobro do trabalho na metade do tempo” aprendi a melhorar meu desempenho em entregas e projetos tanto como consegui melhorar entregas em equipe aplicando o método Scrum em grupos de amigos e também em coisas simples que eu realizo na minha vida. Se você busca melhorar como profissional e pessoa este livro é ótimo para isso.</p>
                 </div>
             </div>
             <div className="books-card reverse">
@@ -23,8 +23,8 @@ export default function Books() {
                     <img src={cleancode}/>
                 </div>
                 <div className="book-text">
-                    <p className="book-text-titulo">Sinopse:</p>
-                    <p className="book-text-descri">Neste livro você conhecerá histórias de sucesso relacionadas a cultura ágil. Existe uma espécie de método, chamado de Framework Ágil, que reúne uma série de técnicas, conceitos e ferramentas pré-definidas para resolver problemas de modo rápido e eficaz. E, diante dessa metodologia, milhares de empresas de sucesso conseguem agilizar processos, melhorando a gestão e a organização da instituição.</p>
+                    <p className="book-text-titulo">O que me ajudou:</p>
+                    <p className="book-text-descri">Com o livro "Clean Code” ou código limpo aprendi a refatorar meu códigos e melhorei o entendimento dos meus proprios codigos hoje aplico com meus amigos  o próprio método, com ele conseguimos chegar a uma padronização do nosso código assim melhoramento o nosso trabalho em equipe.</p>
                 </div>
             </div>
         </div>
