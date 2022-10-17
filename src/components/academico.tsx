@@ -34,21 +34,21 @@ export default function Academico() {
                         <li><a href="https://docs.google.com/document/d/1ZiqKR8yakXwVBnYT-OPwaA4oORYTtc6l_tAUPLryA9w/edit?usp=sharing">Relatorio Propriedades Coligativas</a></li>
                         <li><a href="https://www.canva.com/design/DAFKI_mti0U/ouSQVYOcw0VCesI733ZXSg/view?utm_content=DAFKI_mti0U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trimestral - Revista Ambiental</a></li>
                         <li><a href="https://tecsasenaictai.netlify.app/">SA Termodinâmica - PESQUISAS e EXPERIMENTOS</a></li>
-                        <li><a href="">Baby Aliens</a></li>
+                        <li><a href="https://drive.google.com/file/d/1FZPE7hW7gwN2jb_T8Fq7ByHjL1Sl64dK/view?ts=634d408d">Baby Aliens</a></li>
                     </ul>
                     <p>Humanas</p>
                     <ul>
                         <li><a href="https://docs.google.com/presentation/d/1-Fi7qjk1ckOPwkBatmVQTlDmvYhwv2h7_wA4bj0CD_E/edit?usp=sharing">Infográfico Grupos Étnicos de SC</a></li>
-                        <li><a href="">Tabela de Hábitos Culturais</a></li>
-                        <li><a href="">Quadro pinturas medievais / modernas</a></li>
-                        <li><a href="">Releitura a Escola de Atenas</a></li>
+                        <li><a href="naofiz">Tabela de Hábitos Culturais</a></li>
+                        <li><a href="naofiz">Quadro pinturas medievais / modernas</a></li>
+                        <li><a href="naofiz">Releitura a Escola de Atenas</a></li>
                     </ul>
                     <p>Linguagens</p>
                     <ul>
                         <li><a href="">Projeto de vida</a></li>
                         <li><a href="">Trabalho sobre Museus de Santa Catarina</a></li>
                         <li><a href="">Trabalho sobre Músicas em inglês</a></li>
-                        <li><a href="">Redação</a></li>
+                        <li><a href="https://drive.google.com/file/d/10tMX24nvnBAiI89lrc7GK_lCbkr9LlhU/view?usp=sharing">Redação</a></li>
                     </ul>
                     <p>Atividades de 2021/Cronograma escolar</p>
                     <ul>
