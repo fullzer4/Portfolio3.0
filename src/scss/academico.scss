@@ -24,6 +24,7 @@
         width: 100%;
         align-items: center;
         margin-top: 45px;
+        gap: 40px;
         h2{
             font-family: 'Comfortaa';
             font-style: normal;
@@ -31,6 +32,20 @@
             font-size: 2.5rem;
             color: #CBCACA;
             transition: 1s ease-in-out;
+        }
+        .EscolarBox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            p{
+                font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 1.5rem;
+                color: #CBCACA;
+                transition: 1s ease-in-out;
+            }
         }
     }
     .Artigos{
