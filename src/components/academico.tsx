@@ -25,35 +25,35 @@ export default function Academico() {
                     </ul>
                     <p>Matemática</p>
                     <ul>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Avaliação Trimestral Trabalho Quadrinho</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Vídeo Stop Motion - Geometria</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Ponte de macarrão</a></li>
+                        <li><a href="https://www.canva.com/design/DAFKVkyiQEY/Bu3WCwhEG_dxHYol3M_5Ww/view?utm_content=DAFKVkyiQEY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Avaliação Trimestral Trabalho Quadrinho</a></li>
+                        <li><a href="https://drive.google.com/file/d/1Hu0gDCOJs9v9S2Y8l9jMNImohfqclxdJ/view?usp=sharing">Vídeo Stop Motion - Geometria</a></li>
+                        <li><a href="https://drive.google.com/file/d/1zuhRaGDs91MIHQiHkaq_qAsYT4W2km_Q/view?usp=sharing">Ponte de macarrão</a></li>
                     </ul>
                     <p>Ciências da natureza</p>
                     <ul>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Relatorio Propriedades Coligativas</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Trimestral - Revista Ambiental</a></li>
+                        <li><a href="https://docs.google.com/document/d/1ZiqKR8yakXwVBnYT-OPwaA4oORYTtc6l_tAUPLryA9w/edit?usp=sharing">Relatorio Propriedades Coligativas</a></li>
+                        <li><a href="https://www.canva.com/design/DAFKI_mti0U/ouSQVYOcw0VCesI733ZXSg/view?utm_content=DAFKI_mti0U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Trimestral - Revista Ambiental</a></li>
                         <li><a href="https://tecsasenaictai.netlify.app/">SA Termodinâmica - PESQUISAS e EXPERIMENTOS</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Baby Aliens</a></li>
+                        <li><a href="">Baby Aliens</a></li>
                     </ul>
                     <p>Humanas</p>
                     <ul>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Infográfico Grupos Étnicos de SC</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Tabela de Hábitos Culturais</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Quadro pinturas medievais / modernas</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Releitura a Escola de Atenas</a></li>
+                        <li><a href="https://docs.google.com/presentation/d/1-Fi7qjk1ckOPwkBatmVQTlDmvYhwv2h7_wA4bj0CD_E/edit?usp=sharing">Infográfico Grupos Étnicos de SC</a></li>
+                        <li><a href="">Tabela de Hábitos Culturais</a></li>
+                        <li><a href="">Quadro pinturas medievais / modernas</a></li>
+                        <li><a href="">Releitura a Escola de Atenas</a></li>
                     </ul>
                     <p>Linguagens</p>
                     <ul>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Projeto de vida</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Trabalho sobre Museus de Santa Catarina</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Trabalho sobre Músicas em inglês;</a></li>
-                        <li><a href="https://tecsasenaictai.netlify.app/">Redação</a></li>
+                        <li><a href="">Projeto de vida</a></li>
+                        <li><a href="">Trabalho sobre Museus de Santa Catarina</a></li>
+                        <li><a href="">Trabalho sobre Músicas em inglês</a></li>
+                        <li><a href="">Redação</a></li>
                     </ul>
                     <p>Atividades de 2021/Cronograma escolar</p>
                     <ul>
                         <li><a href="https://docs.google.com/presentation/d/16yrDEjgYVFcQnfRipgOdEEzIsP5Gr7CR/edit?usp=sharing&ouid=112546036290330363303&rtpof=true&sd=true">Portfolio 2021</a></li>
-                        <li><a href="https://docs.google.com/presentation/d/16yrDEjgYVFcQnfRipgOdEEzIsP5Gr7CR/edit?usp=sharing&ouid=112546036290330363303&rtpof=true&sd=true">Cronograma2022</a></li>
+                        <li><a href="">Cronograma2022</a></li>
                     </ul>
                 </div>
             </div>
