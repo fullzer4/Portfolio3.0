@@ -30,7 +30,7 @@ html, body, #root{
     flex-direction: column;
     overflow: hidden;
     background-color: #1A1A1A;
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .light{
