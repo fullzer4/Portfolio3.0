@@ -15,6 +15,13 @@ export default function Academico() {
             </div> 
             <div className={academicoPage}>
                 <h2>Academico</h2>
+                <ul>
+                    <li><a href="https://docs.google.com/document/d/1MKLs9XYWdM1892NbVXUfuzgzuD2eYrhaEHC6D1OmMng/edit?usp=sharing">Relatoório DeepLearning Algoritm DeepSORT ( Autoria )</a></li>
+                    <li><a href="https://tecsasenaictai.netlify.app/">Tec SA termodinamica ( Resolução de problemas )</a></li>
+                    <li><a href="https://github.com/fullzer4/PraticasAlgoBasics">Praticas Lógica de programação ( Atividades )</a></li>
+                    <li><a href="https://github.com/fullzer4/Capturing_Cars_in_Motion">DeepLearning Algoritm DeepSORT ( Projeos de Aprendizagem )</a></li>
+                    <li><a>Pesquisa Cientifica ( Atividade Orientada )</a></li>  
+                </ul>
             </div>
             <div className={escolarPage}>
                 <h2>Atividades Escolares</h2>
