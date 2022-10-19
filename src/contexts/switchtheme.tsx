@@ -25,6 +25,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
     var [projecttext, setProjecttext] = useState("Project-text")
     var [booksTheme, setBooksTheme] = useState("Books")
     var [certTheme, setCertTheme] = useState("Certificados")
+    var [configTheme, setConfigTheme] = useState("")
 
     function mudartema(id:number){
         if(id === 1){
@@ -45,7 +46,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
     function mudarlight(){
         setThemenav("Navbar-nav navlight")
         setThemefundo("App light")
-        setThememenu("menu light")
+        setThememenu("menu light lightText")
         setThemetitulohome("Resumo-texto-titulo titulolight")
         setThemedescricaohome("descricaohomelight")
         setCardhometheme("card cardlight")
@@ -80,7 +81,7 @@ export const SwitchThemeProvider = ({ children }: any) => {
     function mudarpink(){
         setThemenav("Navbar-nav navlight")
         setThemefundo("App pink")
-        setThememenu("menu pink")
+        setThememenu("menu pink lightText")
         setThemetitulohome("Resumo-texto-titulo titulolight")
         setThemedescricaohome("descricaohomelight")
         setCardhometheme("card cardlight")
