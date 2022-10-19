@@ -29,15 +29,16 @@ export default function Home() {
     const {themetitulohome, themedescricaohome, buttonsobrehome, cardhometheme, themeContact} = useContext(SwitchThemeContext)
     var textrestcardgit:any
     var textrestcarddiscord:any
+    var textrestcardyoutube:any
 
     textrestcardgit = `${reposgit} projetos e praticas postadas.`
     textrestcarddiscord = `${onlinediscord} pessoas online.`
-    
+    textrestcardyoutube = `${videos} videos posted`
     //refazer
     if(lingua === "PTBR"){
         textrestcardgit = `${reposgit} projetos e praticas postadas.`
         textrestcarddiscord = `${onlinediscord} pessoas online.`
-    
+        textrestcardyoutube = `${videos} videos postados`
     }else{
         textrestcardgit = `${reposgit} projects and practices posted.`
         textrestcarddiscord = `${onlinediscord} people online.`
@@ -70,7 +71,7 @@ export default function Home() {
                     <p className="title-card">Youtube</p>
                     <div className="image-card youtube"/>
                     <p className="subtitle-card">{cardtexthomeyoutube}</p>
-                    <a href={urlyoutube} className="buttom-card">{cardbutton}</a>
+                    <a href={urlyoutube} className="buttom-card">{cardbutton}{textrestcardyoutube}</a>
                 </div>
             </div>
             <div className={themeContact}>
