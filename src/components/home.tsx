@@ -70,8 +70,8 @@ export default function Home() {
                 <div className={cardhometheme}>
                     <p className="title-card">Youtube</p>
                     <div className="image-card youtube"/>
-                    <p className="subtitle-card">{cardtexthomeyoutube}</p>
-                    <a href={urlyoutube} className="buttom-card">{cardbutton}{textrestcardyoutube}</a>
+                    <p className="subtitle-card">{cardtexthomeyoutube} {textrestcardyoutube}</p>
+                    <a href={urlyoutube} className="buttom-card">{cardbutton}</a>
                 </div>
             </div>
             <div className={themeContact}>
